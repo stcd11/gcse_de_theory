@@ -108,14 +108,10 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-
 * [[./9.html][5.1 Systems Analysis and Design Specifications]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
-:END:[[/.10.html][* 1.6 Input, processes and output]]
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:
+:END:
 * [[file:1.html][5.2 - Basics]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
