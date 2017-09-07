@@ -8,7 +8,7 @@
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
 
 #+TITLE: GCSE Systems & Control Theory
-#+AUTHOR: Stephen Brown
+#+AUTHOR: Stephen Brown / P Dougall / C Delport
 #+OPTIONS: toc:nil f:nil author:nil num:nil creator:nil timestamp:nil 
 
 #+BEGIN_HTML
@@ -20,70 +20,135 @@
 <img src=img/gear.png width=25%>
 </center>
 #+END_HTML
-* [[file:1.html][Lesson 01 - Basics]]
+
+* [[file:2.html][1.1 - Emerging Technologies]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[file:2.html][Lesson 02 - Materials]]
+* [[./16.html][1.2 - Social, Moral, Ethical and Sustainability Issues]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[file:3.html][Lesson 03 - Maths]]
+
+* [[./16.html][1.3 - Energy Production]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./4.html][Lesson 04 - 555 Timers]]
+
+
+* [[./16.html][1.4 - Smart Materials and textiles]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[file:5.html][Lesson 05 - Motion]]
+
+
+
+
+* [[file:5.html][1.5 - Mechanisms]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./6.html][Len 06 - Drive Systems]]
+* [[file:5.html][1.6 - Inputs, processes and outputs]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./7.html][Lesson 07 - Mechanisms]]
+
+* [[./14.html][1.7 - PIC Programming]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./8.html][Lesson 08 - Gear Ratios]]
+
+
+* [[file:2.html][1.8 - Metals]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./9.html][Lesson 09 - Systems Analysis and Design Specifications]]
+
+* [[file:2.html][1.9 - Paper and Boards]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./10.html][Lesson 10 - System Block Diagrams]]
+* [[file:2.html][1.10 - Polymers]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./11.html][Lesson 11 - Circuit Design and Manufacture]]
+
+* [[file:2.html][1.11 - Textiles]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./12.html][Lesson 12 - System Design]]
+
+* [[file:2.html][1.12 - Timbers]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./13.html][Lesson 13 - Manufacturing Techniques]]
+
+
+* [[file:2.html][1.13 - Material Choice]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./14.html][Lesson 14 - PIC Programming]]
+
+* [[file:2.html][1.14 - Investigate - ESE issues]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./15.html][Lesson 15 - Logic Gates]]
+
+* [[file:2.html][1.15 - Investigate and Analysis - past and present]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./16.html][Lesson 16 - Social, Moral, Ethical and Sustainability Issues]]
+
+* [[file:2.html][1.16 - Prototyping]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+
+* [[file:2.html][1.17 - Communcation of design]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+* [[./9.html][5.1 Systems Analysis and Design Specifications]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:[[/.10.html][* 1.6 Input, processes and output]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:
+* [[file:1.html][5.2 - Basics]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+* [[file:1.html][5.3 - Component Selection]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+* [[file:1.html][5.4 - Forces]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+* [[file:1.html][5.5 - Stock Form Types]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+* [[./13.html][5.6 - Manufacturing Techniques]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+* [[file:1.html][5.7 - Construction tools and techniques]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+* [[file:1.html][5.8 - Surface treatments and finishes]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
 * [[http://www.aqa.org.uk/subjects/design-and-technology/gcse/design-and-technology-systems-and-control-technology-4565/past-papers-and-mark-schemes][AQA Past Exam papers]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
