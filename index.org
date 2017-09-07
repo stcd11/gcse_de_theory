@@ -40,7 +40,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./6.html][Lesson 06 - Drive Systems]]
+* [[./6.html][Len 06 - Drive Systems]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
