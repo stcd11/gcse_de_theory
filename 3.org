@@ -6,12 +6,12 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Mathematics for Electronics
-#+AUTHOR: Stephen Brown
+#+TITLE: Energy Generation
+#+AUTHOR: C. Delport
 
 #+BEGIN_HTML
 <div class=ribbon>
-<a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/gcse_de_theory">Fork me on GitHub</a>
 </div>
 <center>
 <imgzz src='' width=33%>
@@ -101,142 +101,210 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Introduction
-- To be successful at electronics, you only need a small number of equations. 
+* Non-renewable Energn
+- Non-renewable energy sources are fossil fuels that were formed from the remains of animals and plants that lived millions of years ago. They cannot be replenished quickly and will eventually run out.
 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Ohm's Law
+** Coal
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- *V = IR*
-- *V* is Voltage, measured in Volts,
-- *I* is current, measured in Amperes (Amps for short),
-- *R* is resistance, measured in Ohms (\Omega{}).
+#+BEGIN_VERSE
+Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
 
-_Example_
-According to its datasheet, an LED can take a maximum of 3V, and has a safe current of up to 20mA. If powered by a 6v battery, what size resistor will be needed to protect it?
+Smaller amounts are used as a domestic heat source.
 
-Let’s aim for 2.5V and 20mA, to ensure we don’t have any problems. If we have 6V in the circuit, we need the resistor to remove *3.5V* (6 - 2.5) from the circuit, leaving 2.5V for the LED. We can then say that…
+*Advantages:*
 
-V=3.5
+- Stable, large-scale and high-power electricity generation.
+- Relatively cheap to extract and convert.
+- Reliable
 
-I=0.02
+*Disadvantages:*
 
-Re-arranging the formula gives R = V / I
-
-Therefore R = 3.5 / 0.02 = *175Ω*
-
-As an aside, it turns out that 175Ω isn’t a standard resistor size we can buyfrom a shop, so we go to the next largest size, which is 180Ω (220Ω would also work well).
-
-** Electrical Power
+- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
+- Technologies to reduce coal power plant emissions are expensive.
+- Coal mining impacts significantly on the landscape.
+#+END_VERSE
+** Oil
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-*P = VI*			
+ #+BEGIN_VERSE
+Processed and split into petroleum products such as petrol, paraffin and diesel.
 
-- Power (Watts) = Voltage x Current
+In power plants, oil is burnt to heat water and produce steam, which propels turbine blades to produce electricity.
 
-_Example_
-Is a 0.25W resistor adequate for the example above? 
+*Advantages:*
 
-The amount of power the resistor has to dissipate can be calculated as… 
+- Stable, large-scale and high-power electricity generation.
+- Relatively cheap to extract and convert
 
-P = 3.5 x 0.02 = *0.07W*
+*Disadvantages:*
 
-- Since the resistor can dissipate up to 0.25W, this resistor could safely handle the current from up to three LEDs. 
+- Oil power plants are highly polluting.
+- Oil exploration impacts on the landscape.
+- Oil extraction risks environmental disasters.
 
-** Resistors in Series
+#+END_VERSE
+** Gas
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-To calculate the overall resistance achieved when connecting together resistors in series, we add them together. E.g.
+ #+BEGIN_VERSE
+Burning gas can power turbines, with the waste heat powering a steam turbine.
 
-R_{T} = R_{1} + R_{2}
+Natural gas is used in homes for heating or cooking.
 
-_Example_ Two resistors are connected together in series in a circuit. The colour codes on the first resistor is green, blue, black, gold. The colour code on the second resistor has been rubbed off. When a multi-meter is placed across both resistors, the meter reads 276Ω. What is the resistance of the unmarked resistor?
+It has lower emissions than ther fossil fuels - its combustion emits carbon dioxide at half the rate of coal.
+*Advantages:*
 
-276 = 56 + R_{2}
+- Stable, large-scale and high-power electricity generation.
+- Relatively cheap to extract as ready-made fuel.
+- Cleaner than coal or oil.
 
-R_{2} = 276 - 56 = 220Ω
+*Disadvantages:*
 
-** Potential Divider
+- Burning gases are highly polluting.
+
+#+END_VERSE
+** Example Question
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- The potential divider setup allows electronic engineers to create different voltage levels in a circuit. This can be useful when connecting analogue components to a PIC. 
-[[./img/pot_div.png]]
-V_{1} = (R_{1} / (R_{1} + R_{2})) x Supply voltage (V_{S})
+Explain *two* reasons why coal is classed as a non-renewable energy source?
 
-V_{2} = (R_{2} / (R_{1} + R_{2})) x Supply Voltage (V_{S})
-
-_Example_ A 9V battery supplies a potential divider.  Two 1kΩ resistors are used. What is the voltage at V_{1}?
-
-V_{1} = (1000 / (1000+1000)) x 9
-
-V_{1} = (1000 / 2000) x 9
-
-V_{1} = (0.5) x 9 = 4.5V 
-
-* Understanding Check
+* Renewable Energy
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Sample Questions
+** Biomass
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- A 9v DC motor motor rated at 0.673A is to be powered by a 12V supply. What size resistor should be used to make it run at it’s maximum speed?
+#+BEGIN_VERSE
+Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
 
-- A 60W lightbulb in a house is running on a standard 230V AC power supply. How much current does it draw?
+Smaller amounts are used as a domestic heat source.
 
-- UK fuses can be 1A, 3A, 5A or 13A. This refers to how much current can be drawn through the fuse without it “blowing”. What size fuse should be fitted to a 1600W hairdryer?
+*Advantages:*
 
-- A circuit being designed has a 12V supply, but needs a 3V rail, to be made with a potential divider. Suggest two resistor values that could provide this, and confirm it in circuit wizard.
+- Stable, large-scale and high-power electricity generation.
+- Relatively cheap to extract and convert.
+- Reliable
 
-- What’s the overall resistance achieved by connecting together 3x 100Ω resistors in series in a circuit?
+*Disadvantages:*
 
-** Past Paper Questions
+- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
+- Technologies to reduce coal power plant emissions are expensive.
+- Coal mining impacts significantly on the landscape.
+#+END_VERSE
+** Biodiesel
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-*June 2010, Q3c*. The following circuit diagram shows a simple potential divider light sensor circuit. 
-[[./img/2010_q3c.png]]
-(i) Name the component labelled R1. /(1 mark)/
-(ii) Name the component labelled R2. /(1 mark)/
-(iii) Calculate the output voltage when R1 is 1K, R2 is 2K and the supply voltage is 9V.
+#+BEGIN_VERSE
+Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
 
-Formula: 
+Smaller amounts are used as a domestic heat source.
 
-Working: 
+*Advantages:*
 
-Answer with units: 
+- Stable, large-scale and high-power electricity generation.
+- Relatively cheap to extract and convert.
+- Reliable
 
-/(4 marks)/
+*Disadvantages:*
 
-*June 2012, Q6b*. Calculate the value of the total resistance of the following resistors in series.
-[[./img/2012_q6b.png]]
-Formula: 
+- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
+- Technologies to reduce coal power plant emissions are expensive.
+- Coal mining impacts significantly on the landscape.
+#+END_VERSE
+** Tidal
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+#+BEGIN_VERSE
+Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
 
-Calculation: 
+Smaller amounts are used as a domestic heat source.
 
-Answer:
+*Advantages:*
 
-/(4 marks)/
+- Stable, large-scale and high-power electricity generation.
+- Relatively cheap to extract and convert.
+- Reliable
 
+*Disadvantages:*
 
-*June 2012, Q6d*. The circuit below is a light sensor. The resistance of the LDR is 5KΩ and the resistance of the fixed resistor is 10KΩ.
-[[./img/2012_q6d.png]]
-Calculate the output voltage (V2) when Vs is 9 Volts.
+- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
+- Technologies to reduce coal power plant emissions are expensive.
+- Coal mining impacts significantly on the landscape.
+#+END_VERSE
+** Wind
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+#+BEGIN_VERSE
+Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
 
-Formula: 
+Smaller amounts are used as a domestic heat source.
 
-Calculation: 
+*Advantages:*
 
-Answer:
+- Stable, large-scale and high-power electricity generation.
+- Relatively cheap to extract and convert.
+- Reliable
 
-/(4 marks)/
+*Disadvantages:*
+
+- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
+- Technologies to reduce coal power plant emissions are expensive.
+- Coal mining impacts significantly on the landscape.
+#+END_VERSE
+** Solar
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+#+BEGIN_VERSE
+Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
+
+Smaller amounts are used as a domestic heat source.
+
+*Advantages:*
+
+- Stable, large-scale and high-power electricity generation.
+- Relatively cheap to extract and convert.
+- Reliable
+
+*Disadvantages:*
+
+- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
+- Technologies to reduce coal power plant emissions are expensive.
+- Coal mining impacts significantly on the landscape.
+#+END_VERSE
+** Hydroelectric
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+#+BEGIN_VERSE
+Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
+
+Smaller amounts are used as a domestic heat source.
+
+*Advantages:*
+
+- Stable, large-scale and high-power electricity generation.
+- Relatively cheap to extract and convert.
+- Reliable
+
+*Disadvantages:*
+
+- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
+- Technologies to reduce coal power plant emissions are expensive.
+- Coal mining impacts significantly on the landscape.
+#+END_VERSE
 
 [[file:index.html][Return to homepage]]

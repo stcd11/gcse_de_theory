@@ -13,7 +13,7 @@
 
 #+BEGIN_HTML
 <div class=ribbon>
-<a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/gcse_de_theory">Fork me on GitHub</a>
 </div>
 <center>
 <br>
@@ -35,12 +35,10 @@
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-
 * [[./16.html][1.4 - Smart Materials and textiles]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-
 
 
 
@@ -57,7 +55,6 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-
 
 * [[file:2.html][1.8 - Metals]]
 :PROPERTIES:
@@ -82,7 +79,6 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-
 
 * [[file:2.html][1.13 - Material Choice]]
 :PROPERTIES:
