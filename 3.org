@@ -101,7 +101,7 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Non-renewable Energn
+* Non-renewable Energy
 - Non-renewable energy sources are fossil fuels that were formed from the remains of animals and plants that lived millions of years ago. They cannot be replenished quickly and will eventually run out.
 
 :PROPERTIES:
