@@ -6,12 +6,12 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Basics
-#+AUTHOR: Stephen Brown
+#+TITLE: Emerging Technologies
+#+AUTHOR: Paul Dougall
 
 #+BEGIN_HTML
 <div class=ribbon>
-<a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/gcse_de_theory">Fork me on GitHub</a>
 </div>
 <center>
 <imgzz src='' width=33%>
@@ -105,107 +105,146 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Voltage, Resistance and Current
+** Objectives
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Before you can do anything to design and create new, original projects, you'll need to understand three fundamental electronic concepts. 
-- *Voltage*, is the difference in energy level between two points in a circuit, which will allow electrons to move through a conductor. The more difference in energy levels there is, the larger the amount of current can be drawn, and the larger item they can power. A basic red LED might only need 2.7V to run, whereas a laptop might need 24V, and a large electric motor moving a lift might need 415V to operate. 
-- **Current** is a measure of how many electrons pass a particular point in the circuit per second. Higher current (/measured in Amps/) means faster electron flow in the circuit. The process of moving electrons through a material generates frictional heat. If the wire used in a product is too thin, and too much current passes through it, the wire will melt! This is the principal on which fuses are made. 
-- **Resistance** is a measure of to what extent a material resists the flow of current in a circuit, and is measured in Ohms. Good conductors of electricity (like copper and gold) have very low resistance (1-2 \Omega{}), and insulators (like rubber and plastic) have a high resistance (several million Ohms). 
-- Another explanation (with interactive demonstrations) can be seen [[https://www.bournetoinvent.com/projects/7-SC-Torch/pages/1_Lesson.html][here]].
-- Another explanation of the concepts can be seen over at [[https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law][SparkFun]]. 
-** Try it
+- New and Emerging Technologies are being developed all the time.
+- However how do these technologies effect other issues?
+- What is their impact on people, culture and society?
+- What is their impact on industrial production and the environment?
+
+** Research it
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+- Find a new or emerging technology and briefly describe what it is.
+
+** People...
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- People come in all shapes and sizes.
+- How does your technology affect them?
+- Is it going to make their life easier i.e is it a labour saving device e.g. a washing machine ?
+- Is it going to help people with disabilities to do things they have not been able to do before? 
+- Is it going to help children to be safer or to learn quicker?
+
+** Culture...
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- Resistors are components which are designed to provide carefully controlled amounts of resistance; ideal when designing circuits. The coloured bands on a resistor tell you what the value of the resistor is. 
+- Culture are affected in many and subtle ways by technology. 
+- Think of the effect the internet on people's lives in the past 20 years.
+- Remote working means that people can work many jobs from home. This saves transport time and cost, reduces pollution but can lead to social isolation.
 
-|  [20] | [15]   | [15]     |
-|-------+--------+----------|
-| Value | Colour | Mnemonic |
-|-------+--------+----------|
-|     0 | Black  | Bye      |
-|     1 | Brown  | Bye      |
-|     2 | Red    | Rosie    |
-|     3 | Orange | Off      |
-|     4 | Yellow | You      |
-|     5 | Green  | Go       |
-|     6 | Blue   | Bristol  |
-|     7 | Violet | Via      |
-|     8 | Grey   | Great    |
-|     9 | White  | Western  |
-
-- To read the value, hold the resistor you want with the gold band on the right-hand side. The gold band indicates that the resistor is accurate to +/-5%.
-- The first band (on the left) gives you the value of the first digit.
-- The second band gives you the value of the next digit.
-- The third band tells you how many zeroes to add to get the value of the resistor.
-- For instance, a resistor which is yellow, violet, orange, gold would be...
-- Yellow (so write down 4)
-- Violet (so write a 7 next to the 4)
-- Orange (so write three zeroes next to the other digits)
-- So this would be a 47000\Omega resistor
-
-- Get someone to give you 4 different resistors. Read the coloured bands to see what their values are, and then use the [[https://www.bournetoinvent.com/projects/soldering_license/step_5.html][*multimeter*]] to confirm. 
-- Choosing the correct setting to measure DC Voltage (DCV) is the same as for measuring resistance. It doesn't really make a difference, but its more "correct" to use the black (common) probe for the negative end of the battery, and the red on the right.
--  Use the multimeter to discover how many volts each of the following produces:
-	- Square battery (PP3)
-    - AA battery
-    - AAA battery
-    - CR2032
-** One more thing...
+** Society...
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
+:HTML_CONTAINER_CLASS: document
 :END:
-- If you connect the positive terminal of a battery directly to the negative (e.g. with a wire), the battery gets very hot. The battery rapidly looses all its charge.
-- What's happening is that because there is no "load" on the circuit (no components to pass through to slow the current flow), electrons are able to fly around the battery unimpeded, as fast as they possibly can.
-- The ultra-fast movement of electrons generates a lot of heat. If the power source is one designed to carry a lot of current (e.g. a car battery) and it is shorted out, this can cause the battery to spark or even explode! This is why mechanics are very careful not to drop (metal) spanners on top of car batteries. 
-- Then this happens, this is called a **short circuit**, or "short". 
+- Societies are always affected by changes in the job market.
+- Is your technology going to create new jobs and replace old ones?
 
-
-* Component Identification
+* Impact of emerging Technologies
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Past Paper Questions
+** Driverless cars
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Before you can start to read circuit diagrams (and go on to create new ones), you'll need to be able to identify the basic electronic component symbols. These questions are from actual past exam papers, so are a great way to build your skill set...
-- *June 2010, Q3*. You are advised to spend about 20 minutes on this question. This question is about identifying components and their uses.
+- Tesla and now Audi are both making great progress on the 5 levels of automation required for automous vehicles.
+- A total of 1,792 people lost their lives and 181,384 people became casualties in road traffic accidents in 2016, the highest number since 2011, according to data from the Department for Transport
+- 311 billion vehicle miles of traffic made on the roads in 2014.
+- The average person spends 361 hours a year on the roads. Could these be used for recreation or work? 
+- How would this affect people who drive for a living? Taxi drivers, bus drivers, truckers, van drivers, driving instructors.. the list is almost endless.
+- As a society this would have huges changes so lets see how this would effect individual groups.
+*Children* 
+- Children would be able to travel in vehicles by themselves. The vehicle would take them to the destination safely and without needed any other assistance other than getting in and out of the vehicle.
+ *Disabled people*
+- As long as the person is able to access the vehicle they can travel independently not relying on other people.
+- Currently 23% of car journeys made by disabled people are as passengers as opposed to 14% in the able bodied community.
+- On average they travel 4245 miles and opposed to 7670 miles with people without disabilities .    
+- Therefore their sense of freedom would be massive improved.
+ *Workers*
+- New jobs making the new systems to control the traffic.
+- However there would be massive jobs loses in the transport industry.  
+*Society*
+- Google estimates that the half the 1.2 million people killed on the roads every year could be saved by self driving cars.
 
-(a) For the following electronic components, give the component name and the electronic building block /(input, process or output)/ it would be used for. /(10 marks)/
+*Cultural*
+- If cars were self driving they could be shared therefore saving parking space. This could be reinvented as parks and public spaces. 
+- Residential parking areas and driveways could be used as more garden space.
+- Garages would not just store cars.
+- As cars were shared less would be needed - less congesation and faster travel times.  
+    
+* Production Techniques
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Batch
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Batch is when a small quantity of identical products are made. 
+- May also be labour intensive, but jigs and templates are used to aid production. 
+- Batches of the product can be made as often as required. 
+- The machines can be easily changed to produce a batch of a different product.
+** Lean
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+- is  derived from the Japanese manufacturing industry.
+- areas for reduction of waste are identified and then improved on.
+- Lean also takes into account waste created through overburden and waste created through unevenness in workloads.
+** Mass
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- this is when hundreds of identical products are made, usually on a production line. 
+- often involves the assembly of a number of sub-assemblies of individual components. Parts may be bought from other companies. 
+- There is usually some automation of tasks (eg by using Computer Numerical Control machines) and this enables a smaller number of workers to output more products.
+- Products that sell in high volume, nationally or internationally, are manufactured on production or assembly lines. 
+- The initial set-up cost (or capital investment) of mass production is high, due to the specialist equipment used - but the cost is spread across a very large number of products, so the unit cost is low. 
 
-[[./img/2010_q3.png]]
+** Just-in-Time(JIT)
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
 
-- *June 2011, Q2*. You should spend about 20 minutes on this question. This question is about identifying components and stating if they are analogue or digital.
+#+BEGIN_HTML
 
-(a) Give the Component name for the following electronic components, and tick the box to show whether a component is digital or analogue.
+<iframe width="840" height="473" src="https://www.youtube.com/embed/6s4mppHXXx0" frameborder="0" allowfullscreen></iframe>
 
-[[./img/2011_q2.png]]
+#+END_HTML
 
-(b) Circle the method that MP3 players use to store music tracks.
-Analogue	Digital		FER		Logic	(1 mark)
+[[https://babington.co.uk/blog/accounting/just-in-time-advantages-and-disadvantages/][Advantages and Disadvantages]]
 
-(c) Clocks can have either analogue or digital displays to show the time.
-2 (c) (i) Sketch a clock with an analogue display. (1 mark)
+** One-Off
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END: 
+- is when only one product is made at a time. Every product is different so it is labour intensive. 
+- Products may be made by hand or a combination of hand and machine methods.
+- This can include large scale projects, such as a bridge, ship, stadium, multi-storey building or tower, 
+- Other examples of one offs are - specialist jewellery, made to measure clothing, bespoke furniture and many more.
+- Specialist companies manufacturing ‘one offs’, usually employ skilled staff.
 
-2 (c) (ii) Sketch a clock with a digital display. (1 mark)
 
-(d) Electronic data can be recorded and stored in either digital or analogue format.
+** Continuous
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- production is when many thousands of identical products are made. 
+- The difference between this and mass production is that the production line is kept running 24 hours a day, seven days a week to maximise production and eliminate the extra costs of starting and stopping the production process. 
+- The process is highly automated and few workers are required.
 
-2 (d) (i) Give one advantage of recording data in a digital format. (2 marks)
-
-2 (d) (ii) Give one advantage of recording data in an analogue format. (2 marks)
-
-*June 2012, Q5b*. This question is about a simple coffee vending machine. The hot water valve is controlled by the coffee vending machine control system. Name the most suitable component to operate the valve. (1 mark)
-
-*June 2012, Q6*. You are advised to spend about 15 minutes on this question. This question is about components. (a) Identify the following component symbols. /(6 marks)/
-
-[[./img/2012_q6.png]]
-
-*June 2012, Q6c*. Name this component. /(2 marks)/
-
-[[./img/2012_q6c.png]]
-
-[[file:index.html][Return to homepage]]
+** Standardised components
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- It is common practice in modern manufacturing for the production of the components that make up a product to be outsourced to other companies.
+- A car headlight is a standard component and is easily replaced.
+- For example, modern headlights for cars are usually built as a whole unit, rather than an individual lens and reflector. A light could easily be built in France and shipped to the UK to be assembled into a vehicle.
+- The advantage with using standard components is that it speeds up manufacturing and reduces manufacturing and maintenance costs, as the same units can be purchased and used all around the world.  
+    
