@@ -308,3 +308,56 @@ Smaller amounts are used as a domestic heat source.
 #+END_VERSE
 
 [[file:index.html][Return to homepage]]
+* Energy Storage
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Batteries and cells
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Batteries convert chemical energy to electrical energy. This chemical reaction causes electrons to collect on the negative terminal.
+- When a battery or cell is connected in the circuit, current is forced to flow from the negative terminal to the positive terminal.
+- A battery is defined as 2 or more cells. Each cell having approximately 1.5V, depending on the types of chemical used in the cell.
+- Batteries come in many shapes and sizes, the most common round cell sizes are D, C, AA, AAA and AAA.
+- The 'rectangular' battery we use is the PP3 battery, which runs at 9V.
+[[./img/Battery_sizes.png]]
+- Prismatic cells are flexible cells.These are very expensive to manufacture, but recharge easily.
+- They tend to have a shorter lif than the standard cylindrical cell.
+- These are regularly used in mobile phones, small electronic toys and low profile laptops.
+[[./img/prismatic_cell.jpg]]
+- To read more about cell and batteries, click on [[https://en.wikipedia.org/wiki/Battery_(electricity)][this]] link to go to the wikipedia page.
+** Solar cells(photovoltaic cells)
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- These cell convert light energy into electrical energy. The light being produced from the sun is often used.
+- They contain 2 layers of silicon, treated to allow electrons to flow when the sunlight fall on them.
+- This is an environmentally friendly way of producing energy after the initial cost to purchase and the manufacturing process.
+- The down side is they do not produce energy when there is no light, they take up valuable space (solar farms) and they do not always match the environment they are in.
+[[./img/solar_cell.jpg]]
+- To read more about solar cells, click on [[https://en.wikipedia.org/wiki/Solar_cell][this]] link.
+** Mains electricity
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+#+BEGIN_VERSE
+
+#+END_VERSE
+** Wind Power
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+#+BEGIN_VERSE
+
+#+END_VERSE
+** Sample Questions
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+#+BEGIN_VERSE
+- Evaluate the use of using a solar panel system for generating electricity in a rural area? (9 marks)
+
+- Compare renewable to non-renewable enrgy sources with regards to the impact they have on the environment. (10 marks)
+#+END_VERSE
+
