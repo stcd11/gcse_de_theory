@@ -102,8 +102,10 @@ Imagine you wanted to make a flashing bike light; using an LED and a switch alon
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
 * Non-renewable Energy
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/20Vb6hlLQSg" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 - Non-renewable energy sources are fossil fuels that were formed from the remains of animals and plants that lived millions of years ago. They cannot be replenished quickly and will eventually run out.
-
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -180,134 +182,150 @@ Explain *two* reasons why coal is classed as a non-renewable energy source?
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+- Renewable energy sources use natural energy to make electricity. Around 20% of the energy produced in the UK come from renewable energy sources.
 ** Biomass
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
 #+BEGIN_VERSE
-Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
+Organic matter derived from organisms such as wood, crops, rubbish, landfill gas and alcohol fuels.
 
-Smaller amounts are used as a domestic heat source.
+This organic matter is burnt to create heat which is converted into steam energy to drive turbines.
 
 *Advantages:*
 
-- Stable, large-scale and high-power electricity generation.
-- Relatively cheap to extract and convert.
-- Reliable
+- Waste materials from farming and rubbish can be used.
 
 *Disadvantages:*
 
-- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
-- Technologies to reduce coal power plant emissions are expensive.
-- Coal mining impacts significantly on the landscape.
+- Large areas needed to cultivate crops, to produce the the materials.
+- The burning of these materials still emits fumes into the atmosphere.
 #+END_VERSE
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yHWcddUZ35s" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 ** Biodiesel
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
 #+BEGIN_VERSE
-Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
+Made from natural elements such as plants, vegetables and fermented waste cooking oil.
 
-Smaller amounts are used as a domestic heat source.
+Can be used to power diesel powered engine for cars or trucks.
 
 *Advantages:*
 
-- Stable, large-scale and high-power electricity generation.
-- Relatively cheap to extract and convert.
-- Reliable
+- Uses waste from plants and farming products.
+- Does not give off harmful chemicals in its production.
 
 *Disadvantages:*
 
-- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
-- Technologies to reduce coal power plant emissions are expensive.
-- Coal mining impacts significantly on the landscape.
+- Large areas of land are needed to grow the crops required to produce the oils etc.
 #+END_VERSE
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZGmwtDffc74" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 ** Tidal
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
 #+BEGIN_VERSE
-Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
+Turbines generate electricity from the movement of tidal water.
 
-Smaller amounts are used as a domestic heat source.
+Atrificial tidal barriers are constructed across tidal rivers, bays and esturies.
 
 *Advantages:*
 
-- Stable, large-scale and high-power electricity generation.
-- Relatively cheap to extract and convert.
-- Reliable
+- No emissions.
+- Powerful.
+- Tides are predictable and stable.
+- Barages can be used for secondary purposes.
 
 *Disadvantages:*
 
-- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
-- Technologies to reduce coal power plant emissions are expensive.
-- Coal mining impacts significantly on the landscape.
+- Lower energy output compared to burning fossil fuels.
+- Large barriers may have an ecological impact.
+- Expensive to build relative to fossil fuel plants.
+- Only available along coastal areas.
 #+END_VERSE
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VkTRcTyDSyk" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 ** Wind
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
 #+BEGIN_VERSE
-Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
-
-Smaller amounts are used as a domestic heat source.
+Wind turbines use propellers to spin shaft which drive generators.
 
 *Advantages:*
 
-- Stable, large-scale and high-power electricity generation.
-- Relatively cheap to extract and convert.
-- Reliable
+- Freely available.
+- Can be used in remote areas.
+- No emissions.
 
 *Disadvantages:*
 
-- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
-- Technologies to reduce coal power plant emissions are expensive.
-- Coal mining impacts significantly on the landscape.
+- When placed in the sea, they can restrict shipping traffic.
+- Wind power is not stable or predictable.
+- Wind farms are often felt to be unsightly in the environment.
+- Expensive to set up complared to fossil fuel plants.
+- Can be a danger to wildlife, especially birds.
 #+END_VERSE
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z5c50-_hcD0" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 ** Solar
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
 #+BEGIN_VERSE
-Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
+Solar (photovoltaic) panel convert the suns radiation to electrical energy.
 
-Smaller amounts are used as a domestic heat source.
+Solar thermal power plants use the sun's rays to heat a fluid that is circulated through pipes, transferring heat to water and producing steam.
+
+Steam is then converted into mechanical energy in a turbine, which is used to spin a generator.
 
 *Advantages:*
 
-- Stable, large-scale and high-power electricity generation.
-- Relatively cheap to extract and convert.
-- Reliable
+- Reliable source of power in warmer countries.
+- Homes can have their own electricity supply.
+- More electricity is produced in stronger sunshine.
 
 *Disadvantages:*
 
-- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
-- Technologies to reduce coal power plant emissions are expensive.
-- Coal mining impacts significantly on the landscape.
+- Only produces energy during the day.
+- Could change ecology when large solar farms are used to replace traditional farming land.
+- Expensive to set up.
+- Effectiveness of power generation depends on geographical location.
 #+END_VERSE
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FgjfJGfusdE" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 ** Hydroelectric
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
 #+BEGIN_VERSE
-Heat energy and hot gases convert water into steam which powers a turbine to create high-voltage electricity.
-
-Smaller amounts are used as a domestic heat source.
+A dam traps water that flows through tunnels and turns turbines to produce electricity.
 
 *Advantages:*
 
-- Stable, large-scale and high-power electricity generation.
-- Relatively cheap to extract and convert.
-- Reliable
+- Large amount of power at a low cost.
+- Can have secondary purposes, such as a water reserve.
 
 *Disadvantages:*
 
-- Coal power plants emit pollution such as carbon dioxide, sulfur, mercury, selenuim and arsenic.
-- Technologies to reduce coal power plant emissions are expensive.
-- Coal mining impacts significantly on the landscape.
+- Expensive to set up.
+- Construction may damage the environment.
+- land has to be used to create the dam.
 #+END_VERSE
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q8HmRLCgDAI" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 
 [[file:index.html][Return to homepage]]
+
 * Energy Storage
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -342,14 +360,26 @@ Smaller amounts are used as a domestic heat source.
 :HTML_CONTAINER_CLASS: try
 :END:
 #+BEGIN_VERSE
+Supplied from power stations through the national grid.
 
+This is supplied to households at 230V alternating current (AC). This current changes direction 50 times per second, therefore the frequency is at 50Hz.
+
+This energy can be harmful to humans and animals if touched due to the high voltage and current produced.
+
+Most of the mains electricity still come from burning fossil fuels.
 #+END_VERSE
 ** Wind Power
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
 #+BEGIN_VERSE
+Converts the movement of the air (wind) into mechanical power which can the be used to spin a generator, producing the electricity needed.
 
+Groups of wind turbines can create significant amounts of energy, less useful on a smaller scale.
+
+Small scale versions are built for home use.
+
+The amount of energy produced is directly dependant on the amount of wind blowing.
 #+END_VERSE
 ** Sample Questions
 :PROPERTIES:
