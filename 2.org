@@ -6,8 +6,8 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Materials
-#+AUTHOR: Stephen Brown
+#+TITLE: Evaluating new and emerging technology
+#+AUTHOR: P Dougall
 
 #+BEGIN_HTML
 <div class=ribbon>
@@ -101,107 +101,150 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Introduction
-- When creating a new product, one consideration is what to make it from. When choosing a material, there are a number of considerations. How should it look when it’s finished (aesthetics)? Can it be formed and joined in the way you want it to? Is it strong enough for the task? Is it cost-effective? Is the material “sustainable”? 
-
-Task: Complete the following tables, using the Internet and text book to help you. 
-
+* Critical evaluation
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Common woods
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Woods come from trees, which are chopped down, then worked into sheets of wood, or planks. As a natural product, they are sustainable (if the forest they come from is being re-planted), and have an attractive grain in the wood.  
-| Wood  | Category | Colour      | Properties             | Common Uses      |
-|-------+----------+-------------+------------------------+------------------|
-| Pine  |          |             | Durable, machines well |                  |
-| Oak   |          |             |                        | Furniture Making |
-| Beech |          | Light brown |                        |                  |
-| Larch | Softwood |             |                        |                  |
+- Before making a product when need to critically evaluate a number of fields. 
+- Critical evaluation is a process of trying to find both positive and negatives from a range of areas to assess the suitability of concepts such as a design, process or material.
+- Basically it is asking lots and lots of questions!
+- Some of the areas to be looked at are:
 
-** Manufactured boards
+** Manufacturing capabilities
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Man-made boards are those which are produced in factories. They tend to have a uniform appearance, and have unique properties. 
-| Board     | Colour                       | Properties                                                | Common Uses                      |
-|-----------+------------------------------+-----------------------------------------------------------+----------------------------------|
-| Cardboard |                              |                                                           |                                  |
-| MDF       |                              |                                                           | Cupboard doors                   |
-| Plywood   |                              | Strong; comes in different finishes to improve appearance |                                  |
-| Chipboard | Brown, with a coarse texture |                                                           |                                  |
-| Hardboard |                              |                                                           | Furniture, flooring construction |
+- Will the new technology influence the way products are made? 3D printers that can make other 3D printers?
+- Will automated assembly lines produce high quality customised products?
+- Will new technologies enable a flexible reaction to demand?
+
+** Budget constraints
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- How much are customers willing to pay? Is a £1000 mobile phone viable? Ask Apple!
+- Will cost affect material selection, production methods and cost of labour?
+- Will the new technologies improve value and maximise profit?
+- Can cost savings be made by speed of manufacture, reduction in materials, reduction in size or process redesign?
+
+** Materials being used
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Have the materials been tested for the required use?
+- Will improvements outweigh any increased costs?
+- Are the materials sustainable?
+
+** Timescales
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Will production times be cut?
+- Is a time investment in staff training needed?
+- What lead times do customers expect?
+** Who is the product for?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- How can the technologies help the product fulfil the customer needs?
+- Has the target market been researched?
+
+* Consideration of contemporary and potential future scenarios
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- When making design decisions we must examine possible outcomes. These could be positive, negative or even both!
+
+** Natural disasters
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Disasters such as hurricanes and floods appear to be happening more and more. 
+- Can developments in technology help us to prevent, prepare and cope with these situation i.e. earthquake-proof buildings?
+
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c4fKBGsllZI" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
+** Medical advances
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Examples maybe future ideas such as Artifical organs or more current thinking such as prosthetic limbs.
+- Better technology to scan and detect problems such as MRI scanners.
+- Also if people are living longer can technology help in a society that is ageing.
+- This[[https://getreferralmd.com/2017/01/17-future-healthcare-technology-advances-of-2017-referralmd/][ article]] has 17 advances just in 2017!
  
-** Plastics
+** Travel
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Often derived from oil, plastics provide a variety of durable materials which can be formed easily into whatever shape is required, and can be highly durable. Their relatively low cost has led to their popularity for use in all manner of every day objects. Unfortunately, plastics tend not to be easily bio-degradable (often taking several hundred years to break down in landfill), and as such need to be recycled wherever possible. 
-- Plastics can be either classed as thermosetting, or thermoplastic. When forming them into a shape, *Thermosetting* polymers normally need to be mixed with a curing agent, which allows them to set solid. Once set, they cannot be re-formed into another shape. *Thermoplastics* can be repeatedly heated until soft, then cast into a new shape and cooled.
-| Plastic           | Category      | Properties                     | Common Uses                  |
-|-------------------+---------------+--------------------------------+------------------------------|
-| Acrylic           | Thermoplastic |                                |                              |
-| ABS               |               | High impact resistance, strong |                              |
-| HIPS              |               |                                | Packaging                    |
-| PP                |               |                                | Plastic pipes, school chairs |
-| Nylon             |               | Hard wearing                   |                              |
-| Urea Formaldehyde | Thermoset     |                                |                              |
+- Despite technological advances in transport no real big changes have happened in 50 years. Commerical airlines are actually flying slower than they did 30 years ago!
+- Most forms of travel are safe, comfortable and efficient.
+- Could a this be the next big leap?
 
-* Metals
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7A7GsAPR3J0" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
+
+** Global warming
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Metals come from ores which are dug from the ground, and purified. They can be cast into sheets, or ingots ready for forming into different shapes. 
-- Some metals can be combined with other materials to form *alloys*, which have new, unique properties. Steel is made by combining iron and carbon, for instance. 
-- Ferrous metals are those which contain iron.
-| Metal           | Category    | Colour | Properties                                 | Common Uses      |
-|-----------------+-------------+--------+--------------------------------------------+------------------|
-| Copper          | Non-ferrous |        | Excellent electrical and thermal conductor |                  |
-| Mild Steel      |             |        |                                            | Nuts, bolts, etc |
-| Aluminium       |             | Grey   |                                            |                  |
-| Stainless Steel | Ferrous     |        |                                            |                  |
+- Could low-carbon and zero carbon technology help lower the emissions of greenhouse gases which are probably causing global warming?
 
-** Smart Materials
+- In the building industry this may include:
+- biomass technology
+- CHP (Micro CHP)
+- ground source heat pumps
+- photovoltaics
+- solar hot water
+- wind energy technology.
+
+
+** Communication
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- 
-| Material                     | Properties                                                           | Common Uses                     |
-|------------------------------+----------------------------------------------------------------------+---------------------------------|
-| Smart memory Alloys          | Can be bent out of shape, but returns to original shape when heated. |                                 |
-| Piezoelectric materials      |                                                                      | Mics, speakers, alarm systems.  |
-| Quantum Tunnelling composite | An insulator which becomes a conductor when put under pressure.      |                                 |
-| Electroluminescent Materials |                                                                      | Safety clothing, safety lights. |
-
-* Understanding Check
+- Revolutionised by the internet, communication is now cheap, easy and reliable. But designers have to be aware that their target audience may not have access to hardward, software and power sources.
+  
+* Ethical perspectives
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Past Paper Questions
+- Here is an example of company acting in an ethical manner.
+
+#+BEGIN_HTML
+<iframe src="https://player.vimeo.com/video/169701686" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+#+END_HTML
+- These companies act not purely for profit and are thinking of the wider consequences of their business. 
+- This might be actly fairly in terms of their workers or supplier or damage to the environment from their trade.
+
+* Environmental persectives
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: try
+:HTML_CONTAINER_CLASS: activity
 :END:
-*June 2010, Q5a*. This question is about programming a greenhouse temperature / environmental control system model. The greenhouse model has a heat sensor, and a roof vent that opens and closes to regulate the temperature.
+** Use of materials
+- Designer should be choosing materials that are: recyclable, lighter and less toxic.
+- Metals involving mining
+- Oil is a finite resource and cause pollution at all stages including not decomposing when finished it.
+- Read this[[http://ecosalon.com/a-handy-reference-guide-to-the-20-greenest-materials/][ article]] about the most green materials currently available.
+ 
+** Carbon footprint
+- Carbon footprint is the amount of CO2 emissions that can be directly or indirectly caused by an individual or company's activities.
+- The smaller the footprint, the least damage is done to the environment.
+- Work out your carbon footprint [[https://www.treesforlife.org.au/kids-carbon-calculator?PHPSESSID%3D63e50abc9c5d98fbff2681be1e4e90a6][here]]
+** Manufacture and tranportation: energy usage and consumption
+- costs from manufacture maybe noise and visual pollution.
+- costs from transport maybe the burning of petroleum which harms the environment.
+** Life analysis
 
-(a) (i) Suggest a specific material for the greenhouse frame. /(2 marks)/
+- A life cycle analysis(LCA) is a systematic inventory of environment impacts at every stage of a product's life. 
+- Governments are trying to get all businesses to carry out LCAs so improvements to the environmental impact at each stage can be found.
 
-(a) (ii) Explain why the material that you have selected is suitable. /(2 marks)/
+ 
+- Watch this video on the life cycle of a plastic bottle:
 
-(a) (iii) Suggest a suitable component to sense that the roof vent is closed. /(2 marks)/
-
-*June 2011, Q4a*. This question is about a washing machine control system model. The washing machine model is made from plywood and has: -
-- a door that opens and shuts
-- a button to start the simulated wash
-- a door lock to stop the door opening
-- a geared motor to turn the wash drum
-- an LED that lights to show that the drum is turning. 
-[[./img/2011_q4a.png]]
-(a) (i) Suggest a suitable plastic for the window in the door. /(1 mark)/
-
-4 (a) (ii) Explain why the plastic you have named is suitable. /(2 marks)/
-
-4 (a) (iii) Suggest a suitable component to operate the door lock. /(1 mark)/
-
-[[file:index.html][Return to homepage]]
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_6xlNyWPpB8" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
+  
