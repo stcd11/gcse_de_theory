@@ -35,7 +35,7 @@
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-* [[./16.html][1.4 - Smart Materials and textiles]]
+* [[./4.html][1.4 - Smart Materials and textiles]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
