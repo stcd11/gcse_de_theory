@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>The 555 Timer</title>
+<title>Smart materials, composites and technical textiles</title>
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <style type="text/css">
@@ -137,21 +137,47 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">The 555 Timer</h1>
+<h1 class="title">Smart materials, composites and technical textiles</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Introduction</a>
+<li><a href="#sec-1">1. Introduction</a></li>
+<li><a href="#sec-2">2. Smart materials</a>
 <ul>
-<li><a href="#sec-1-1">555 as a monostable</a></li>
-<li><a href="#sec-1-2">555 as an astable</a></li>
+<li><a href="#sec-2-1">Shape-memory alloys(SMAs)</a></li>
+<li><a href="#sec-2-2">Nanomaterials</a></li>
+<li><a href="#sec-2-3">Photochromic glass</a></li>
+<li><a href="#sec-2-4">Reactive glass</a></li>
+<li><a href="#sec-2-5">Piezoelectric materials</a></li>
+<li><a href="#sec-2-6">Temperature-responsive polymers</a></li>
+<li><a href="#sec-2-7">Conductive inks</a></li>
+<li><a href="#sec-2-8">Others for you to research</a></li>
 </ul>
 </li>
-<li><a href="#sec-2">2. Understanding Check</a>
+<li><a href="#sec-3">3. Composites</a>
 <ul>
-<li><a href="#sec-2-1">Sample Questions</a></li>
-<li><a href="#sec-2-2">Past Paper Questions</a></li>
+<li><a href="#sec-3-1">MDF</a></li>
+<li><a href="#sec-3-2">Plywood</a></li>
+<li><a href="#sec-3-3">Concrete</a></li>
+<li><a href="#sec-3-4">Glass reinforced plastic (GRP) and Carbonfibre reinforced plastic (CRP)</a></li>
+<li><a href="#sec-3-5">Robotic materials</a></li>
+<li><a href="#sec-3-6">Reinforced polymers</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. Technical textiles</a>
+<ul>
+<li><a href="#sec-4-1">Waterproof clothing</a></li>
+<li><a href="#sec-4-2">Agrotextiles</a></li>
+<li><a href="#sec-4-3">Sport fabrics</a></li>
+<li><a href="#sec-4-4">Construction Textiles</a></li>
+<li><a href="#sec-4-5">Geotextiles</a></li>
+<li><a href="#sec-4-6">Conductive fabrics</a></li>
+<li><a href="#sec-4-7">Fire resistant fabrics</a></li>
+<li><a href="#sec-4-8">Kevlar</a></li>
+<li><a href="#sec-4-9">Microfibres incorporating micro encapsulation</a></li>
+<li><a href="#sec-4-10">Domestic textiles</a></li>
+<li><a href="#sec-4-11">Environmentally friendly textiles</a></li>
 </ul>
 </li>
 </ul>
@@ -168,192 +194,585 @@ for the JavaScript code in this tag.
 <h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
-<li>Designed in 1971, the 555 timer chip is the most successful integrated circuit in the world. Its purpose is to allow circuits to utilize time (e.g. to make a light flash on and off at a certain interval). 
+<li>Modern materials are ones that do not occur naturally. They are man made to improve their properties.
 </li>
-<li>It can be used as an ASTABLE timer to make flashing light circuits or to make a loudspeaker produce a sound and it can be used as a MONOSTABLE circuit to switch a device on after a set time or to switch a device on for a set time. The 555 makes it easy to get accurate time delays.
-</li>
-
-<li>The 555 timer is an 8 pin DIL package containing 25 transistors, 2 diodes and 16 resistors. Its legs are configured as follows :-
-</li>
-</ul>
-
-<div class="figure">
-<p><img src="./img/555.png" alt="555.png" />
-</p>
-</div>
-<ul class="org-ul">
-<li>1. 0v 
-</li>
-<li>2. Trigger (start) 
-</li>
-<li>3. Output
-</li>
-<li>4. Reset
-</li>
-<li>5. Control voltage
-</li>
-<li>6. Threshold
-</li>
-<li>7. Discharge
-</li>
-<li>8. 4.5v-16v supply voltage
+<li>Smart materials are ones that can react to an external stimulus i.e. temperature, electrical current, force, moisture or light. They adapt to the new change and are then able to reset back to the original state.
 </li>
 </ul>
 </div>
-<div id="outline-container-sec-1-1" class="outline-3 learn">
-<h3 id="sec-1-1">555 as a monostable</h3>
-<div class="outline-text-3" id="text-1-1">
-<p>
-A mono stable circuit has one input and one output. When the input is made high, the output goes high. When the input goes low, the output stays high for a set time period, then goes low. Astable circuits are easily recognised, and pins 6 and 7 are connected to the positive rail. 
-<img src="./img/mono_ex.png" alt="mono_ex.png" />
-The time the output stays high can be calculated with…
-</p>
-
-<p>
-<b>T = 1.1 x R x C</b>
-</p>
-
-<p>
-e.g. a 1MΩ resistor and a 220µF capacitor…
-</p>
-
-<p>
-R= 1,000,000Ω
-C= 0.00022F
-T = 242 seconds.
-</p>
-
-<p>
-<span class="underline">Examples</span> A door lock. When the release button is pushed, the door is unlocked for 3 seconds, then the locked again to give time to open the door. 
-</p>
-
-<p>
-A hand drier. When a hand triggers the sensor, the drier runs for around 30 seconds before turning off again.
-</p>
-
-<p>
-A Circuit Wizard example you can download to experiment with can be picked up <a href="./mono.cwz">here</a>.
-</p>
-</div>
 </div>
 
-<div id="outline-container-sec-1-2" class="outline-3 learn">
-<h3 id="sec-1-2">555 as an astable</h3>
-<div class="outline-text-3" id="text-1-2">
-<p>
-This circuit needs no trigger to start it. As soon as power is supplied the output will begin to oscillate between 9 volts and 0 volts. The time the output spends in each state depends on the values of R1 , R2 and C. The astable circuit can be made to oscillate very quickly (up to millions of cycles per sec) or slowly (down to many minutes per cycle). It can be used to make bulbs flash, drive a loudspeaker to produce a noise or be used as a counter/ timer.
-<img src="./img/ast_ex.png" alt="ast_ex.png" />
-Astable circuits are easily recognised, and pins 2 and 6 are connected, and go to 0v. 
-<img src="./img/ast_graph.png" alt="ast_graph.png" />
-</p>
-
-<p>
-<b>Mark time = 0.7 x (R<sub>1</sub> + R<sub>2</sub>) x C</b>
-</p>
-
-<p>
-<b>Space time = 0.7 x R<sub>2</sub> x C</b>
-</p>
-
-<p>
-<b>Frequency = 1.44 / ((R<sub>1</sub> + 2R<sub>2</sub>) x C)</b>
-</p>
-
-<p>
-<span class="underline">Examples</span> A tone generator could be made to produce sounds of different pitches through a speaker.
-</p>
-
-<p>
-A burglar alarm could have its sensors send a pulse to the alarm box to say its working. If the wire was cut, the lack of a pulse could be used to trigger the alarm.
-</p>
-
-<p>
-A strobe bike light could be produced to keep cyclists safe at night
-</p>
-
-<p>
-A Circuit Wizard example you can download to experiment with can be picked up <a href="./astable.cwz">here</a>.
-</p>
-</div>
-</div>
-</div>
 <div id="outline-container-sec-2" class="outline-2 activity">
-<h2 id="sec-2"><span class="section-number-2">2</span> Understanding Check</h2>
+<h2 id="sec-2"><span class="section-number-2">2</span> Smart materials</h2>
 <div class="outline-text-2" id="text-2">
 </div>
 <div id="outline-container-sec-2-1" class="outline-3 try">
-<h3 id="sec-2-1">Sample Questions</h3>
+<h3 id="sec-2-1">Shape-memory alloys(SMAs)</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li>At a small lighthouse, the keeper wants to make their lights come on for a few seconds, then off for a few seconds when the power is turned on to the main light. 
-<ul class="org-ul">
-<li>What type of 555 circuit would be needed to achieve this?
+<li>Used for making reading glasses frames and medical stents.
 </li>
-<li>A 555 timer won’t be able to deliver sufficient power to turn on and off the main light. What could be used to handle such a large current safely?
+<li>They can be bent/deformed and will return to their original shape when heated or a current applied.
 </li>
-<li>Make a simulation of this scenario on a breadboard, using an LED. Use a 220µF capacitor, 4.7kΩ for R1 and 10kΩ for R2. What would the mark and space values be?
+<li>This will lengthen the life of a product and may allow it to be made much smaller.
+</li>
+<li>This is expensive and continuous use will cause metal fatigue.
+</li>
+<li>Examples being Nitrinol and gold-cadmium
 </li>
 </ul>
-</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QYp9rIJRM8s" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
 
-<li>A student is designing a doorbell with a PTM switch. When the button is pushed, the buzzer should sound for at least 3 seconds, no matter how long the button is held in place. 
-<ul class="org-ul">
-<li>What type of 555 circuit is needed?
-</li>
-<li>If a 220µF (0.000220F) capacitor is used, what sized resistor (to the nearest hundred) would be needed to achieve a 3s time delay?
-</li>
-<li>Make a circuit for this setup on a breadboard.
-</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-sec-2-2" class="outline-3 try">
-<h3 id="sec-2-2">Past Paper Questions</h3>
+<div id="outline-container-sec-2-2" class="outline-3 learn">
+<h3 id="sec-2-2">Nanomaterials</h3>
 <div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>Made of tiny components less than 100 nanometres. 
+</li>
+<li>Maybe be particles, nanowires, nanotubes or thin films and surface coatings.
+</li>
+<li>Used in fire-retardent materials, sunscreen, tennis rackets, motorbike helmets and car bumpers.
+</li>
+<li>The extra surface area can improve strength, elasticity, magnetic, electrical, thermal conductivity and absorbent properties.
+</li>
+<li>Downsides are that the chemical properties may need special risk assessment for health and the environment.
+</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VB3nqIXzb0w" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3 research">
+<h3 id="sec-2-3">Photochromic glass</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li>Glass that darkens in response to light.
+</li>
+<li>Used in spectacles and sunglasses. Also in plane cockpit windows. 
+</li>
+<li>Disadvantages can be slow to react and user has no direct control on the reaction.
+</li>
+<li>Advantages adapts easily to changing conditions and no performance change even after thousands of cycles.
+</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GAtozmyH5rI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-2-4" class="outline-3 design">
+<h3 id="sec-2-4">Reactive glass</h3>
+<div class="outline-text-3" id="text-2-4">
+<ul class="org-ul">
+<li>goes cloudy when voltage is passed through it.
+</li>
+<li>used in welding masks, office windows and hospitals to replace blinds when are difficult to sterilise.
+</li>
+<li>Advantages - retains heat so reduces energy bills, instant privacy
+</li>
+<li>Disadvantages - expensive, requires electricity
+</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oPTEGF6O_2U" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-2-5" class="outline-3 build">
+<h3 id="sec-2-5">Piezoelectric materials</h3>
+<div class="outline-text-3" id="text-2-5">
+<ul class="org-ul">
+<li>When this material is squeezed rapidly it produces a small electrical voltage.
+</li>
+<li>If a small voltage is put accross the materials it makes a tiny change in shape.
+</li>
+<li>Used for contact sensors in alarm systems and in microhones and headphones.
+</li>
+<li>Advantages - small size and high speed response
+</li>
+<li>Disadvantages - they do wear out and there are limits to the load and voltage they can deal with
+</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wNDT5muaNus" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-2-6" class="outline-3 test">
+<h3 id="sec-2-6">Temperature-responsive polymers</h3>
+<div class="outline-text-3" id="text-2-6">
+<ul class="org-ul">
+<li>can change their physical properties with change in temperature so can be useful in many scientific applications.
+</li>
+<li>used in biomedicine for gene therapy, tissue engineering and drug delivery.
+</li>
+<li>still being researched so applications may take some time to implement.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-2-7" class="outline-3 run">
+<h3 id="sec-2-7">Conductive inks</h3>
+<div class="outline-text-3" id="text-2-7">
+<ul class="org-ul">
+<li>pigment that conduct electricity even when dry
+</li>
+<li>made from silver, carbon, graphite - can be expensive
+</li>
+<li>can be tricky to use
+</li>
+<li>good for prototyping circuits, repairing circuits.
+</li>
+<li>Advantages - lighter and cheaper than normal PCBs. Low waste. Can be folded.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2-8" class="outline-3 try">
+<h3 id="sec-2-8">Others for you to research</h3>
+<div class="outline-text-3" id="text-2-8">
+
+<ul class="org-ul">
+<li>Aroma pigments
+</li>
+<li>Hydrocarbon encapsulating polymers
+</li>
+<li>Photochromic inks
+</li>
+<li>Hydrochromic inks
+</li>
+<li>Thermochromic paints
+</li>
+<li>Polymorph
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2 activity">
+<h2 id="sec-3"><span class="section-number-2">3</span> Composites</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>Composite materials are made from two or more different types of material. 
+</li>
+<li>For example, MDF is made from wood fibres and glue, and fibreglass is made from a mesh of glass fibres set in a tough polymer.
+</li>
+<li>The materials for a composite material are chosen because they have different properties that combine to make a more useful material. 
+</li>
+<li>Steel-reinforced concrete is a composite material. It is made by pouring concrete around a mesh of steel cables. When the concrete sets, the material is:
+</li>
+<li>strong when stretched (because of the steel)
+</li>
+<li>strong when squashed (because of the concrete)
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-3-1" class="outline-3 research">
+<h3 id="sec-3-1">MDF</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li>Medium Density Fibreboard (MDF) is a type of hardboard, which is made from wood fibres glued under heat and pressure.
+</li>
+<li>Advantages: -There are a number of reasons why MDF may be used instead of plywood or chipboard. It is dense, flat, stiff, has no knots and is easily machined. Because it is made up of fine particles it does not have an easily recognisable surface grain. MDF can be painted to produce a smooth quality surface. Because MDF has no grain it can be cut, drilled, machined and filed without damaging the surface. MDF may be dowelled together and traditional woodwork joints may even be cut. MDF may be glued together with PVA wood glue. Oil, water-based paints and varnishes may be used on MDF. Veneers and laminates may also be used to finish MDF
+</li>
+<li>Disadvantages: -MDF can be dangerous to use if the correct safety precautions are not taken. 
+</li>
+<li>MDF contains a substance called urea formaldehyde, which may be released from the material through cutting and sanding. 
+</li>
+<li>Urea formaldehyde may cause irritation to the eyes and lungs. Proper ventilation is required when using it and facemasks are needed when sanding or cutting MDF with machinery. 
+</li>
+<li>The dust produced when machining MDF is very dangerous. Masks and goggles should always be worn at all times. 
+</li>
+<li>Due to the fact that MDF contains a great deal of glue the cutting edges of your tools will blunt very quickly. 
+</li>
+<li>MDF can be fixed together with screws and nails but the material may split if care is not taken. 
+</li>
+<li>If you are screwing, the screws should not be any further than 25mm in from the edge. When using screws always use pilot holes. 
+</li>
+<li>Urea formaldehyde is always being slowly released from the surface of MDF. When painting it is good idea to coat the whole of the product in order to seal in the urea formaldehyde. 
+</li>
+<li>Wax and oil finishes may be used as finishes but they are less effective at sealing in the urea formaldehyde
+</li>
+<li>It may be used to make display cabinets, wall-panels and storage units.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2" class="outline-3 test">
+<h3 id="sec-3-2">Plywood</h3>
+<div class="outline-text-3" id="text-3-2">
+<ul class="org-ul">
+<li>Plywood is made by gluing together a number of thin veneers or plies of softwood or hardwood.
+</li>
+<li>Advantages: -There is always an odd number of veneers and each ply is at a right angle to the one below, this gives the material it's strength. 
+</li>
+<li>The more veneers used, the stronger the plywood becomes. Both the type of glue and veneers determine the suitability of a sheet for a particular application. 
+</li>
+<li>The finish quality of plywood varies considerably, some plywood have attractive grains while others can contain knots. 
+</li>
+<li>High strength to weight ratio and strong in all directions.
+</li>
+<li>Economical use of wood - less wastage.
+</li>
+<li>Plywood may be used inside and outside. 
+</li>
+<li>Disadvantage - the layers may come apart if wet.
+</li>
+</ul>
+
 <p>
-<b>June 2010, Q4</b>. You are advised to spend about 30 minutes on this question. This question is about Printed Circuit Board (PCB) design and construction.
+<b>Exterior grade plywood</b> (WBP - Weather and Boil Proof). This type of plywood can be used outside. 
+</p>
+
+<ul class="org-ul">
+<li>Water-resistant adhesives are used and can resist a certain amount of moisture.
+</li>
+<li>Used for sheds and cladding are made from this material.
+</li>
+<li>Weather boiled proof plywood requires paint or varnish to protect the outer veneer from the elements.
+</li>
+</ul>
+
+<p>
+<b>Internal plywood</b> does not contain water-resistant adhesive.  Used for for wall panelling, flooring and furniture.
 </p>
 
 <p>
-(a) It is best to test that a circuit works before building a PCB. Describe one method of testing a circuit before building a PCB. <i>(3 marks)</i>
-(b) The circuit below pulses the speaker. Complete the missing five PCB tracks on Figure 2 for the circuit in Figure 1. The pads and some of the tracks have been completed for you. Your tracks should not cross at any point and should be drawn neatly.
+<b>Marine Plywood</b> is made with waterproof adhesive so that it can be used under water. The material should still be protected with paint or varnish.
 </p>
+<ul class="org-ul">
+<li>The smoothness of the surface and the number of defects in it grade plywood. Plywood can be nailed and screwed. Thin plywood is flexible and can be formed into curved shapes.
+</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wk22IJN69BI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-3-3" class="outline-3 build">
+<h3 id="sec-3-3">Concrete</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul class="org-ul">
+<li>Concrete-like materials were used since 6500 BC by the Bedouins who used mortar for the construction of rubble-wall houses, concrete floors, and underground waterproof cisterns. 
+</li>
+<li>Some of these structures survive to this day!
+</li>
+<li>To produce concrete from most cements (excluding asphalt), water is mixed with the dry powder and aggregate, which produces a semi-liquid slurry that can be shaped, typically by pouring it into a form. The concrete solidifies and hardens through a chemical process called hydration. 
+</li>
+<li>The water reacts with the cement, which bonds the other components together, creating a robust stone-like material.
+</li>
+<li>Concrete is one of the most durable building materials. It provides superior fire resistance compared with wooden construction and gains strength over time. 
+</li>
+<li>Structures made of concrete can have a long service life. 
+</li>
+<li>Concrete is used more than any other human-made material in the world.
+</li>
+<li>Excellent compression strength, sound proofing, can be made on site, durable and fire resistant. 
+</li>
+<li>Can be damaged by fire, radiant heat, trapped frozen water and corrosion of the reinforcing bars.
+</li>
+<li>A modern method for using concrete - concrete cloth.
+</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LLrGUXk-h0M" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+<div id="outline-container-sec-3-4" class="outline-3 code">
+<h3 id="sec-3-4">Glass reinforced plastic (GRP) and Carbonfibre reinforced plastic (CRP)</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+<b>Carbon fibre</b> is an extremely strong and light fibre-reinforced plastic which contains carbon fibres.
+</p>
+<ul class="org-ul">
+<li>In this case the composite consists of two parts: a matrix and a reinforcement. In CFRP the reinforcement is carbon fiber, which provides the strength. 
+</li>
+<li>The matrix is usually a polymer resin, such as epoxy, to bind the reinforcements together.
+</li>
+<li>Because CFRP consists of two distinct elements, the material properties depend on these two elements.
+</li>
+<li>applications in aeroplanes, car racing, bicycles, tennis racquets, musical instruments, laptops cases etc.
+</li>
+<li>resistant to most chemicals and UV light.
+</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YE6ZmPXwk2o" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 <p>
-<img src="./img/circ1.png" alt="circ1.png" />
-<img src="./img/pcb1.png" alt="pcb1.png" />
+<b>Fibreglass</b> is a common type of fibre-reinforced plastic using glass fibre. 
 </p>
+<ul class="org-ul">
+<li>The fibres may be randomly arranged, flattened into a sheet (called a chopped strand mat), or woven into a fabric. 
+</li>
+<li>The plastic matrix may be a thermoset polymer matrix – most often based on thermosetting polymers such as epoxy, polyester resin, or vinylester - or a thermoplastic.
+</li>
+<li>Cheaper and more flexible than carbon fibre, it is stronger than many metals by weight, and can be molded into complex shapes. 
+</li>
+<li>Applications include aircraft, boats, automobiles, bath tubs, swimming pools, hot tubs, septic tanks, water tanks, roofing, pipes, cladding, casts, surfboards, and external door skins.
+</li>
+</ul>
 
 <p>
-<b>June 2013, Q3</b>. You are advised to spend about 15 minutes on this question. This question is about Printed Circuit Boards (PCBs).
+<b>Fibreglass reinforced plastics</b> or FRPs (commonly referred to simply as fibreglass) use textile grade glass fibres. 
 </p>
+<ul class="org-ul">
+<li>These textile fibres are different from other forms of glass fibres used to deliberately trap air, for insulating applications.
+</li>
+
+<li><b>Disadvantages</b> Fibres can cause respiratory problems in breathed in.  
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-3-5" class="outline-3 try">
+<h3 id="sec-3-5">Robotic materials</h3>
+<div class="outline-text-3" id="text-3-5">
+<ul class="org-ul">
+<li>Materials that couple sensing, movement, computation and communcation and can react to their surroundings autonomously.
+</li>
+<li>Used in prosthetics, plane wings, vehicles and uniforms that can change colour to match their surroundings.
+</li>
+<li>Expensive and complex
+</li>
+<li>Quick reacting and does not require a computer connection.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-3-6" class="outline-3 research">
+<h3 id="sec-3-6">Reinforced polymers</h3>
+<div class="outline-text-3" id="text-3-6">
+<ul class="org-ul">
+<li>strong, tough and about half the weight of aluminum.
+</li>
+<li>Resins are combined with cotton fabrics to make inflammable sheets, rods and tubes.
+</li>
+<li>used for gears and bearings, outside to replace timber and they are weatherproof. 
+</li>
+<li>good dimensional stability i.e. does not change shape in heat etc.
+</li>
+<li>can be expensive.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2 activity">
+<h2 id="sec-4"><span class="section-number-2">4</span> Technical textiles</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-sec-4-1" class="outline-3 design">
+<h3 id="sec-4-1">Waterproof clothing</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li>Nylon has some desirable properties. It is:tough, lightweight and waterproof.
+</li>
+<li>Unfortunately, nylon does not let water vapour pass through it. This means that, although nylon waterproof clothing stops the rain getting in, it traps your sweat inside. 
+</li>
+<li>After a while the clothing inside becomes wet and unpleasant to wear.
+</li>
+<li>Breathable fabrics are composite materials. They have the desirable properties of nylon, but are 'breathable' – they stop raindrops getting in while letting water vapour from sweat pass to the outside. 
+</li>
+<li>Clothing made of such material is very useful to hikers and other people who work or play outside.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-4-2" class="outline-3 build">
+<h3 id="sec-4-2">Agrotextiles</h3>
+<div class="outline-text-3" id="text-4-2">
+<ul class="org-ul">
+<li>textiles for improving argicultural production.
+</li>
+<li>made from nylon, polyester, polyethene, polypropene or natural materials like wool and jute.
+</li>
+<li>often biodegradable, saves on pesticides, can be cheap.
+</li>
+<li>may effect the ecosystems by altering the normal cycles of water, carbon etc.
+</li>
+<li>used to categorize the woven, nonwoven and knitted fabrics used for agricultural and horticultural applications including:
+</li>
+<li>livestock protection, shading, weed and insect control, and extension of the growing season.
+</li>
+<li>Read more in this<a href="http://www.textileworld.com/textile-world/nonwovens-technical-textiles/2005/09/agrotextiles-a-growing-field/"> article</a>.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4-3" class="outline-3 research">
+<h3 id="sec-4-3">Sport fabrics</h3>
+<div class="outline-text-3" id="text-4-3">
+<ul class="org-ul">
+<li>Technology is developed in the manufacturing of fabric used in sports purpose to ensure incorporation of Sports Textiles special characteristics demanded by the athletics &amp; the leisure activities for their better performance in the sports.
+</li>
+<li>Garments manufactured from sports textiles fabrics, keeps the normal stability of body comfort, because these fabrics are ultra-breathable, fast drying and possess outstanding moisture managing properties, which rapidly wick moisture away from the body.
+</li>
+<li>more unusual uses including artifical turf, climbing ropes, parachute fabrics, swim wear, paraglider, sails etc.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4-4" class="outline-3 build">
+<h3 id="sec-4-4">Construction Textiles</h3>
+<div class="outline-text-3" id="text-4-4">
+<ul class="org-ul">
+<li>Used to improve construction appearance and longevity.
+</li>
+<li>The Construction textiles segment comprises of textiles or composite materials used in the construction of permanent and temporary buildings as well as structures. 
+</li>
+<li>Examples include:
+</li>
+<li>Architectural membranes, Hoardings &amp; signage’s, Cotton canvas Tarpaulins, HDPE Tarpaulins, Awnings &amp; canopies, Scaffolding nets, Floor &amp; wall coverings etc.
+</li>
+<li>strong and light, resistant to chemical, acid and UV damage. Stable in a range of heat conditions.
+</li>
+<li>maybe expensive and may degrade over time.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-4-5" class="outline-3 program">
+<h3 id="sec-4-5">Geotextiles</h3>
+<div class="outline-text-3" id="text-4-5">
+<ul class="org-ul">
+<li>Geotextiles are used for the stabilising, filtering, draining or reinforcing of soil, rock, earth etc.
+</li>
+<li>However Geotextiles particularly refers to permeable fabric or synthetic material, woven or non-woven, which can be used with geotechnical engineering material.
+</li>
+<li>The principal functions performed by Geotextiles are:
+</li>
+<li>Confinement /separation, Reinforcement, Filtration and drainage, and Protection.
+</li>
+<li>Examples are geo-mats, geo-nets, geo-membranes, geo-composities, geo-grids etc.
+</li>
+<li>do not rot, able to deal well with water and cost effective.
+</li>
+<li>easily blocked by sediments and organic matter and are ineffective if damaged.
+</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JDvwUTvxd2g" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-4-6" class="outline-3 save">
+<h3 id="sec-4-6">Conductive fabrics</h3>
+<div class="outline-text-3" id="text-4-6">
+
+<ul class="org-ul">
+<li>A conductive textile is a fabric which can conduct electricity. 
+</li>
+<li>Conductive textiles can be made with metal strands woven into the construction of the textile. 
+</li>
+<li>There is also an interest in semiconducting textiles, made by impregnating normal textiles with carbon- or metal-based powders.
+</li>
+<li>Their benefits over solid or stranded metal wires come from conductive fibers' flexibility and ability to use them in existing textile and wire machinery 
+</li>
+<li>used for shielding cabling in air- and spacecraft and other specialty purposes where light weight, high strength, and high-frequency shielding is imperative.
+</li>
+<li>acting as a Faraday cage it can be used for taser proof clothing.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4-7" class="outline-3 test">
+<h3 id="sec-4-7">Fire resistant fabrics</h3>
+<div class="outline-text-3" id="text-4-7">
+<ul class="org-ul">
+<li>An example of a protective textile.
+</li>
+<li>creates an inert barrier between the heat source and the user's skin which when burn forms a supple skin and does not break.
+</li>
+<li>doesn't melt or drip
+</li>
+<li>Examples include Nomex worn by firefighters and racing drivers.
+</li>
+<li>More details on how it works <a href="http://www.explainthatstuff.com/nomex.html">here</a>.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4-8" class="outline-3 code">
+<h3 id="sec-4-8">Kevlar</h3>
+<div class="outline-text-3" id="text-4-8">
+<ul class="org-ul">
+<li>An example of a protective textile.
+</li>
+<li>is a super strong plastic which is 5-8 times stronger than steel.
+</li>
+<li>uses in car brakes, motorbike clothing and bullet proof vests.
+</li>
+</ul>
 
 <p>
-3 (a) Suggest two reasons for using a PCB in a commercial electronic product.
-Reason 1:
-Reason 2: <i>(4 marks)</i>
+Here is a product made using Kevlar.
 </p>
 
-<p>
-3 (b) State two hazards and two relevant safety precautions to be taken when soldering components to a PCB.
-Hazard 1:
-Safety precaution 1:
-Hazard 2:
-Safety precaution 2: <i>(4 marks)</i>
-</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P_ezsOeX5mQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
-<p>
-3 (c) Shown below is a circuit diagram for a commercial electronic product.
-<img src="./img/circ2.png" alt="circ2.png" />
-Complete the PCB layout diagram below for the circuit shown above. The PCB layout is viewed from the component side. <i>(6 marks)</i>
-<img src="./img/pcb2.png" alt="pcb2.png" />
-</p>
+<ul class="org-ul">
+<li>More details on how it works <a href="http://www.explainthatstuff.com/kevlar.html">here</a>.
+</li>
+</ul>
+</div>
+</div>
 
-<p>
-<a href="index.html">Return to homepage</a>
-</p>
+<div id="outline-container-sec-4-9" class="outline-3 run">
+<h3 id="sec-4-9">Microfibres incorporating micro encapsulation</h3>
+<div class="outline-text-3" id="text-4-9">
+
+<ul class="org-ul">
+<li>Microencapsulated fabrics are among the latest generation of intelligent textiles. 
+</li>
+<li>Microencapsulation involves encapsulating liquid or solid substances in tiny thin-walled natural or synthetic bubbles. 
+</li>
+<li>Microspheres gradually release active agents by simple mechanical rubbing, which ruptures the membrane over time.
+</li>
+<li>Encapsulation has allowed moisturisers, therapeutic oils, and insecticides to be incorporated into fabrics.
+</li>
+<li>Micro-encapsulation is also used in thermo-chromic and photo-chromic fabrics, which change colour with changes in temperature or light. 
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4-10" class="outline-3 design">
+<h3 id="sec-4-10">Domestic textiles</h3>
+<div class="outline-text-3" id="text-4-10">
+<ul class="org-ul">
+<li>used in the house such as carpets, flooring, waddings, furnishings, cleaning wipes and linings.
+</li>
+<li>hard wearing, absorbent and stain resistant
+</li>
+<li>can be expensive, fire risk and can be difficult to clean.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-4-11" class="outline-3 design">
+<h3 id="sec-4-11">Environmentally friendly textiles</h3>
+<div class="outline-text-3" id="text-4-11">
+<ul class="org-ul">
+<li>use organically grown fibres such as hemp, wool, cotton, bamboo or recycled materials
+</li>
+<li>Examples such as geotextiles, agrotextiles and in the fashion industry.
+</li>
+<li>Uses less chemicals and is naturally more resistant to mold and pests.
+</li>
+<li>can be expensive
+</li>
+</ul>
 </div>
 </div>
 </div>
