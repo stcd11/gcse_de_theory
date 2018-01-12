@@ -44,7 +44,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[file:5.html][1.6 - Inputs, processes and outputs]]
+* [[file:6.html][1.6 - Inputs, processes and outputs]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
