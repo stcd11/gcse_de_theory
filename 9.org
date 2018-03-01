@@ -6,15 +6,15 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Research, Analysis and Specifications
-#+AUTHOR: Stephen Brown
+#+TITLE: Papers and Boards
+#+AUTHOR: C Delport
 
 #+BEGIN_HTML
 <div class=ribbon>
-<a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/gcse_de_theory">Fork me on GitHub</a>
 </div>
 <center>
-<img src='./img/gear.png' width=25%>
+<imgzz src='' width=33%>
 </center>
 #+END_HTML
 
@@ -101,208 +101,155 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Introduction
-** Research
-- Before grabbing components and materials, the design of a new product needs to be carefully considered if it is to function as intended when manufactured. Safety is also upmost in a designer’s mind, both at the point of manufacture, and when being used as a finished product.
-
-- When researching a new product, a number of areas might be considered as part of the process:
-
-    - *Existing product analysis:* This is to look at the features, advantages and disadvantages of pre-existing products to see what is currently available. 
-    - *Existing solutions:* Looking at how others have solved the problem you’re investigating. 
-    - *Materials catalogue:* This will give an indication of what materials are available to build the new product. 
-    - *Web site of rival manufacturers:* To get an indication of current design ideas, pricing, mechanisms used, etc.
-
-- Looking at this information may affect your final design by helping to inform the build-cost for the work, the types of mechanisms it will use, the materials it could be made from, or the look/functionality of the product you will design. 
-** Design Specification
-- When initially setting out a specification for a product, one might consider a number of different issues, such as (in the case of a coffee machine): -
-
-    - *Functionality:* The dispenser in system must be water-resistant to prevent damage.
-    - *Safety:* The dispenser should have no exposed wires or sharp corners, to avoid injury.
-    - *Power Supply:* The dispenser should run from the mains, so that it won’t consume batteries needlessly and can run all day.
-    - *Aesthetic/Appearance:* The system should use neutral colours (e.g. beige and dark grey) so as to blend into an office environment.
-    - *Durability:* The machine should be able to withstand minor knocks, as might be expected in an office environment. 
-* Recap
+* Key terms
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Past Paper Questions
+** Paper
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: try
+:HTML_CONTAINER_CLASS: learn
 :END:
-*June 2008, Q1.* This question is about the design process. The owner of the theme park has asked you to design an Automated Mascot to welcome visitors to the theme park. (Automate – control or operate automatically)
-- (a) Analysis. List two factors that you should think about when designing the Automated Mascot and give a reason why each is important. An example has been given. Example:
+- A thin flat material made from natural fibres weighing less than 220 gsm.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gq7L9-0XdVw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+** Board
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Board is thicker than paper or layers of paper more than 220gsm.
 
-/Factor – The likely cost of the whole project./
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8i3riKvCYkM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+* Paper
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Paper is a thin material produced by pressing together moist fibres of cellulose pulp derived from wood, rags or grasses, and drying them into flexible sheets. It is a versatile material with many uses, including writing, printing, packaging, cleaning, and a number of industrial and construction processes.
+- In Europe, paper and board is measured in grams per square metre (gsm).
+- This means the number of grams a 1m X 1m sheet weighs 80-220gsm.
+- There is a suggestion that the thicker the paper, the better the quality.
+- Standard copier paper is usualy 80gsm. with typical writing paper being 120gsm.
+** Copier Paper
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- *Weight* - 80gsm.
+- *Description* - Thin, lightweight, cheap, bright white paper, with a smooth, bleached, uncoated surface.
+- *Uses* - Writing, printing and drawing.
+- *Advantages* - Takes colour well, good surface for pencils, pens and markers, cheap, readily available and in a range of colours.
+- *Disadvantages* - Can be prone to jamming printer feed mechanisims.
 
-/Reason – So that it can be built at a reasonable price./
+** Cartridge Paper
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- *Weight* - 120-150gsm.
+- *Description* - Creamy, thick heavyweight paper.
+- *Uses* - General drawing and printing, can be used with watercolour paints without buckling.
+- *Advantages* - Accepts most drawing media, opaque.
+- *Disadvantages* - Costs more than copier paper.
+** Tracing Paper
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- *Weight* - 60-90gsm.
+- *Description* - Thin, smooth and translucent, made by beating to remove air and processing to make a dense, strong paper.
+- *Uses* - Art, making copies, envelop windows and overlays on working drawings.
+- *Advantages* - Strong, translucent.
+- *Disadvantages* - Can be expensive, limited ink absorption and longer drying time.
 
-/(4 marks)/
+* Boards
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Paperboard is a thick paper-based material. While there is no rigid differentiation between paper and paperboard, paperboard is generally thicker (usually over 0.30 mm, 0.012 in, or 12 points) than paper. 
+- According to ISO standards, paperboard is a paper with a grammage above 250 g/m2, but there are exceptions.
+- Paperboard can be single- or multi-ply. Paperboard can be easily cut and formed, is lightweight, and because it is strong, is used in packaging. 
+- Another end-use would be graphic printing, such as book and magazine covers or postcards. Sometimes it is referred to as cardboard, which is a generic, lay term used to refer to any heavy paper pulp–based board. 
+- Paperboard is also used in fine arts for creating sculptures.
+** Folding boxboard
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- *Description* - Stiff layers consisting of:
+  1. A printable bleached virgin pulp top surface.
+  2. Unbleached yellowish centre layers.
+  3. A bleached inside layer.
+- *Uses* - Cereal boxes, food and health packaging and cartons.
+- *Advantages* - 
+  1. Excellent for scoring and bending without splitting.
+  2. Accepts print well.
+  3. Inexpensive.
+- *Disadvantages* - 
+  1. Lower strength than solid white board.
+** Corrugted board
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- *Description* - 
+  1. Two or more layers of fluted paper sandwiched between to paper liners.
+  2. Available in different thicknesses.
+  3. Strong and lightweight.
+- *Uses* - Protective packaging, for example boxes for electrical products and CD sleeves.
+- *Advantages* - Impact resistant, inexpensive, recyclable.
+- *Disadvantages* - 
+  1. Brown finish does not convey quality.
+  2. Can deform under pressure.
+  3. Not water resistant.
+** Solid White Board
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- *Description* - 
+  1. Strong, rigid board made from pure, bleached wood pulp.
+  2. Excellent printing surface.
+- *Uses* - Book covers, food, cosmetics and medicine packaging.
+- *Advantages* - Strong, rigid and accepts print well.
+- *Disadvantages* - Can be expensive.
 
-1 (b) Research. The layout of a research plan for the Automated Mascot is shown below. Complete the research plan by adding suitable research sources and stating the information that you would hope to find. The materials section has been completed for you. /(7 marks)/
-[[./img/2008_q1b.png]]
-1 (c) Describe how the information from the analysis and research may affect the final design. /(2 marks)/
+* Properties
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Flexibility
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Amount of material bends when a force is applied (stiffness), determined by its thickness and weight.
+- Flexural stiffness is resistance to an external bending force.
+- Handling stiffness is the ability to support its own weight.
+** Printability
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Ability to accept a printed image onto its surface (porosity).
+- Affected by surface properties, such as smoothness or finish, and structural properties, such as bulk or thickness.
+- Not the same as print quality, which is determined by other factors such as alignment of plates on the machinery.
+** Biodegradability
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Ability to be broken down by bacteria or other biological means.
+- Most uncoated paper products are biodegradable because they are made from wood pulp.
+- Compostable means that a material can biodegrade in less than 12 weeks.
+ 
+* Sample questions
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Paper and card are extremely useful materials that are processed from wood fibres. They come in many different sizes and forms.
+  1. How many paper products have you used today?
+  2. Why do you think that some boards are laminated with other materials, such as foil.
+  3. How many different paper sizes do you know.
+[[./img/cardboard_box.jpg]]
+- The box in the image above is used to package CDs sent to a supermarket.
+  1. Explain *one* reason why this material is suitable for the box. (2)
+  2. Explain *one* disadvantage of this material. (2)
 
-1 (d) Design Specification. Give four design requirements for your Automated Mascot. Example: 
+- Name three different paper types.
+- State an advantage of using folding boxboard.
+- Explain why printing might affect the quality of a finished product?
+- Describe and compare the properties of two different boards. Evaluate which one would be best for a new prefume package?
 
-The mascot must welcome visitors
-
-Function: by waving
-
-_Appearance_
-- Requirement
-- Explanation
-
-_Materials_
-- Requirement
-- Explanation
-
-_Safety_
-- Requirement
-- Explanation
-
-_Durability_
-- Requirement
-- Explanation
-
-/(8 marks)/
-
-
-*June 2008, Q2.* This question is about design ideas for the system that makes the mascot move. Study the information given in your Design Specification from Question 1. Use this information to sketch two different design ideas for an Automated Mascot for the theme park.
-
-You must show: -
-- function
-- appearance
-- materials
-- safety
-- durability
-- which parts move.
-
-Marks will also be awarded for: -
-quality of sketches /(2 marks)/
-quality of notes. /(2 marks)/
-/(6 marks)/
-
-Evaluate each idea as follows:
-- Explain how your design meets the requirements of the specification.
-- Function:
-- Appearance:
-- Materials:
-- Safety:
-- Durability:
-/(5 marks)/
-
-
-*June 2008, Q3.* This question is about developing the system using mechanisms or pneumatics. Choose one of your ideas for development.
-- (a) It was decided that the Automated Mascot should have an electronic sensor to start the movement when a visitor approached it. Using notes and sketches, show clearly how an electronic sensing device could detect a visitor.
-
-- Only show the ‘sensing input’ system for detecting the visitor. Marks will be awarded for:
-     - a suitable electronic system to detect a visitor /(4 marks)/
-     - quality of sketches and notes describing the operation. /(4 marks)/
-
-- (b) Using notes and sketches, show clearly details of the system that moves the Automated Mascot. Note: -
-- The mascot should move continuously
-- You should show details of the mechanism and motor
-- Show only the moving part of the mascot
-- Show the paths of all movement.
-
-Marks will be awarded for: -
-- Suitable system to move part of the mascot /(10 marks)/
-- Quality of notes and sketches describing the operation. /(2 marks)/
-
-
-*June 2008, Q6.* This question is about health and safety issues for a roller-coaster system.
-
-- (a) List three risks that an error in the roller-coaster system could cause. /(3 marks)/
-- (b) List two safety checks the operator should do every morning before the public use the ride. /(2 marks)/
-- (c) Suggest how passengers could escape safely from the carriage if the ride stops at the top. /(2 marks)/
-- (d) State two regular maintenance operations for the roller-coaster. /(2 marks)/
-- (e) State two procedures that would ensure the safety of the passengers whilst on the ride. /(2 marks)/
-
-*June 2011, Q1.* You should spend about 35 minutes on this question. This question is about the design development of a control system for the interior light in a two door car.
-- (a) This part of the question is about research. The layout of a research plan for the car interior light system is shown below. Complete the diagram below by adding suitable research sources and stating the information that you would hope to find. The materials section has been completed for you.
-[[./img/2011_q1a.png]]
-(b) The first stage is to produce a Design Specification. Describe three issues which you need to consider before you begin to design the control system for the interior light. For each issue give: -
-Specification point /(3x 2 marks)/
-An explanation. /(3x 2 marks)/
-
-An example has been given to help you. 
-- /Specification point: When should the light come on?
-- Explanation: The interior light should only be ON when either car door is open./
-
-Specification point:
-
-Explanation:
-
-2 Specification point: 
-
-Explanation: 
-
-3 Specification point: 
-
-Explanation:
-
-1(c) Circle the most suitable switch to detect that the door is open. /(1 mark)/
-[[./img/2011_q1c.png]]
-
-*June 2011, Q5.* You should spend about 15 minutes on this question. This question is about the Health and Safety and maintenance issues affecting commercial passenger lifts.
-
-- (a) Explain two safety features that a commercial passenger lift control system should contain. Give a reason for each feature.
-    - (i) Feature 1:  /(1 mark)/
-    - (a) (ii) Reason for Feature 1: /(1 mark)/
-    - (a) (iii) Feature 2: /(1 mark)/
-    - (a) (iv) Reason for Feature 2: /(1 mark)/
-
-- (b) Explain two maintenance tasks that should be carried out on a commercial passenger lift.
-    - (b) (i) Task 1: /(1 mark)/
-    - (b) (ii) Explanation of task 1: /(2 marks)/
-    - (b) (iii) Task 2: /(1 mark)/
-    - (b) (iv) Explanation of task 2: /(2 marks)/
-
-- (c) Explain one safety procedure taken when the maintenance is carried out.
-- (c) (i) Safety procedure: /(1 mark)/
-- (c) (ii) Explanation of safety procedure: /(2 marks)/
-
-*June 2012, Q1.* You are advised to spend about 20 minutes on this question. This question is about design processes. You have been asked to design an automatic vent for a greenhouse. The first part of the question is about analysis.
-
-- (a) List two considerations that you should think about when designing the automatic vent for a greenhouse and give a reason why each is important. An example has been given below.
-
-/Example – The likely cost of the whole project so that we are able to sell it at a reasonable price./
-
-- Consideration 1:
-- Consideration 2:
-
-/(4 marks)/
-
-The next part of this question is about research.
-- (b) The layout of a research plan for the automatic vent for a greenhouse is shown below. Complete the diagram below: -
-- by adding another suitable research source /(1 mark)/
-- by stating the information that you would hope to find for each of these research sources. The materials catalogue section has been completed for you.
-/(3x 2 marks)/
-
-- (c) Describe how the information from analysis and research may affect the final design./(2 marks)/
-
-This part of the question is about design specification.
-- (d) Give four design requirements for your automatic vent for a greenhouse and an explanation of each requirement. An example is given below.
-
-/Requirement: The vent must open when the temperature is above 25°C.
-Explanation: The vent should open to allow the greenhouse to cool to protect the plants./
-
-- Requirement 1: 
-- Explanation 1: 
-
-- Requirement 2:
-- Explanation 2:
-
-- Requirement 3:
-- Explanation 3:
-
-- Requirement 4:
-- Explanation 4:
-
-/(8 marks)/
-
-*June 2012, Q5a.* List two Health & Safety requirements for a coffee vending machine. /(4 marks)/
-
-*June 2012, Q7d.* Describe two possible problems of shipping faulty goods to customers. /(4 marks)/
-
-[[file:index.html][Return to homepage]]

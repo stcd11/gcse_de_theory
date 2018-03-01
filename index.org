@@ -54,12 +54,12 @@
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-* [[file:2.html][1.8 - Metals]]
+* [[file:8.html][1.8 - Metals]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-* [[file:2.html][1.9 - Paper and Boards]]
+* [[file:9.html][1.9 - Paper and Boards]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
