@@ -1,0 +1,117 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Design Contexts
+#+AUTHOR: C. Delport
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stcd11/gcse_de_theory">Fork me on GitHub</a>
+</div>
+<center>
+<img src='./img/Electronic.jpg' width=20%>
+</center>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+e* Introduction
+[[file:img/pic.jpg]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: intro
+:END:
+* Introduction
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Electronic systems are used to make our lives improve. Modern electronic systems have been developing very quickly.
+- Electricity was discovered over a 100 years ago and its use in our everyday life has progressed rapidly, especially over the last 30 years.
+[[./img/Electronics_timeline.jpg]]
+* Recap
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Questions to consider
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Write a list of all the electronic products you can think of.
+- If you could keep only one electronic product in your life, what would it be?
+- Think of an electronic product you would like that does not exist?
+  - What would you like the product to do?
+  - Why do you think it will be useful?
+  - What sort of people do you think would buy it?
+** Key points
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Electronic systems have developed very rapidly over the past 100 years.
+
+[[file:index.html][Return to homepage]]
