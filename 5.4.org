@@ -6,15 +6,15 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Social and Environmental Issues
-#+AUTHOR: Stephen Brown
+#+TITLE: The Impact of Forces and Stresses on Objects
+#+AUTHOR: C. Delport
 
 #+BEGIN_HTML
 <div class=ribbon>
-<a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/gcse_de_theory">Fork me on GitHub</a>
 </div>
 <center>
-<img src='./img/recycle.svg' width=20%>
+<img src='./img/stresses.gif' width=20%>
 </center>
 #+END_HTML
 
@@ -87,115 +87,80 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: intro
 :END:
-* Introduction
+* Forces and stresses
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- An engineer needs to understand that resources are not infinite, and that the implications of manufacturing decisions (whether in terms of materials, or manufacturing processes) will have a lasting impact on both the planet and those inhabiting it. 
-- Additional information on Social, Moral, Environmental and Sustainability issues can be found [[https://www.bournetoinvent.com/mp3/step_2.html][here]].
-** Social - Impact of Manufacturing
+- There is a range of different forces and stresses that can act on materials.
+- When designing a product it is important to understand the forces that will be put on it so you can choose the best materials and make the product strong enough.
+** Tension
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- In the early 21st century, the majority of mass-produced products were traditionally assembled by hand, on production lines. Low-skilled workers were employed to perform one process or assemble one part of a product on a conveyor system, before the part was sent to the next operative to perform the next step in the construction process. This provided mass employment, and jobs for life for a large portion of the population. Some advantages of a human workforce are:
-
-  - *Adaptable:* Quickly re-trainable when product requirements change,
-  - *Initiative:* Able to spot errors and alert relevant people quickly,
-  - Can usually respond well to unexpected situations (e.g. equipment malfunction, fire, etc),
-  - *Cost:* Low-cost to employ and provide basic training,
-  - *Societal benefits:* Provides local people with paid employment,
-
-- The disadvantages are: -
-  - *Fallability:* Humans can fall ill, will require breaks, can quit suddenly and can’t work 24 hours a day.
-  - *Accuracy:* Each product will be slightly different on every product the person assembles, as humans will work inconsistently. 
-  - *Speed:* Not as quick to work as an automated equivalent
-  - *Eye for detail:* Can make mistakes if distracted.
-
-
-- In the latter half of the 20th century, robotic production lines became increasingly common (/as seen in car manufacturing/). Some of the advantages of a robotic workforce are: -
-
-  - *Quality:* They are more accurate and consistent than a human,
-  - *Productivity:* They don’t take breaks, go sick or have holiday, can work 24 hours a day,
-  - *Safety:* Humans are moved away from dangerous processes, resulting in less injuries,
-  - *Save money:* Robots do not take a wage, need a pension and create less waste.
-- Some disadvantages are:
-  - *Expense:* They have to be purchased initially and require maintenance form highly qualified (and expensive) staff,
-  - *Return on Investment:* This can be long and the market may change, rendering machines redundant.
-  - *Expertise:* The workforce needs to ‘skill up’ to operate and maintain them, resulting in fewer overall jobs,
-  - *Safety:* They can injure personnel if not operated correctly.
-
-** Moral Issues
+- Tension may be described as the pulling force transmitted axially by the means of a string, cable, chain, or similar one-dimensional continuous object, or by each end of a rod, truss member, or similar three-dimensional object; tension might also be described as the action-reaction pair of forces acting at each end of said elements. Tension could be the opposite of compression.
+[[./img/tension.png]]
+** Compression
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Moral issues need to considered by designers. Without proper safeguards in place, poorly designed products can potentially injure, or even kill.
-- For instance, a robotic arm in a car factory might be designed to move a car chassis from one area to the next. An arm such as this would need to be extremely powerful to carry that amount of weight, and if a human were to get in the way of it moving, this /could/ lead to serious injury.
-- The designers of the arm will need to demonstrate that they take every reasonable measure to make the arm as safe as possible. This could include:
-  - Training staff that they are not to go inside a marked area of the arm's operation.
-  - Ensuring the power is isolated when the arm is serviced.
-  - Fit sensors to detect any human coming into the operating area of the arm that will cut power if someone gets to close, and sound a siren.
-  - Fit microswitches to the sides of the arm, so that if it comes into contact with something unexpected, power is cut immediately.
-
-
-- In the event of an accident (e.g. someone getting hit by the arm), although it may look as though it is the user’s fault, it could be argued that the design of the arm was partly to blame. 
-- As well as being sued for damages there is the added issue of bad publicity for the robotics company even if they are found innocent of any wrong doing. It is usually better for any company to prevent the tragedy occurring than win the legal battle following it.
-- The manufacturer would receive bad publicity, resulting in a knock-on drop in sales for their business. 
-** Environmental and Sustainability Issues
+-  In mechanics, compression is the application of balanced inward ("pushing") forces to different points on a material or structure, that is, forces with no net sum or torque directed so as to reduce its size in one or more directions.
+[[./img/compresion.gif]]
+** Torsion
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Plastics are made using oil, which is a non-sustainable material, and not all of these can be easily recycled. If sent to landfill, plastics take hundreds of years to break down, which is harmful to the environment. 
-
-- By creating products which use recyclable or bio-degradable materials such as PLA – a bio-degradable plastic made from corn-starch, wood or metal, the impact on the environment can be reduced. Reducing the amount of packaging can also assist.
-
-- Sustainability can be designed into products. Using a laptop as an example, by making it simple for the owner to replace parts (e.g. Hard Disk) that may wear out before the whole unit is scrap. Products can be created to have access panels and removable covers that can be safely opened / removed, to allow the user to replace parts safely (e.g. battery), and the manufacturer can provide clear instructions on how to replace these parts.
-
-- Spare parts could be designed to be easily identifiable, and made readily available to buy online, and they manufacturer could make certain parts fit many models (e.g. Memory) to make it simpler to stock and identify.
-
-- Finally, if the manufacturer reduced the regularity with which they change the design of their product (e.g. making a thinner design or new colour), the users would not feel the need to scrap their existing laptop before the end of its working life, just to trade up to a newer version.
-
-** Energy
+- A torsion field (also called axion field, spin field, spinor field, and microlepton field) is a feature of a he] theory of energy in which the quantum spin of particles can be used to cause emanations lacking mass and energy to carry information through vacuum orders of magnitude faster than the speed of light.
+[[./img/torsion.png]]
+** Shear
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- In order to manufacture any product, energy is required, whether when sourcing materials, manufacturing, or distributing goods to consumers. This is typically electricity, which has to be generated before being sent to homes and factories. Electricity supplies are split into renewable and non-renewable sources.
-
-- *Burning Coal/Gas:* The traditional way of generating power, these are made from fossil fuels, and are in increasingly short supply. Burning these releases a large amount of CO2, which in turn adds to atmospheric pollution. At the same time, these are still relatively low-cost solutions.
-
-- *Nuclear power:* By using uranium, nuclear fission reactions can generate large amounts of power for many years from relatively little material. There are concerns about safety, following a number of International issues, which makes the public somewhat apprehensive about using them, and the waste material needs to be disposed of very carefully. This is also a non-renewable source. 
-
-- *Wind-power:* By using turbines, clean energy can be created for “free” (after the initial energy required to create the turbine is offset). Unfortunately, wind is variable, and therefore unreliable as a sole source of energy. 
-
-- *Solar power:* More effective in equatorial climates, photo-voltaic cells can be put on roofs in order to generate free electricity from the sun. Unfortunately, PV cells require considerable energy and resources to manufacture, and the sun does not shine all day long. 
-
-- *Geo-thermal:* By digging a deep hole in the ground and using a heat-exchange pump, the heat from the core of the planet can be used to heat homes and businesses.
-
+- Shearing in continuum mechanics refers to the occurrence of a shear strain, which is a deformation of a material substance in which parallel internal surfaces slide past one another. It is induced by a shear stress in the material.
+[[./img/shear.png]]
+* Reinforcing/stiffening techniques
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Some materials may need strengthening by the addition of extra materials or by shaping.
+** Use of composite materials
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Composite materials are made from two or more different types of material. For example, MDF is made from wood fibres and glue, and fibreglass is made from a mesh of glass fibres set in a tough polymer.
+- The materials for a composite material are chosen because they have different properties that combine to make a more useful material. Steel-reinforced concrete is a composite material. It is made by pouring concrete around a mesh of steel cables. When the concrete sets, the material is:
+  1. strong when stretched (because of the steel)
+  2. strong when squashed (because of the concrete)
+- Some really useful composite materials are fibreglass and carbon fibre. These materials take a woven mat of high-tensile fibres made from glass or carbon, lay them over a mould and cover them with a plastic resin that sets hard.
+- These can be layered and built up to make the incredibly strong.
+- Another excellent material is Kevlar, this is used in police and military equipment.
+- Click on [[https://www.bbc.com/education/guides/ztxnsbk/revision/3][this]] link to read more.
+** Ribbing to strengthen structures
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Manufacturers want to keep costs as low as possible, so the less material they can use the better.
+- By adding a rib to a product you can increase the strength.
+- Plastic bottles have ribs in the to improve their strength, along with cardboard boxes.
 * Recap
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+- A product needs to be strong to withstand the forces that might be put on it.
+  1. Tension (pulling).
+  2. Compression (squashing).
+  3. Torsion (twisting).
+  4. Shear (opposite directions).
+- Fibreglass and carbon fibre use a fibre mat and resin to make a strong, lightweight composite material.
+- Intelligent design can increase strength and use less material.
 ** Practice Questions
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- Discuss the impact of introducing robotic assembly at a drill manufacturing company on the staff who work there.
+- Draw diagrams for the following forces:
+  1. Tension.
+  2. Compression.
+  3. Torsion.
+  4. Shear.
+- What is carbon fibre made from?
+- Explain why carbon fibre is stronger the carbon fibre matting or plastic resin on their own.
 
-- Why do some companies move their manufacturing operations abroad? 
-
-- A company wants to make a new, environmentally friendly range of kitchen equipment. Suggest two materials they could use to manufacture their products from.
-
-- Name two environmentally friendly power sources. 
-
-- Name two non-renewable energy sources.
-
-** Past Paper Questions
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- *June 2013, Q4.* You are advised to spend about 20 minutes on this question. This question is about social, cultural, moral and environmental issues. 
-  - (a) A company is considering purchasing robots to manufacture their products. Explain an advantage and a disadvantage of using robots in manufacturing. /(4 marks)/
-  - (b) A UK company is considering moving the manufacturing of its products to China. Explain the benefits for the company of manufacturing their products in China. /(4 marks)/
-  - (c) A multinational company is using a production process that is legal to use in some countries but is considered too dangerous to be used legally in the UK. Discuss whether or not the company should use this production process in those countries where it is legal to do so. Give reasons for your answer. /(4 marks)/
-  - (d) Explain how manufacturers can design sustainability into a product. Give examples in your answer. You will be tested for quality of written communication in this part of the question. /(8 marks)/
-
-[[file:index.html][Return to homepage]]
