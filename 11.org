@@ -6,15 +6,14 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Circuit Design and Manufacture
-#+AUTHOR: Stephen Brown
+#+TITLE: Fibres and textiles
+#+AUTHOR: Paul Dougall
 
 #+BEGIN_HTML
 <div class=ribbon>
 <a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
 </div>
 <center>
-<img src='./img/etch_tank.jpg' width=50%>
 </center>
 #+END_HTML
 
@@ -101,105 +100,197 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Designing a Circuit
+* Natural Fibres
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- Prior to manufacturing, engineers need to design and test their circuit ideas to ensure they work correctly. 
-** Software Simulation
+- Natural fibres fall into two categories - animal and vegetable. 
+
+** Animal
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
+:HTML_CONTAINER_CLASS: research
 :END:
-- By modelling a circuit in software (we use Circuit Wizard), the design can be quickly changed, and components swapped in and out. This has the advantages that no real-world components are needed, that when components blow they can be reset rather than needing costly replacement, simulations often show the flow of current in the circuit to help with design. Designing PCBs on a computer also allows for changes to be made without having to re-draw an entire artwork by hand. 
-- The disadvantages are that the simulation is only as good as the software, so what works on the computer doesn’t always work in real life. Additionally, software can be very expensive. 
-** Breadboarding
+
+- Examples of fibres from animals are wool and leather.
+- *Wool* 
+- The first step in making wool fabric is shearing it from sheep, then its quality is checked and it is prepared for spinning. 
+- The wool is spun into long strands then the strands are woven into fabric.
+- ADVANTAGES: It holds moisture without feeling wet, plus it is a great thermal insulator.
+- DISADVANTAGES: It can be scratchy and uncomfortable to wear, and heat and moisture can cause it to felt.
+
+** Vegetable
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
+:HTML_CONTAINER_CLASS: research
 :END:
-- By creating a physical representation of a circuit on a breadboard with actual components, an engineer can model a circuit prior to manufacturing it. The breadboard advantages are that because they are not soldered into place, components can be quickly swapped in and out, and that if a circuit works on a breadboard, the engineer can be confident it will work when manufactured. 
-- The disadvantages are that wires can come out of the holes, when components fail they need to be thrown away, breadboards can become very densely populated and hard to read, and breadboarding requires the engineer to have all actual the components for their product, making experimentation hard if they want to try a new idea.
-* Manufacturing a permanent circuit
+
+- Examples of a fibre from vegetables are cotton and silk.
+- *Cotton* is made into fabric after first being cleaned, bleached, spun into threads, and woven. 
+- The process is fairly complicated and is mostly done by machine.
+- Cotton can be washed in any water temperature, although higher temperatures are better for getting stains out... but hot water can shrink the fabric.
+ 
+- ADVANTAGES: It’s breathable, inexpensive, resists static, and it can withstand high heat.
+- DISADVANTAGES: It’s prone to shrinking and stretching, it dries slowly, and it isn’t wrinkle resistant.
+
+* Synthetic fibres
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Chemical Etching
+
+** Polyester
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END: 
+- Polyester is a synthetic fiber derived from coal, air, water, and petroleum. Polyester fibers are formed from a chemical reaction between an acid and alcohol. 
+- In this reaction, two or more molecules combine to make a large molecule whose structure repeats throughout its length.
+- You can wash polyester in your washing machine with either cold or warm water, and then you can dry it in your machine as well.
+- ADVANTAGES: It’s hard to stain, it holds its shape, and it doesn’t wrinkle. 
+- DISADVANTAGES: It doesn’t absorb dyes, it doesn’t feel as soft as cotton does, and it is highly shrinkable.
+
+** Acrylic
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+- Acrylic can either be wet or dry spun. They use solvents to dissolve the polymer and then solidify them for their spinning process.
+- ADVANTAGES: Retains color well, has a wool- like texture, and is resistant to wrinkling.
+- DISADVANTAGES: Relatively poor insulation, and it melts as it burns.
+
+* Woven textiles
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+- Weaving is the primary way fabric is formed. Woven fabrics are formed by weaving threads over and under each other. 
+- There are many natural and man-made types of woven fabrics including denim, broadcloth, silk, satin, flannel and twill. 
+- Fabric thread can be made from cotton, linen, bamboo, polyester and even rayon.
+
+*Advantages*
+
+- Woven fabrics are created by taking threads and weaving them over and under each other multiple times. As a result, woven fabrics are exponentially stronger than other types of fabrics.
+- easy to clean
+- durable and hard wearing.
+
+*Disadvantages*
+
+- cost
+- rigid and less comfortable to wear
+
+* Non woven textiles
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Because it is a kind of form that does not require spinning weaving fabric, but the textile fiber or filament for directional or random support, the formation of the fibre network structure, and then the mechanical, thermal or chemical methods and strengthening into. 
+- Nonwovens break through the traditional textile principle, and have the characteristics of short process flow, fast production, high yield, low cost, wide use and many sources of raw materials.
+
+*Advantages:*
+
+- 1 aeration filtration
+- 2 absorbent insulation waterproof 
+- 3 not scalable 
+- 4 unkempt feel good, soft light 
+- 5 elastic recovery without cloth direction 
+- 6 compared with the production of textile fabrics high production speed, low price, 
+- 7 can be produced in large quantities and so on.
+
+*Disadvantages are:*
+ 
+- 1 compared with the textile cloth, strength and durability is poor, 
+- 2 can not be washed as as other fabrics.
+- 3 The fibers are arranged in a certain direction, so it is easy to split from the right angle. Therefore, improvements in the production methods have recently been made to prevent fragmentation.
+
+* Knitted textiles
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+** Weft knitted
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+- Weft knitting is the most common type of knitting, it is the process of making a fabric by forming a series of connected loops in a horizontal or filling-wise direction.
+- It can be produced on both flat and circular knitting machines or by hand.
+Uses:
+- Tailored garments, like jackets, suits, or sheath dresses are made from weft knitting.
+- Interlock knit stitch is wonderful for making T-shirts, turtlenecks, casual skirts, dresses and children's wear.
+- Seamless hosiery, knitted in tubular form, is produced by circular knitting machines.
+- Circular knitting is also used for the production of fabrics used in sports having high stretch ability and also dimensional stability.
+- Knitted hats and scarves are used in the winter season are made through weft knitting.
+- Industrially, metal wire is also knitted into a metal fabric for a wide range of uses including the filter material in cafeterias, catalytic converters for cars and many other uses.
+
+Advantages
+- Stretchy, comfortable, fast production
+Disadvantages
+- Ladders easily
+
+** Warp knitted
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+- Warp knitting is the process of making a fabric with a mchine by forming the loops in a vertical or warp-wise direction; the yarn is prepared as warp on beams with one or more yarns for each needle. 
+- The fabric has a flatter, closer, less elastic knit than weft knit and is very often run resistant.
+
+Uses:
+
+- Tricot knit a type of warp knitting is used in the making of light weight fabrics usually inner wear like panties, brassieres, camisoles, girdles, sleepwear, hook & eye tape, etc.
+- In apparel warp knitting is used for making sportswear lining, track suits, leisure wear and safety reflective vests.
+- In household warp knitting is used for making mattress stitch-in fabrics, furnishing, laundry bags, mosquito nets and aquarium fish nets.
+- The inner linings and inner sole linings of sports and industrial safety shoes are made from warp knitting.
+- Car cushion, head rest lining, sun shades and lining for motorbike helmets are being made from warp knitting.
+- For industrial uses PVC/PU backing, production masks, caps and gloves (for the electronic industry) are also made from warp knitting.
+- Fabrics for printing and advertising are also produced from warp knitting.
+- The warp knitting process is also being used for the production of bio-textiles. For example, a warp knitted polyester cardiac support device has been created to attempt to limit the growth of diseased heart by being installed tightly around the heart.
+
+Advantages
+- Fairly stretchy, retains heat, does not unravel
+Disadvantages
+- Can lose shape, curls at edges
+
+* Properties of textiles
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+** Elasticity - amount of stretch
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- tested by gradually increasing the force on the fibres until breaking point
+- At low lods the fibres obey Hooke's law - stretch is proportional to the load and the fibres will return to their original shape.
+- Clothes made from fibres that recover will maintain their shapes and not keep creases.
+
+** Resilience - resistance to being deformed or compressed
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- Etching PCB’s (/Printed Circuit Boards/) is one way to create a permanent circuit. Two alternatives would be to use stripboard, or alternatively using a milling machine to channel out tracks into copper board; both of these are better for the environment than using chemicals like we do in school. Using a PCB has the advantage of having a small physical footprint (i.e. being smaller than stripboard), and as it is permanent, will produce a reliable and long-lasting product when finished.
 
+- Fibres should spring back vigourously when pressure has been applied.
+Loft (compressional resiliency) is the ability to return to original thickness after being compressed or squashed, or to resist creasing.
 
-- To manufacture a PCB using an etch-tank, the steps are:
-    - Print the PCB artwork onto transparency paper.
-    - Trim a piece of photo-board to the correct size, peel off the protective layer, and place the artwork and board in the UV light box for three minutes to soften the photo-resist layer on the board.
-    -  Wearing an apron, gloves and goggles, place the exposed PCB into the pre-heated developer tank for around 30s to remove the softened photo-resist layer from the PCB. Wash the PCB under the tap once done, and visually inspect.
-    -  Put the PCB into the pre-heated etchant tank, and turn on the bubbles to accelerate the etching process for around 5 minutes. 
-    -  Once all the unwanted copper has been removed, wash and dry the PCB. Perform a visual inspection to ensure the process is complete.
-    -  Drill holes, trim precisely to size and use a resist stripper. 
-    -  Finally, the board can be placed in a tinning solution if it not to be etched immediately. 
-
-
-- Using an etch-tank has many advantages:
-    - The PCB can be designed very efficiently, so the size will be small.
-    - Labels or a silkscreen can be added to make soldering easier.
-    - Debugging the circuit is easier, as tracks can be easily followed
-    - Once designed, a PCB can be easily etched over and over again.
-
-
-- There are a number of disadvantages, though:
-    - An etch tank costs several hundred pounds, and the chemicals go stale over time, and will need replenishing.
-    - The chemicals need to be disposed of correctly.
-    - The process is messy.
-    - Photoboard is expensive compared to strip-board.
-    - Designing a PCB requires a degree of skill and experience to reduce the board-size. Creating designs is a time-consuming task.
-
-* Testing a Circuit
-- Once a PCB (or breadboard) has been built, there are several ways to test the board, or find faults in it.
+** Durabilty
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
+:HTML_CONTAINER_CLASS: research
 :END:
-** Techniques
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- A *Multimeter* is a multi-purpose instrument which can be used in a variety of ways:
-    - a. *Continuity* can test whether two PCB tracks in close proximity are touching or not, whether a ground pin has a connection to the negative end of a battery, whether both drilled ends of a track are connected or not or whether a soldered point has failed.
-    - b. *DC Voltage* can test that components such as PIC chips and 555 timers have a potential difference, when the circuit is energised.
-    - c. *Resistance* can be used to test that individual resistors in the circuit are working correctly. 
-- A *visual inspection* of a PCB will show whether all the tracks have etched correctly, that all the holes have been drilled centrally on the pads, that the PCB hasn’t been over-trimmed to chop off any tracks, that polarised components (e.g. LEDs, electrolytic capacitors) are correctly oriented and that any ICs (e.g. 555 timer chips) have been inserted the correct way around.
-- Once the above have been completed, the circuit can be *energised briefly* while ICs and voltage regulators are checked for over-heating (a symptom of short circuits). 
-- Once the circuit is built, an *[[http://en.wikipedia.org/wiki/Oscilloscope][oscilloscope]]* can be used on output pins to show voltage levels over time on its output screen (e.g. to see the output on an astable 555 timer chip going high-low). 
-
+- Depends on the choice of fibres and fabrics, and the user's activities and size.
 
 * Recap
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Past Paper Questions
+- Natural fibres come from plants and animals
+- Synthetic fibres are artifically made from chemicals
+- The two main types of weave are plain and twill
+- Non woven fabrics are made by either felting or bonding
+- Knitted fabrics are either warp or weft knitted.
+** Exam style questions
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- *June 2010, Q4.* You are advised to spend about 30 minutes on this question. This question is about Printed Circuit Board (PCB) design and construction.
+- Explain one benefit of using wool felt for constructing a hat
+- Explain one disadvantages of using wool felt in a hat.
+- Describe the advantages and disadvantages of cotton.
+- Explain how felt is made. 
+- Devise a test for the resilience of different textiles
+- Explain why a test for elasticity would be important when choosing fabrics for swimwear.
 
-- (a) It is best to test that a circuit works before building a PCB. Describe one method of testing a circuit before building a PCB. (3 marks)
-- (b) The circuit below pulses the speaker. 
-[[./img/2010_q4b1.png]]
-- Complete the missing five PCB tracks on Figure 2 for the circuit in Figure 1. The pads and some of the tracks have been completed for you. Your tracks should not cross at any point and should be drawn neatly.
-[[./img/2010_q4b2.png]]
-- (c) Give two advantages of using Computer Aided Design (/CAD/) to design PCBs. /(4 marks)/
-- (d) (i) List four main stages in a PCB production process. /(4 marks)/
-- (d) (ii) Describe in detail the PCB production process outlined in part (d) (i). /(8 marks)/
-
-
-- *June 2012, Q5c.* The control system for a coffee vending machine is running on a PIC (microcontroller). On the diagram below, show the connections between the PIC and the component that operates the hot water valve (component A). 
-[[./img/2012_q5c.png]]
-- You should also name any other components used.      /(4 marks)/
-
-
-- *June 2012, Q7.* You are advised to spend about 15 minutes on this question. This question is about fault finding on printed circuit boards. 
-- (a) Tick the box below the joint that has been correctly soldered.	/(1 mark)/
-[[./img/2012_q7a.png]]
-- (b) Name two different types of electronic test equipment. /(2 marks)/
-- 7 (c) Describe how to find faults in a printed circuit board. /(8 marks)/
 
 [[file:index.html][Return to homepage]]
