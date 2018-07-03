@@ -194,7 +194,9 @@ e* Introduction
 - You need to calculate the 'reciprocals' of all the resistors reciprocal = 1 divided by the number; 1/x is the reciprocal of x.
 [[./img/parallel_resistor.png]]
 [[./img/parallel_resistor_2.png]]
- 
+ #+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rwU6lT_yYoA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
 ** Area
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
