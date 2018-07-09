@@ -510,37 +510,13 @@ for the JavaScript code in this tag.
 <p><img src="./img/cable_management.jpg" alt="cable_management.jpg" />
 </p>
 </div>
-<ul class="org-ul">
-<li>We also dont want a cable to be soldered directly to a PCB as this will create a weak point and the wire will most likely break loose.
-</li>
-<li>To prevent this, we drill strain relief holes which allow the wires/cable to run from under the PCB, making the stress move from the soldered joint.
-</li>
-</ul>
-
-<div class="figure">
-<p><img src="./img/strain_relief.jpg" alt="strain_relief.jpg" />
-</p>
-</div>
-<ul class="org-ul">
-<li>It is also a good idea to colour code cables to make them easier to identify after soldering and running the cable.
-</li>
-</ul>
 </div>
 </div>
 <div id="outline-container-sec-4-3" class="outline-3 learn">
 <h3 id="sec-4-3">Wastage</h3>
 <div class="outline-text-3" id="text-4-3">
 <ul class="org-ul">
-<li>This is the process of removing any excess materials.
-</li>
-<li>When you have soldered in the components, you will cut off the excess component legs to make the PCB smaller and prevent shorting.
-</li>
-<li>The PCB can also be trimmed down to remove excess board. Hand tools will be used to do this, such as a saw or drill.
-</li>
-<li>Some products can be recycled. If you are turning on a lathe or cutting in a milling machine. The metal <b>swarf</b> can often be collected and recycled and then reused.
-</li>
-<li>This could save you money.
-</li>
+<li></li>
 </ul>
 </div>
 </div>
@@ -548,16 +524,7 @@ for the JavaScript code in this tag.
 <h3 id="sec-4-4">Addition</h3>
 <div class="outline-text-3" id="text-4-4">
 <ul class="org-ul">
-<li>Addition is the process that puts materials together to form the required shapes.
-</li>
-<li>Materials can be cut into shapes with hand tools and fixed together with joints, adhesives(glues), mechanical fixings(screws, nuts and bolts, rivets), and by heat, including soldering, brazing and welding.
-</li>
-<li>3D printing is also an addition process, because plastic is added to build up the required design.
-</li>
-<li>Addition is an efficient use of material, as pieces are cut to the right size with little wastage.
-</li>
-<li>There are often lots of joins between pieces of materials, so it is difficult to make the product strong.
-</li>
+<li></li>
 </ul>
 </div>
 </div>
@@ -570,16 +537,7 @@ for the JavaScript code in this tag.
 <h3 id="sec-5-1">Practice Questions</h3>
 <div class="outline-text-3" id="text-5-1">
 <ol class="org-ol">
-<li>Name 3 hand tools that will be useful in amking prottype PCBs.
-</li>
-<li>Suggest 2 things a computer could help with when designing or making electronic products.
-</li>
-<li>Gine an example of a product that would be created using a vaccuum former.
-</li>
-<li>Find out the best technique for soldering a joint with a soldering iron, describe the process.
-</li>
-<li>Give an advantage of wastage and an advantage of the addition process.
-</li>
+<li></li>
 </ol>
 </div>
 </div>
