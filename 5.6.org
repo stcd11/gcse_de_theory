@@ -6,15 +6,15 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Social and Environmental Issues
-#+AUTHOR: Stephen Brown
+#+TITLE: Manufacturing Processes
+#+AUTHOR: C. Delport
 
 #+BEGIN_HTML
 <div class=ribbon>
-<a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/gcse_de_theory">Fork me on GitHub</a>
 </div>
 <center>
-<img src='./img/recycle.svg' width=20%>
+<img src='./img/manu_process.png' width=20%>
 </center>
 #+END_HTML
 
@@ -87,90 +87,174 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: intro
 :END:
-* Introduction
+* Processes
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- An engineer needs to understand that resources are not infinite, and that the implications of manufacturing decisions (whether in terms of materials, or manufacturing processes) will have a lasting impact on both the planet and those inhabiting it. 
-- Additional information on Social, Moral, Environmental and Sustainability issues can be found [[https://www.bournetoinvent.com/mp3/step_2.html][here]].
-** Social - Impact of Manufacturing
+- Manufacturing engineering or manufacturing process are the steps through which raw materials are transformed into a final product. The manufacturing process begins with the product design, and materials specification from which the product is made.
+** Photo etching
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- In the early 21st century, the majority of mass-produced products were traditionally assembled by hand, on production lines. Low-skilled workers were employed to perform one process or assemble one part of a product on a conveyor system, before the part was sent to the next operative to perform the next step in the construction process. This provided mass employment, and jobs for life for a large portion of the population. Some advantages of a human workforce are:
-
-  - *Adaptable:* Quickly re-trainable when product requirements change,
-  - *Initiative:* Able to spot errors and alert relevant people quickly,
-  - Can usually respond well to unexpected situations (e.g. equipment malfunction, fire, etc),
-  - *Cost:* Low-cost to employ and provide basic training,
-  - *Societal benefits:* Provides local people with paid employment,
-
-- The disadvantages are: -
-  - *Fallability:* Humans can fall ill, will require breaks, can quit suddenly and can’t work 24 hours a day.
-  - *Accuracy:* Each product will be slightly different on every product the person assembles, as humans will work inconsistently. 
-  - *Speed:* Not as quick to work as an automated equivalent
-  - *Eye for detail:* Can make mistakes if distracted.
-
-
-- In the latter half of the 20th century, robotic production lines became increasingly common (/as seen in car manufacturing/). Some of the advantages of a robotic workforce are: -
-
-  - *Quality:* They are more accurate and consistent than a human,
-  - *Productivity:* They don’t take breaks, go sick or have holiday, can work 24 hours a day,
-  - *Safety:* Humans are moved away from dangerous processes, resulting in less injuries,
-  - *Save money:* Robots do not take a wage, need a pension and create less waste.
-- Some disadvantages are:
-  - *Expense:* They have to be purchased initially and require maintenance form highly qualified (and expensive) staff,
-  - *Return on Investment:* This can be long and the market may change, rendering machines redundant.
-  - *Expertise:* The workforce needs to ‘skill up’ to operate and maintain them, resulting in fewer overall jobs,
-  - *Safety:* They can injure personnel if not operated correctly.
-
-** Moral Issues
+- Photo etching is the method of producing a printed circuit board (PCB). 
+- the process is a follows:
+ 1. Print the PCB design onto a clear transparency sheet using a laser printer.
+ 2. Cut the PCB to size.
+ 3. Peel the sticker (protective layer) from the PCB.
+ 4. Place the exposed photo-board on top of the laser printed design inside a UV light box.
+ 5. Allow the PCB to be exposed for the required length of time.
+ 6. The board now goes into the developer tank which removes the now softened PCB protection layer.
+ 7. The PCB then goes into the Ferric Chloride  tank to remove the excess copper.
+ 8. The PCB is then sprayed with photo-resist stripper to remove the final layer of protective film on the PCB.
+- This is the best process for making PCBs in schools. 
+- It is however, a vey slow process and not suitable for mass production.
+- All the chemicals need need regular replacement as they become saturated with copper. 
+- These chemicals will need to be disposed of safely.
+** PCB population
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Moral issues need to considered by designers. Without proper safeguards in place, poorly designed products can potentially injure, or even kill.
-- For instance, a robotic arm in a car factory might be designed to move a car chassis from one area to the next. An arm such as this would need to be extremely powerful to carry that amount of weight, and if a human were to get in the way of it moving, this /could/ lead to serious injury.
-- The designers of the arm will need to demonstrate that they take every reasonable measure to make the arm as safe as possible. This could include:
-  - Training staff that they are not to go inside a marked area of the arm's operation.
-  - Ensuring the power is isolated when the arm is serviced.
-  - Fit sensors to detect any human coming into the operating area of the arm that will cut power if someone gets to close, and sound a siren.
-  - Fit microswitches to the sides of the arm, so that if it comes into contact with something unexpected, power is cut immediately.
-
-
-- In the event of an accident (e.g. someone getting hit by the arm), although it may look as though it is the user’s fault, it could be argued that the design of the arm was partly to blame. 
-- As well as being sued for damages there is the added issue of bad publicity for the robotics company even if they are found innocent of any wrong doing. It is usually better for any company to prevent the tragedy occurring than win the legal battle following it.
-- The manufacturer would receive bad publicity, resulting in a knock-on drop in sales for their business. 
-** Environmental and Sustainability Issues
+- Once the etching process has been comppleted, the PCB will need to be prepared and populated with components.
+- The PCB will need to be drilled using the appropriate size drill bit, usually 1mm, this will be slightly bigger for components with thicker legs.
+- Components are then pushed through the holes and then soldered in place on the opposite side where the copper tracks are.
+- You must ensure all the holes are drilled before placing components, as it is usually very difficult to drill holes after the components are placed.
+* Scales of Production
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- When you decide to manufacture a product, it is important to choose the correct scale. Smaller production numbers will a require very different process compared to large scale production.
+- The method you choose to produce your design will have a significant impact on the cost to produce it as well as the setup costs.
+** One-off prototyping
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Plastics are made using oil, which is a non-sustainable material, and not all of these can be easily recycled. If sent to landfill, plastics take hundreds of years to break down, which is harmful to the environment. 
-
-- By creating products which use recyclable or bio-degradable materials such as PLA – a bio-degradable plastic made from corn-starch, wood or metal, the impact on the environment can be reduced. Reducing the amount of packaging can also assist.
-
-- Sustainability can be designed into products. Using a laptop as an example, by making it simple for the owner to replace parts (e.g. Hard Disk) that may wear out before the whole unit is scrap. Products can be created to have access panels and removable covers that can be safely opened / removed, to allow the user to replace parts safely (e.g. battery), and the manufacturer can provide clear instructions on how to replace these parts.
-
-- Spare parts could be designed to be easily identifiable, and made readily available to buy online, and they manufacturer could make certain parts fit many models (e.g. Memory) to make it simpler to stock and identify.
-
-- Finally, if the manufacturer reduced the regularity with which they change the design of their product (e.g. making a thinner design or new colour), the users would not feel the need to scrap their existing laptop before the end of its working life, just to trade up to a newer version.
-
-** Energy
+- When you wish to produce a circuit as a prototype to test it before full scale production, one of the methods that can be used is 'breadboarding'.
+- A breadboard also known as protoboard is a type of solderless electronic circuit building.You can build a electronic circuit on a breadboard without any soldering! Best of all it is reusable. 
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q_Q5s9AhCR0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+** Batch
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- In order to manufacture any product, energy is required, whether when sourcing materials, manufacturing, or distributing goods to consumers. This is typically electricity, which has to be generated before being sent to homes and factories. Electricity supplies are split into renewable and non-renewable sources.
+- When you need to produce a number of the same product at the same time, a single batch production might be used. 
+- For this process, *jigs* (fits over a piece of material to guide accurate cutting or drilling without the need for marking) or *templates* (a cut-out of a shape that can be drawn around onto the material to mark out quickly and easily) are used.
+- A good example of this is vaccuum forming. This is a system which uses a *mould* to produce the same shape repetitively.
+- Advantages: 
+ 1. The jigs and templates speed up the process and can be kept for future use.
+ 2. There is no need for expensive specialist equipment.
+- Disdavantages.
+ 1. Very labour intensive using the jigs and templates.
+ 2. Producting the jigs and templates can be costly.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BqV_jsxD0UA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+** Mass Production
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- When you wish to produce a product large scale (in the thousands), you will need to use a mass production method.
+- These are the processes you will usually find in factories.
+- The setup costs for these factories is very high, but as you will be producing thousands of the product, the cost should be offset against this.
+- Examples of mass production processes are:
+ 1. Injection moulding.
+ 2. Blow moulding.
+ 3. Stamping.
+- Advantage:
+ 1. Can make products very quickly.
+- Disadvantages:
+ 1. Very expensive to setup/
+ 2. Only cost effective if large numbers are made and sold.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b1U9W4iNDiQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+** Continuous
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- This is the next dtep from mass production, but the process runs 24 hours a day.
+- This process is used when very high volumes are needed and the factory can not be shut down over night.
+- When the process is very long and stopping and starting it can cause serious delay, then this process is used.
+- A good example of this is the car industry. if any stage in the production line is stopped. Delays and backups are created in other parts of the line.
+- Advantage:
+ 1. Makes larger numbers of products very cheaply and quickly.
+- Disadvantages:
+ 1. Machinery is very expensive.
+ 2. Only worthwhile if very large numbers of the product are made and sold.
+* Techniques for quantity production
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Pick and place and surface mount technology
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- This system is used when making PC boards. 
+- It is used to place components onto a PCB before heating them to solder the components.
+- This is referred to as surface mount technology.
+- Click on [[https://en.wikipedia.org/wiki/SMT_placement_equipment][this]] link to read more about SMT technology.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S8qkaTsr2_o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+** Quality Control (QA)
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- If you are to produce a product, you do not want to make the entire product and then check to see if it works and is in good condition at the end.
+- You will want to check at many points along the way to ensure the product or parts are up to standard before moving onto the next step.
+- This is known as quality control (QA). 
+- You will want to setup as many points as you can in you production line to QA the product before moving onto the next step.
+** Marking out methods
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Measurements are taken from a baseline or datum surface. A lot of tasks require two datum surfaces at right angles to each other. Smoothing off will turn a rough, newly-sawn edge into a datum surface.
+ 1. To create a datum surface on wood, a plane is used.
+ 2. To create a datum surface on metal and plastics, a flat file or hand file is used.
+[[./img/Marking out methods.jpg]]
+- To read more about this, go to the [[http://www.bbc.co.uk/schools/gcsebitesize/design/resistantmaterials/processtechniquesrev2.shtml][BBC bitesize website]].
+** Templates
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- When turning a detailed shape, a card template is very useful.
+- The template can be pushed against a material, in order to check the accuracy of the shape/form.
+- It can also be used to draw a complex shape onto a material repeatedly.
+- To learn more about [[http://www.bbc.co.uk/schools/gcsebitesize/design/resistantmaterials/processtechniquesrev3.shtml][templates]], click on the link. 
 
-- *Burning Coal/Gas:* The traditional way of generating power, these are made from fossil fuels, and are in increasingly short supply. Burning these releases a large amount of CO2, which in turn adds to atmospheric pollution. At the same time, these are still relatively low-cost solutions.
-
-- *Nuclear power:* By using uranium, nuclear fission reactions can generate large amounts of power for many years from relatively little material. There are concerns about safety, following a number of International issues, which makes the public somewhat apprehensive about using them, and the waste material needs to be disposed of very carefully. This is also a non-renewable source. 
-
-- *Wind-power:* By using turbines, clean energy can be created for “free” (after the initial energy required to create the turbine is offset). Unfortunately, wind is variable, and therefore unreliable as a sole source of energy. 
-
-- *Solar power:* More effective in equatorial climates, photo-voltaic cells can be put on roofs in order to generate free electricity from the sun. Unfortunately, PV cells require considerable energy and resources to manufacture, and the sun does not shine all day long. 
-
-- *Geo-thermal:* By digging a deep hole in the ground and using a heat-exchange pump, the heat from the core of the planet can be used to heat homes and businesses.
-
-* Recap
+** Patterns
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- A pattern is used to make an exact copy. 
+- Dress makers use these to make dresses or clothing to an exact pattern.
+** Sub-Assembly
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Complex machines are made up of many different parts/sub assemblies.
+- Often these sub-assemblies are made up at different locations and then sent to one factory to put the all together.
+- For example, in the car industry, engines (a sub assembly) are usually built and assembled at a plant and then are send to the car factory where they are put in the vehicle.
+** Working with tolerance
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- All parts manufactured are never perfect.
+- For example, most parts will expand and contract depending on their temperature. So when producing parts, you will need to take this into account and adjust your design to accomodate small changes.
+- Other issues you might face is the measuring equipment is not always 100% accurate.
+- Manufacturers always build in tolerances to allow for all these slight indifferences. 
+- These are usually indicated in a +/- value. 
+- For example, most of the resistors we use have a gold band at the end, this indicates there is a +/- 5% tolerance of the reisitors value in ohms.
+- This can also be in +/- mm if size is the issue.
+- Some industries will have a higher value tolerance the other, for example, in the building industry, tolerances of a few millimetres will be acceptable. Where the car industry tolerances will need to be within a few thousandths (0.001mm) of a millimetre.
+** Efficient Cutting to Minimise Waste
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- You will always need to consider the materials you use and try to ensure you use as much of it as possible to minimise waste.
+- As the raw materials cost money, this will save you money.
+- For example, we use 600X300mm plywood sheets. When designing your product, you will need to try use as little of this material as possible.
+* Practice Questions
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -178,24 +262,10 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- Discuss the impact of introducing robotic assembly at a drill manufacturing company on the staff who work there.
-
-- Why do some companies move their manufacturing operations abroad? 
-
-- A company wants to make a new, environmentally friendly range of kitchen equipment. Suggest two materials they could use to manufacture their products from.
-
-- Name two environmentally friendly power sources. 
-
-- Name two non-renewable energy sources.
-
-** Past Paper Questions
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- *June 2013, Q4.* You are advised to spend about 20 minutes on this question. This question is about social, cultural, moral and environmental issues. 
-  - (a) A company is considering purchasing robots to manufacture their products. Explain an advantage and a disadvantage of using robots in manufacturing. /(4 marks)/
-  - (b) A UK company is considering moving the manufacturing of its products to China. Explain the benefits for the company of manufacturing their products in China. /(4 marks)/
-  - (c) A multinational company is using a production process that is legal to use in some countries but is considered too dangerous to be used legally in the UK. Discuss whether or not the company should use this production process in those countries where it is legal to do so. Give reasons for your answer. /(4 marks)/
-  - (d) Explain how manufacturers can design sustainability into a product. Give examples in your answer. You will be tested for quality of written communication in this part of the question. /(8 marks)/
-
-[[file:index.html][Return to homepage]]
+ 1. What is a breadboard used for?
+ 2. What is a Jig?
+ 3. What is a template?
+ 4. Why does it make it cheaper to produce a product when using jigs and templates?
+ 5. Why do you need to consider tolerance in the designing of a part?
+ 6. What production method is best if you want to make 20 of the same product and *why*?
+ 7. What production method is best if you want to make 50 000 of the same product and *why*?
