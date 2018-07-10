@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Social and Environmental Issues</title>
+<title>Properties and Origins of Components</title>
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <style type="text/css">
@@ -137,238 +137,875 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Social and Environmental Issues</h1>
+<h1 class="title">Properties and Origins of Components</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Introduction</a>
+<li><a href="#sec-1">1. Sensors</a>
 <ul>
-<li><a href="#sec-1-1">Social - Impact of Manufacturing</a></li>
-<li><a href="#sec-1-2">Moral Issues</a></li>
-<li><a href="#sec-1-3">Environmental and Sustainability Issues</a></li>
-<li><a href="#sec-1-4">Energy</a></li>
+<li><a href="#sec-1-1">Light-Dependant Resistors (LDR)</a></li>
+<li><a href="#sec-1-2">Thermistor</a></li>
+<li><a href="#sec-1-3">Moisture Sensor</a></li>
+<li><a href="#sec-1-4">Piezoelectric Sensor</a></li>
 </ul>
 </li>
-<li><a href="#sec-2">2. Recap</a>
+<li><a href="#sec-2">2. Control Devices and Components</a>
 <ul>
-<li><a href="#sec-2-1">Practice Questions</a></li>
-<li><a href="#sec-2-2">Past Paper Questions</a></li>
+<li><a href="#sec-2-1">Single Pole Single Throw Switch (SPST)</a></li>
+<li><a href="#sec-2-2">Resistors</a></li>
+<li><a href="#sec-2-3">Push to Make Switch (PTM)</a></li>
+<li><a href="#sec-2-4">Micro Switch</a></li>
+<li><a href="#sec-2-5">Reed Switch</a></li>
+<li><a href="#sec-2-6">Variable Resistors</a></li>
+<li><a href="#sec-2-7">Microprocessor</a></li>
+<li><a href="#sec-2-8">Microcontrollers</a></li>
+<li><a href="#sec-2-9">Relays</a></li>
+<li><a href="#sec-2-10">Transistors</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. Outputs</a>
+<ul>
+<li><a href="#sec-3-1">Buzzers</a></li>
+<li><a href="#sec-3-2">Light-Emitting Diodes (LED)</a></li>
+<li><a href="#sec-3-3">Loudspeakers</a></li>
+<li><a href="#sec-3-4">Motors</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. Sources of Raw Materials Used in Systems</a>
+<ul>
+<li><a href="#sec-4-1">Polymers made of Crude Oil</a></li>
+<li><a href="#sec-4-2">Silicon</a></li>
+<li><a href="#sec-4-3">Gold</a></li>
+<li><a href="#sec-4-4">Copper</a></li>
+<li><a href="#sec-4-5">Lithium</a></li>
+<li><a href="#sec-4-6">Aluminium</a></li>
+<li><a href="#sec-4-7">Nickel</a></li>
+<li><a href="#sec-4-8">Rare Earth Elements</a></li>
+</ul>
+</li>
+<li><a href="#sec-5">5. Physical Characteristics</a>
+<ul>
+<li><a href="#sec-5-1">Resistor Colour Codes</a></li>
+<li><a href="#sec-5-2">Tolerance</a></li>
+<li><a href="#sec-5-3">Material selection for case construction</a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6. Working Properties</a>
+<ul>
+<li><a href="#sec-6-1">Conductors and insulators</a></li>
+<li><a href="#sec-6-2">Polymers</a></li>
+</ul>
+</li>
+<li><a href="#sec-7">7. Social Footprint</a>
+<ul>
+<li><a href="#sec-7-1">Relying on Scarce Elements</a></li>
+<li><a href="#sec-7-2">Effects of using Modern Systems</a></li>
+</ul>
+</li>
+<li><a href="#sec-8">8. Ecological Footprint</a>
+<ul>
+<li><a href="#sec-8-1">Effects of Material Extraction and Processing of elements</a></li>
+<li><a href="#sec-8-2">Effects of Built-in Obsolescence</a></li>
+<li><a href="#sec-8-3">Effects of use</a></li>
+<li><a href="#sec-8-4">Disposal of Electronic Products</a></li>
+</ul>
+</li>
+<li><a href="#sec-9">9. Practice Questions and Key terms</a>
+<ul>
+<li><a href="#sec-9-1">Key terms</a></li>
+<li><a href="#sec-9-2">Practice Questions</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 <div class=ribbon>
-<a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/gcse_de_theory">Fork me on GitHub</a>
 </div>
 <center>
-<img src='./img/recycle.svg' width=20%>
+<img src='./img/component_origins.jpg' width=25%>
 </center>
 
 <div id="outline-container-sec-1" class="outline-2 activity">
-<h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
+<h2 id="sec-1"><span class="section-number-2">1</span> Sensors</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
-<li>An engineer needs to understand that resources are not infinite, and that the implications of manufacturing decisions (whether in terms of materials, or manufacturing processes) will have a lasting impact on both the planet and those inhabiting it. 
+<li>Sensors are input components which change their value when the surrounding conditions change.
 </li>
-<li>Additional information on Social, Moral, Environmental and Sustainability issues can be found <a href="https://www.bournetoinvent.com/mp3/step_2.html">here</a>.
+<li>These are analogue input components.
 </li>
 </ul>
 </div>
 <div id="outline-container-sec-1-1" class="outline-3 learn">
-<h3 id="sec-1-1">Social - Impact of Manufacturing</h3>
+<h3 id="sec-1-1">Light-Dependant Resistors (LDR)</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li>In the early 21st century, the majority of mass-produced products were traditionally assembled by hand, on production lines. Low-skilled workers were employed to perform one process or assemble one part of a product on a conveyor system, before the part was sent to the next operative to perform the next step in the construction process. This provided mass employment, and jobs for life for a large portion of the population. Some advantages of a human workforce are:
-
-<ul class="org-ul">
-<li><b>Adaptable:</b> Quickly re-trainable when product requirements change,
+<li>LDRs (light-dependent resistors) are used to detect light levels, for example, in automatic security lights. Their resistance decreases as the light intensity increases:
+<ol class="org-ol">
+<li>In the dark and at low light levels, the resistance of an LDR is high, and little current can flow through it.
 </li>
-<li><b>Initiative:</b> Able to spot errors and alert relevant people quickly,
+<li>In bright light, the resistance of an LDR is low, and more current can flow through it.
 </li>
-<li>Can usually respond well to unexpected situations (e.g. equipment malfunction, fire, etc),
+</ol>
 </li>
-<li><b>Cost:</b> Low-cost to employ and provide basic training,
+<li>LDRs are also useful for controlling how long the shutter should remain open on a digital camera. Changes in the resistance are measured and, if the light level is low, the shutter stays open for longer than if the light level is high.
 </li>
-<li><b>Societal benefits:</b> Provides local people with paid employment,
+<li>To read more about LDRs, click on <a href="http://www.bbc.co.uk/schools/gcsebitesize/science/edexcel_pre_2011/electricityintheory/voltagecurrentresistancerev6.shtml">this</a> link to go to the BBC bitesize website.
 </li>
-</ul>
-</li>
-
-<li>The disadvantages are: -
-<ul class="org-ul">
-<li><b>Fallability:</b> Humans can fall ill, will require breaks, can quit suddenly and can’t work 24 hours a day.
-</li>
-<li><b>Accuracy:</b> Each product will be slightly different on every product the person assembles, as humans will work inconsistently. 
-</li>
-<li><b>Speed:</b> Not as quick to work as an automated equivalent
-</li>
-<li><b>Eye for detail:</b> Can make mistakes if distracted.
-</li>
-</ul>
+<li>Symbol:
 </li>
 </ul>
 
-
-<ul class="org-ul">
-<li>In the latter half of the 20th century, robotic production lines became increasingly common (<i>as seen in car manufacturing</i>). Some of the advantages of a robotic workforce are: -
-
-<ul class="org-ul">
-<li><b>Quality:</b> They are more accurate and consistent than a human,
-</li>
-<li><b>Productivity:</b> They don’t take breaks, go sick or have holiday, can work 24 hours a day,
-</li>
-<li><b>Safety:</b> Humans are moved away from dangerous processes, resulting in less injuries,
-</li>
-<li><b>Save money:</b> Robots do not take a wage, need a pension and create less waste.
-</li>
-</ul>
-</li>
-<li>Some disadvantages are:
-<ul class="org-ul">
-<li><b>Expense:</b> They have to be purchased initially and require maintenance form highly qualified (and expensive) staff,
-</li>
-<li><b>Return on Investment:</b> This can be long and the market may change, rendering machines redundant.
-</li>
-<li><b>Expertise:</b> The workforce needs to ‘skill up’ to operate and maintain them, resulting in fewer overall jobs,
-</li>
-<li><b>Safety:</b> They can injure personnel if not operated correctly.
-</li>
-</ul>
-</li>
-</ul>
+<div class="figure">
+<p><img src="./img/ldrsymbol.jpg" alt="ldrsymbol.jpg" />
+</p>
 </div>
 </div>
-
+</div>
 <div id="outline-container-sec-1-2" class="outline-3 learn">
-<h3 id="sec-1-2">Moral Issues</h3>
+<h3 id="sec-1-2">Thermistor</h3>
 <div class="outline-text-3" id="text-1-2">
 <ul class="org-ul">
-<li>Moral issues need to considered by designers. Without proper safeguards in place, poorly designed products can potentially injure, or even kill.
+<li>Thermistors are used as temperature sensors, for example, in fire alarms. Their resistance decreases as the temperature increases:
+<ol class="org-ol">
+<li>At low temperatures, the resistance of a thermistor is high, and little current can flow through them.
 </li>
-<li>For instance, a robotic arm in a car factory might be designed to move a car chassis from one area to the next. An arm such as this would need to be extremely powerful to carry that amount of weight, and if a human were to get in the way of it moving, this <i>could</i> lead to serious injury.
+<li>At high temperatures, the resistance of a thermistor is low, and more current can flow through them.
 </li>
-<li>The designers of the arm will need to demonstrate that they take every reasonable measure to make the arm as safe as possible. This could include:
-<ul class="org-ul">
-<li>Training staff that they are not to go inside a marked area of the arm's operation.
+</ol>
 </li>
-<li>Ensuring the power is isolated when the arm is serviced.
-</li>
-<li>Fit sensors to detect any human coming into the operating area of the arm that will cut power if someone gets to close, and sound a siren.
-</li>
-<li>Fit microswitches to the sides of the arm, so that if it comes into contact with something unexpected, power is cut immediately.
-</li>
-</ul>
+<li>Symbol:
 </li>
 </ul>
 
-
-<ul class="org-ul">
-<li>In the event of an accident (e.g. someone getting hit by the arm), although it may look as though it is the user’s fault, it could be argued that the design of the arm was partly to blame. 
-</li>
-<li>As well as being sued for damages there is the added issue of bad publicity for the robotics company even if they are found innocent of any wrong doing. It is usually better for any company to prevent the tragedy occurring than win the legal battle following it.
-</li>
-<li>The manufacturer would receive bad publicity, resulting in a knock-on drop in sales for their business. 
-</li>
-</ul>
+<div class="figure">
+<p><img src="./img/thermistor_symbol.jpg" alt="thermistor_symbol.jpg" />
+</p>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-1-3" class="outline-3 learn">
-<h3 id="sec-1-3">Environmental and Sustainability Issues</h3>
+<h3 id="sec-1-3">Moisture Sensor</h3>
 <div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">
-<li>Plastics are made using oil, which is a non-sustainable material, and not all of these can be easily recycled. If sent to landfill, plastics take hundreds of years to break down, which is harmful to the environment. 
+<li>Moisture sensors measure the volumetric water content.
 </li>
-
-<li>By creating products which use recyclable or bio-degradable materials such as PLA – a bio-degradable plastic made from corn-starch, wood or metal, the impact on the environment can be reduced. Reducing the amount of packaging can also assist.
+<li>Moisture sensors have 2 metal probes, these probes are inserted and then a small electrical current is passed between them. 
 </li>
-
-<li>Sustainability can be designed into products. Using a laptop as an example, by making it simple for the owner to replace parts (e.g. Hard Disk) that may wear out before the whole unit is scrap. Products can be created to have access panels and removable covers that can be safely opened / removed, to allow the user to replace parts safely (e.g. battery), and the manufacturer can provide clear instructions on how to replace these parts.
+<li>As the moisture level increases, the electrical resistance decreases, this allows the current to increase. 
 </li>
-
-<li>Spare parts could be designed to be easily identifiable, and made readily available to buy online, and they manufacturer could make certain parts fit many models (e.g. Memory) to make it simpler to stock and identify.
+<li>This increase in current can be detected and used to control outputs.
 </li>
-
-<li>Finally, if the manufacturer reduced the regularity with which they change the design of their product (e.g. making a thinner design or new colour), the users would not feel the need to scrap their existing laptop before the end of its working life, just to trade up to a newer version.
+<li>A typical example of this is a soil moisture level meter. When the moisture content drops, the sensor can pick this up and turn on a water supply until the moisture level is correct again.
 </li>
 </ul>
-</div>
-</div>
 
+<div class="figure">
+<p><img src="./img/moisture_sensor.jpg" alt="moisture_sensor.jpg" />
+</p>
+</div>
+</div>
+</div>
 <div id="outline-container-sec-1-4" class="outline-3 learn">
-<h3 id="sec-1-4">Energy</h3>
+<h3 id="sec-1-4">Piezoelectric Sensor</h3>
 <div class="outline-text-3" id="text-1-4">
 <ul class="org-ul">
-<li>In order to manufacture any product, energy is required, whether when sourcing materials, manufacturing, or distributing goods to consumers. This is typically electricity, which has to be generated before being sent to homes and factories. Electricity supplies are split into renewable and non-renewable sources.
+<li>A piezoelectric sensor is a device that uses the piezoelectric effect, to measure changes in pressure, acceleration, temperature, strain, or force by converting them to an electrical charge. The prefix piezo- is Greek for 'press' or 'squeeze'.
 </li>
+</ul>
 
-<li><b>Burning Coal/Gas:</b> The traditional way of generating power, these are made from fossil fuels, and are in increasingly short supply. Burning these releases a large amount of CO2, which in turn adds to atmospheric pollution. At the same time, these are still relatively low-cost solutions.
+<div class="figure">
+<p><img src="./img/piezo.gif" alt="piezo.gif" />
+</p>
+</div>
+<ul class="org-ul">
+<li>The electric pulse can give a signal to the controller, which can then set off an alarm.
 </li>
-
-<li><b>Nuclear power:</b> By using uranium, nuclear fission reactions can generate large amounts of power for many years from relatively little material. There are concerns about safety, following a number of International issues, which makes the public somewhat apprehensive about using them, and the waste material needs to be disposed of very carefully. This is also a non-renewable source. 
-</li>
-
-<li><b>Wind-power:</b> By using turbines, clean energy can be created for “free” (after the initial energy required to create the turbine is offset). Unfortunately, wind is variable, and therefore unreliable as a sole source of energy. 
-</li>
-
-<li><b>Solar power:</b> More effective in equatorial climates, photo-voltaic cells can be put on roofs in order to generate free electricity from the sun. Unfortunately, PV cells require considerable energy and resources to manufacture, and the sun does not shine all day long. 
-</li>
-
-<li><b>Geo-thermal:</b> By digging a deep hole in the ground and using a heat-exchange pump, the heat from the core of the planet can be used to heat homes and businesses.
+<li>The most common of these are microphones, these sense sound vibrations and convert them to electrical signals which can then be amplified to drive a loudspeaker.
 </li>
 </ul>
 </div>
 </div>
 </div>
-
 <div id="outline-container-sec-2" class="outline-2 activity">
-<h2 id="sec-2"><span class="section-number-2">2</span> Recap</h2>
+<h2 id="sec-2"><span class="section-number-2">2</span> Control Devices and Components</h2>
 <div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li>Some components can be used to control circuits.
+</li>
+</ul>
 </div>
-<div id="outline-container-sec-2-1" class="outline-3 try">
-<h3 id="sec-2-1">Practice Questions</h3>
+<div id="outline-container-sec-2-1" class="outline-3 learn">
+<h3 id="sec-2-1">Single Pole Single Throw Switch (SPST)</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li>Discuss the impact of introducing robotic assembly at a drill manufacturing company on the staff who work there.
+<li>A Single Pole Single Throw (SPST) switch is a switch that only has a single input and can connect only to one output. This means it only has one input terminal and only one output terminal. 
 </li>
-
-<li>Why do some companies move their manufacturing operations abroad? 
+</ul>
+<p>
+<img src="./img/SPST.jpg" alt="SPST.jpg" />
+<img src="./img/SPST2.jpg" alt="SPST2.jpg" />
+</p>
+<ul class="org-ul">
+<li>A Single Pole Single Throw switch serves in circuits as on-off switches. When the switch is closed, the circuit is on. When the switch is open, the circuit is off.
 </li>
-
-<li>A company wants to make a new, environmentally friendly range of kitchen equipment. Suggest two materials they could use to manufacture their products from.
-</li>
-
-<li>Name two environmentally friendly power sources. 
-</li>
-
-<li>Name two non-renewable energy sources.
+<li>SPST switches are, thus, very simple in nature. 
 </li>
 </ul>
 </div>
 </div>
-
-<div id="outline-container-sec-2-2" class="outline-3 try">
-<h3 id="sec-2-2">Past Paper Questions</h3>
+<div id="outline-container-sec-2-2" class="outline-3 learn">
+<h3 id="sec-2-2">Resistors</h3>
 <div class="outline-text-3" id="text-2-2">
 <ul class="org-ul">
-<li><b>June 2013, Q4.</b> You are advised to spend about 20 minutes on this question. This question is about social, cultural, moral and environmental issues. 
-<ul class="org-ul">
-<li>(a) A company is considering purchasing robots to manufacture their products. Explain an advantage and a disadvantage of using robots in manufacturing. <i>(4 marks)</i>
+<li>A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element.
 </li>
-<li>(b) A UK company is considering moving the manufacturing of its products to China. Explain the benefits for the company of manufacturing their products in China. <i>(4 marks)</i>
-</li>
-<li>(c) A multinational company is using a production process that is legal to use in some countries but is considered too dangerous to be used legally in the UK. Discuss whether or not the company should use this production process in those countries where it is legal to do so. Give reasons for your answer. <i>(4 marks)</i>
-</li>
-<li>(d) Explain how manufacturers can design sustainability into a product. Give examples in your answer. You will be tested for quality of written communication in this part of the question. <i>(8 marks)</i>
-</li>
-</ul>
+<li>A resistor is used to either protect components from too much current or to divide up the voltage or current as needed in a circuit.
 </li>
 </ul>
 
-<p>
-<a href="index.html">Return to homepage</a>
+<div class="figure">
+<p><img src="./img/resistor_image.jpg" alt="resistor_image.jpg" />
 </p>
+</div>
+<ul class="org-ul">
+<li>Symbol:
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/resistor_symbol.jpg" alt="resistor_symbol.jpg" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-3" class="outline-3 learn">
+<h3 id="sec-2-3">Push to Make Switch (PTM)</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li>A push to make switch allows electricity to flow between its two contacts when held in. When the button is released, the circuit is broken. This type of switch is also known as a Normally Open (NO) Switch.
+</li>
+</ul>
+<p>
+= <img src="./img/PTM_switch.jpg" alt="PTM_switch.jpg" />
+</p>
+<ul class="org-ul">
+<li>Symbol:
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/PTM_symbol.jpg" alt="PTM_symbol.jpg" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-4" class="outline-3 learn">
+<h3 id="sec-2-4">Micro Switch</h3>
+<div class="outline-text-3" id="text-2-4">
+<ul class="org-ul">
+<li>A micro switch, is an electric switch that is actuated by very little physical force, through the use of a tipping-point mechanism, sometimes called an "over-center" mechanism.
+</li>
+<li>Switching happens reliably at specific and repeatable positions of the actuator, which is not necessarily true of other mechanisms.
+</li>
+<li>They are very common due to their low cost and durability, greater than 1 million cycles and up to 10 million cycles for heavy duty models.
+</li>
+<li>This durability is a natural consequence of the design.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/micro_switch.jpg" alt="micro_switch.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>The symbol is the same as that of a normal switch.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-2-5" class="outline-3 learn">
+<h3 id="sec-2-5">Reed Switch</h3>
+<div class="outline-text-3" id="text-2-5">
+<ul class="org-ul">
+<li>The reed switch is an electrical switch operated by an applied magnetic field.
+</li>
+<li>It consists of a pair of contacts on ferromagnetic metal reeds in a hermetically sealed glass envelope.
+</li>
+<li>The contacts may be normally open, closing when a magnetic field is present, or normally closed and opening when a magnetic field is applied. 
+</li>
+</ul>
+<p>
+<img src="./img/Reed_switch.jpg" alt="Reed_switch.jpg" />
+<img src="./img/reed_switch_0.jpg" alt="reed_switch_0.jpg" />
+</p>
+<ul class="org-ul">
+<li>Symbol
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/Reed_switch_symbol.png" alt="Reed_switch_symbol.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-6" class="outline-3 learn">
+<h3 id="sec-2-6">Variable Resistors</h3>
+<div class="outline-text-3" id="text-2-6">
+<ul class="org-ul">
+<li>A potentiometer (variable resistor) is a three-terminal resistor with a sliding or rotating contact that forms an adjustable voltage divider. If only two terminals are used, one end and the wiper, it acts as a variable resistor or rheostat.
+</li>
+<li>An LDR is also a variable resistor. The resistance changes with the light level.
+</li>
+<li>A thermistor is also a variable resistor, the resistance changes with the temperature.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/Potentiometer.jpg" alt="Potentiometer.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Symbol:
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/Pot_symbol.png" alt="Pot_symbol.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-7" class="outline-3 learn">
+<h3 id="sec-2-7">Microprocessor</h3>
+<div class="outline-text-3" id="text-2-7">
+<ul class="org-ul">
+<li>A microprocessor is a computer processor that incorporates the functions of a central processing unit on a single integrated circuit (IC), or at most a few integrated circuits.A
+</li>
+<li>Microprocessors are mainly made up of silicon based transistors.
+</li>
+<li>These vary in size and complexity. 
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/microprocessor.jpg" alt="microprocessor.jpg" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-8" class="outline-3 learn">
+<h3 id="sec-2-8">Microcontrollers</h3>
+<div class="outline-text-3" id="text-2-8">
+<ul class="org-ul">
+<li>A microcontroller is commonly known as a PIC (Peripheral Interface Controller).
+</li>
+<li>A microcontroller (MCU for microcontroller unit, or UC for μ-controller) is a small computer on a single integrated circuit.
+</li>
+<li>A microcontroller contains one or more CPUs (processor cores) along with memory and programmable input/output peripherals. 
+</li>
+<li>They contain flash memory, which means we can write programs to them and then if we choose to, we can delete the program and re-write it.
+</li>
+<li>This provides the user with great flexibility as you can change to program as and when you need to.
+</li>
+<li>The PIC comes in many shapes and sizes, the one we use regularly is the Genie 08 PIC.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/Genie_08.jpg" alt="Genie_08.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>The pinouts can be seen in the image, some pins can be changed as either inputs or outputs.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/Genie_08_real.jpg" alt="Genie_08_real.jpg" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-9" class="outline-3 learn">
+<h3 id="sec-2-9">Relays</h3>
+<div class="outline-text-3" id="text-2-9">
+<ul class="org-ul">
+<li>A relay is an electrically operated switch. Many relays use an electromagnet to mechanically operate a switch, but other operating principles are also used, such as solid-state relays.
+</li>
+<li>Relays are used where it is necessary to control a circuit by a separate low-power signal, or where several circuits must be controlled by one signal. 
+</li>
+</ul>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/tbMX9USTyAI" frameborder="0" allowfullscreen></iframe>
+<ul class="org-ul">
+<li>Using a relay allows the user to keep the low voltage completely seperate from the high voltage side. This keeps the user safe from harm as they are not in direct contact with the high voltage side.
+</li>
+<li>Below are some videos of a relay working.
+</li>
+</ul>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/jzsYSriCBqA" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/Icr_AHyu4Y4" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/xe4RU7FtOmU" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-2-10" class="outline-3 learn">
+<h3 id="sec-2-10">Transistors</h3>
+<div class="outline-text-3" id="text-2-10">
+<ul class="org-ul">
+<li>A transistor is a semiconductor device used to amplify or switch electronic signals and electrical power.
+</li>
+<li>It is composed of semiconductor material usually with at least three terminals for connection to an external circuit.
+</li>
+<li>A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals.
+</li>
+<li>Because the controlled (output) power can be higher than the controlling (input) power, a transistor can amplify a signal. 
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/Transistor_(cropped).jpg" alt="Transistor_(cropped).jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Symbol:
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/NPN_transistor.png" alt="NPN_transistor.png" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Here is a video of the LDR and transistor working to control an LED.
+</li>
+<li>The LED turns off when the light level is reached.
+</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/93--ob2FY-U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-2 activity">
+<h2 id="sec-3"><span class="section-number-2">3</span> Outputs</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>Electronic outputs are devices which we can control by the system you have designed. 
+</li>
+<li>Output comonents can be very simple, like and LED to far more complex devices such as LCD displays and stepper motor control.
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-3-1" class="outline-3 learn">
+<h3 id="sec-3-1">Buzzers</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li>A buzzer or beeper is an audio signalling device, which may be mechanical, electromechanical, or piezoelectric (piezo for short).
+</li>
+<li>Typical uses of buzzers and beepers include alarm devices, timers, and confirmation of user input such as a mouse click or keystroke.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/buzzer_real.jpg" alt="buzzer_real.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Symbol:
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/buzzer_symbol.png" alt="buzzer_symbol.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-3-2" class="outline-3 learn">
+<h3 id="sec-3-2">Light-Emitting Diodes (LED)</h3>
+<div class="outline-text-3" id="text-3-2">
+<ul class="org-ul">
+<li>A light-emitting diode (LED) is a special kind of diode that glows when electricity passes through it.
+</li>
+<li>Most LEDs are made from a semi-conducting material called gallium arsenide phosphide.
+</li>
+<li>LEDs can be bought in a range of colours. They can also be bought in forms that will switch between two colours (bi-colour), three colours (tri-colour) or emit infra-red light.
+</li>
+<li>In common with all diodes, the LED will only allow current to pass in one direction.
+</li>
+<li>The cathode is normally indicated by a flat side on the casing and the anode is normally indicated by a slightly longer leg.
+</li>
+<li>The current required to power an LED is usually around 20 mA.
+</li>
+<li>The LED is a semi-conductor component. 
+</li>
+<li>The colour of the LED made fade over time due to heat and age.
+</li>
+</ul>
+<p>
+<img src="./img/LED_inner.png" alt="LED_inner.png" />
+<img src="./img/LED_long_leg.png" alt="LED_long_leg.png" />
+</p>
+<ul class="org-ul">
+<li>Symbol:
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/LED_symbol.png" alt="LED_symbol.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-3-3" class="outline-3 learn">
+<h3 id="sec-3-3">Loudspeakers</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul class="org-ul">
+<li>A loudspeaker (or loud-speaker or speaker) is an electroacoustic transducer; which converts an electrical audio signal into a corresponding sound.
+</li>
+<li>The dynamic speaker operates on the same basic principle as a dynamic microphone, but in reverse, to produce sound from an electrical signal.
+</li>
+<li>When an alternating current electrical audio signal is applied to its voice coil, a coil of wire suspended in a circular gap between the poles of a permanent magnet, the coil is forced to move rapidly back and forth due to Faraday's law of induction, which causes a diaphragm (usually conically shaped) attached to the coil to move back and forth, pushing on the air to create sound waves.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/loudspeaker.gif" alt="loudspeaker.gif" />
+</p>
+</div>
+<ul class="org-ul">
+<li>A loudspeaker will require an amplifier to drive the coil in the speaker and produce sound.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/speaker.jpg" alt="speaker.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Symbol:
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/speaker_symbol.jpg" alt="speaker_symbol.jpg" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-3-4" class="outline-3 learn">
+<h3 id="sec-3-4">Motors</h3>
+<div class="outline-text-3" id="text-3-4">
+<ul class="org-ul">
+<li>A motor is a device which converts electrical energy into rotary motion.
+</li>
+<li>Microcontrollers can be used to turn a motor on and off as well as change the direction of the motor.
+</li>
+<li>The speed of the motor can also be controlled using PWM(Pulse Width Modulation).
+</li>
+<li>Most motors do not have a lot of torque and therefore need to be geared up or down using a gearbox.
+</li>
+<li>There are many different types of motors. Here are a few, but there are many more:
+<ol class="org-ol">
+<li>DC motor
+</li>
+<li>AC motor
+</li>
+<li>Servo motor
+</li>
+<li>Stepper motor
+</li>
+<li>Brushless motor
+</li>
+</ol>
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/type_of_motors.jpg" alt="type_of_motors.jpg" />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-4" class="outline-2 activity">
+<h2 id="sec-4"><span class="section-number-2">4</span> Sources of Raw Materials Used in Systems</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-4-1" class="outline-3 learn">
+<h3 id="sec-4-1">Polymers made of Crude Oil</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li>A 
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-4-2" class="outline-3 learn">
+<h3 id="sec-4-2">Silicon</h3>
+<div class="outline-text-3" id="text-4-2">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-4-3" class="outline-3 learn">
+<h3 id="sec-4-3">Gold</h3>
+<div class="outline-text-3" id="text-4-3">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-4-4" class="outline-3 learn">
+<h3 id="sec-4-4">Copper</h3>
+<div class="outline-text-3" id="text-4-4">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4-5" class="outline-3 learn">
+<h3 id="sec-4-5">Lithium</h3>
+<div class="outline-text-3" id="text-4-5">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4-6" class="outline-3 learn">
+<h3 id="sec-4-6">Aluminium</h3>
+<div class="outline-text-3" id="text-4-6">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4-7" class="outline-3 learn">
+<h3 id="sec-4-7">Nickel</h3>
+<div class="outline-text-3" id="text-4-7">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4-8" class="outline-3 learn">
+<h3 id="sec-4-8">Rare Earth Elements</h3>
+<div class="outline-text-3" id="text-4-8">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2 activity">
+<h2 id="sec-5"><span class="section-number-2">5</span> Physical Characteristics</h2>
+<div class="outline-text-2" id="text-5">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-5-1" class="outline-3 learn">
+<h3 id="sec-5-1">Resistor Colour Codes</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-5-2" class="outline-3 learn">
+<h3 id="sec-5-2">Tolerance</h3>
+<div class="outline-text-3" id="text-5-2">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-5-3" class="outline-3 learn">
+<h3 id="sec-5-3">Material selection for case construction</h3>
+<div class="outline-text-3" id="text-5-3">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-6" class="outline-2 activity">
+<h2 id="sec-6"><span class="section-number-2">6</span> Working Properties</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-6-1" class="outline-3 learn">
+<h3 id="sec-6-1">Conductors and insulators</h3>
+<div class="outline-text-3" id="text-6-1">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-6-2" class="outline-3 learn">
+<h3 id="sec-6-2">Polymers</h3>
+<div class="outline-text-3" id="text-6-2">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-7" class="outline-2 activity">
+<h2 id="sec-7"><span class="section-number-2">7</span> Social Footprint</h2>
+<div class="outline-text-2" id="text-7">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-7-1" class="outline-3 learn">
+<h3 id="sec-7-1">Relying on Scarce Elements</h3>
+<div class="outline-text-3" id="text-7-1">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-7-2" class="outline-3 learn">
+<h3 id="sec-7-2">Effects of using Modern Systems</h3>
+<div class="outline-text-3" id="text-7-2">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-8" class="outline-2 activity">
+<h2 id="sec-8"><span class="section-number-2">8</span> Ecological Footprint</h2>
+<div class="outline-text-2" id="text-8">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-8-1" class="outline-3 learn">
+<h3 id="sec-8-1">Effects of Material Extraction and Processing of elements</h3>
+<div class="outline-text-3" id="text-8-1">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-8-2" class="outline-3 learn">
+<h3 id="sec-8-2">Effects of Built-in Obsolescence</h3>
+<div class="outline-text-3" id="text-8-2">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-8-3" class="outline-3 learn">
+<h3 id="sec-8-3">Effects of use</h3>
+<div class="outline-text-3" id="text-8-3">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-8-4" class="outline-3 learn">
+<h3 id="sec-8-4">Disposal of Electronic Products</h3>
+<div class="outline-text-3" id="text-8-4">
+<ul class="org-ul">
+<li>A
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-9" class="outline-2 activity">
+<h2 id="sec-9"><span class="section-number-2">9</span> Practice Questions and Key terms</h2>
+<div class="outline-text-2" id="text-9">
+</div>
+<div id="outline-container-sec-9-1" class="outline-3 try">
+<h3 id="sec-9-1">Key terms</h3>
+<div class="outline-text-3" id="text-9-1">
+<ol class="org-ol">
+<li><b>Conduct</b>: To allow electricity or heat to flow through it.
+</li>
+<li><b>Piezoelectric</b>: Pressure put on a crystal causing a small eletrical pulse.
+</li>
+<li><b>Normally off</b>: The switch is off in its normal state and turns on when activated. 
+</li>
+<li><b>Normally on</b>: The switch is on in its normal state and turns off when activated. 
+</li>
+<li><b>Flash Memory</b>: A memory that can store  information, then be wiped clean and store differnet information repeatedly.
+</li>
+<li><b>Program</b>: A set of instructions that the controller follows to make the system work.
+</li>
+<li><b>Semi-conductor</b>: A material that allows electricity to flow under certain conditions. It can behave as an insulator or conductor.
+</li>
+<li><b>Electromagnet</b>: A coil of wire wrapped around an iron core that becomes magnetic when electricity flows through the coil.
+</li>
+<li><b>Amplifier</b>: An electronic circuit that makes a small electrical signal more powerful, used to power a loudspeaker.
+</li>
+<li><b>Ore</b>: Rock that contains metal.
+</li>
+<li><b>Tarnish</b>: A thin film that forms on the surface of a metal when it reacts with oxygen in the air. It often makes the metal look duller in colour.
+</li>
+<li><b>Electroplate</b>: A metal object is dipped into a solution of the coating metal and electricity is passed through it. The metal object becomes coated with a thin film of the coating metal.
+</li>
+<li><b>Corrosion</b>: The metal is eaten away as it reacts with oxygen and water in the air. Rust is formed through the corrosion of iron or steel.
+</li>
+<li><b>Tolerance</b>: Sets an upper and lower acceptable limit for a measurement of something.
+</li>
+<li><b>Conductor</b>: Lets energy flow through it easily. All metals are good electrical conductors.
+</li>
+<li><b>Elasticity</b>: How easily the material can stretch and return to its original shape.
+</li>
+<li><b>Product life cycle</b>: The life cycle of a product starts with obtaining raw materials, manufacturing the product, selling it, using it and finally disposing of it when it is finished with.
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-9-2" class="outline-3 try">
+<h3 id="sec-9-2">Practice Questions</h3>
+<div class="outline-text-3" id="text-9-2">
+<ol class="org-ol">
+<li>A
+</li>
+</ol>
 </div>
 </div>
 </div>

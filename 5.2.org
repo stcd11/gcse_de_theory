@@ -6,15 +6,15 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Social and Environmental Issues
-#+AUTHOR: Stephen Brown
+#+TITLE: Properties and Origins of Components
+#+AUTHOR: C. Delport
 
 #+BEGIN_HTML
 <div class=ribbon>
-<a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/gcse_de_theory">Fork me on GitHub</a>
 </div>
 <center>
-<img src='./img/recycle.svg' width=20%>
+<img src='./img/component_origins.jpg' width=25%>
 </center>
 #+END_HTML
 
@@ -87,115 +87,385 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: intro
 :END:
-* Introduction
+* Sensors
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- An engineer needs to understand that resources are not infinite, and that the implications of manufacturing decisions (whether in terms of materials, or manufacturing processes) will have a lasting impact on both the planet and those inhabiting it. 
-- Additional information on Social, Moral, Environmental and Sustainability issues can be found [[https://www.bournetoinvent.com/mp3/step_2.html][here]].
-** Social - Impact of Manufacturing
+- Sensors are input components which change their value when the surrounding conditions change.
+- These are analogue input components.
+** Light-Dependant Resistors (LDR)
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- In the early 21st century, the majority of mass-produced products were traditionally assembled by hand, on production lines. Low-skilled workers were employed to perform one process or assemble one part of a product on a conveyor system, before the part was sent to the next operative to perform the next step in the construction process. This provided mass employment, and jobs for life for a large portion of the population. Some advantages of a human workforce are:
-
-  - *Adaptable:* Quickly re-trainable when product requirements change,
-  - *Initiative:* Able to spot errors and alert relevant people quickly,
-  - Can usually respond well to unexpected situations (e.g. equipment malfunction, fire, etc),
-  - *Cost:* Low-cost to employ and provide basic training,
-  - *Societal benefits:* Provides local people with paid employment,
-
-- The disadvantages are: -
-  - *Fallability:* Humans can fall ill, will require breaks, can quit suddenly and can’t work 24 hours a day.
-  - *Accuracy:* Each product will be slightly different on every product the person assembles, as humans will work inconsistently. 
-  - *Speed:* Not as quick to work as an automated equivalent
-  - *Eye for detail:* Can make mistakes if distracted.
-
-
-- In the latter half of the 20th century, robotic production lines became increasingly common (/as seen in car manufacturing/). Some of the advantages of a robotic workforce are: -
-
-  - *Quality:* They are more accurate and consistent than a human,
-  - *Productivity:* They don’t take breaks, go sick or have holiday, can work 24 hours a day,
-  - *Safety:* Humans are moved away from dangerous processes, resulting in less injuries,
-  - *Save money:* Robots do not take a wage, need a pension and create less waste.
-- Some disadvantages are:
-  - *Expense:* They have to be purchased initially and require maintenance form highly qualified (and expensive) staff,
-  - *Return on Investment:* This can be long and the market may change, rendering machines redundant.
-  - *Expertise:* The workforce needs to ‘skill up’ to operate and maintain them, resulting in fewer overall jobs,
-  - *Safety:* They can injure personnel if not operated correctly.
-
-** Moral Issues
+- LDRs (light-dependent resistors) are used to detect light levels, for example, in automatic security lights. Their resistance decreases as the light intensity increases:
+ 1. In the dark and at low light levels, the resistance of an LDR is high, and little current can flow through it.
+ 2. In bright light, the resistance of an LDR is low, and more current can flow through it.
+- LDRs are also useful for controlling how long the shutter should remain open on a digital camera. Changes in the resistance are measured and, if the light level is low, the shutter stays open for longer than if the light level is high.
+- To read more about LDRs, click on [[http://www.bbc.co.uk/schools/gcsebitesize/science/edexcel_pre_2011/electricityintheory/voltagecurrentresistancerev6.shtml][this]] link to go to the BBC bitesize website.
+- Symbol:
+[[./img/ldrsymbol.jpg]]
+** Thermistor
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Moral issues need to considered by designers. Without proper safeguards in place, poorly designed products can potentially injure, or even kill.
-- For instance, a robotic arm in a car factory might be designed to move a car chassis from one area to the next. An arm such as this would need to be extremely powerful to carry that amount of weight, and if a human were to get in the way of it moving, this /could/ lead to serious injury.
-- The designers of the arm will need to demonstrate that they take every reasonable measure to make the arm as safe as possible. This could include:
-  - Training staff that they are not to go inside a marked area of the arm's operation.
-  - Ensuring the power is isolated when the arm is serviced.
-  - Fit sensors to detect any human coming into the operating area of the arm that will cut power if someone gets to close, and sound a siren.
-  - Fit microswitches to the sides of the arm, so that if it comes into contact with something unexpected, power is cut immediately.
-
-
-- In the event of an accident (e.g. someone getting hit by the arm), although it may look as though it is the user’s fault, it could be argued that the design of the arm was partly to blame. 
-- As well as being sued for damages there is the added issue of bad publicity for the robotics company even if they are found innocent of any wrong doing. It is usually better for any company to prevent the tragedy occurring than win the legal battle following it.
-- The manufacturer would receive bad publicity, resulting in a knock-on drop in sales for their business. 
-** Environmental and Sustainability Issues
+- Thermistors are used as temperature sensors, for example, in fire alarms. Their resistance decreases as the temperature increases:
+ 1. At low temperatures, the resistance of a thermistor is high, and little current can flow through them.
+ 2. At high temperatures, the resistance of a thermistor is low, and more current can flow through them.
+- Symbol:
+[[./img/thermistor_symbol.jpg]]
+** Moisture Sensor
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Plastics are made using oil, which is a non-sustainable material, and not all of these can be easily recycled. If sent to landfill, plastics take hundreds of years to break down, which is harmful to the environment. 
-
-- By creating products which use recyclable or bio-degradable materials such as PLA – a bio-degradable plastic made from corn-starch, wood or metal, the impact on the environment can be reduced. Reducing the amount of packaging can also assist.
-
-- Sustainability can be designed into products. Using a laptop as an example, by making it simple for the owner to replace parts (e.g. Hard Disk) that may wear out before the whole unit is scrap. Products can be created to have access panels and removable covers that can be safely opened / removed, to allow the user to replace parts safely (e.g. battery), and the manufacturer can provide clear instructions on how to replace these parts.
-
-- Spare parts could be designed to be easily identifiable, and made readily available to buy online, and they manufacturer could make certain parts fit many models (e.g. Memory) to make it simpler to stock and identify.
-
-- Finally, if the manufacturer reduced the regularity with which they change the design of their product (e.g. making a thinner design or new colour), the users would not feel the need to scrap their existing laptop before the end of its working life, just to trade up to a newer version.
-
-** Energy
+- Moisture sensors measure the volumetric water content.
+- Moisture sensors have 2 metal probes, these probes are inserted and then a small electrical current is passed between them. 
+- As the moisture level increases, the electrical resistance decreases, this allows the current to increase. 
+- This increase in current can be detected and used to control outputs.
+- A typical example of this is a soil moisture level meter. When the moisture content drops, the sensor can pick this up and turn on a water supply until the moisture level is correct again.
+[[./img/moisture_sensor.jpg]]
+** Piezoelectric Sensor
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- In order to manufacture any product, energy is required, whether when sourcing materials, manufacturing, or distributing goods to consumers. This is typically electricity, which has to be generated before being sent to homes and factories. Electricity supplies are split into renewable and non-renewable sources.
-
-- *Burning Coal/Gas:* The traditional way of generating power, these are made from fossil fuels, and are in increasingly short supply. Burning these releases a large amount of CO2, which in turn adds to atmospheric pollution. At the same time, these are still relatively low-cost solutions.
-
-- *Nuclear power:* By using uranium, nuclear fission reactions can generate large amounts of power for many years from relatively little material. There are concerns about safety, following a number of International issues, which makes the public somewhat apprehensive about using them, and the waste material needs to be disposed of very carefully. This is also a non-renewable source. 
-
-- *Wind-power:* By using turbines, clean energy can be created for “free” (after the initial energy required to create the turbine is offset). Unfortunately, wind is variable, and therefore unreliable as a sole source of energy. 
-
-- *Solar power:* More effective in equatorial climates, photo-voltaic cells can be put on roofs in order to generate free electricity from the sun. Unfortunately, PV cells require considerable energy and resources to manufacture, and the sun does not shine all day long. 
-
-- *Geo-thermal:* By digging a deep hole in the ground and using a heat-exchange pump, the heat from the core of the planet can be used to heat homes and businesses.
-
-* Recap
+- A piezoelectric sensor is a device that uses the piezoelectric effect, to measure changes in pressure, acceleration, temperature, strain, or force by converting them to an electrical charge. The prefix piezo- is Greek for 'press' or 'squeeze'.
+[[./img/piezo.gif]]
+- The electric pulse can give a signal to the controller, which can then set off an alarm.
+- The most common of these are microphones, these sense sound vibrations and convert them to electrical signals which can then be amplified to drive a loudspeaker.
+* Control Devices and Components
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+- Some components can be used to control circuits.
+** Single Pole Single Throw Switch (SPST)
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A Single Pole Single Throw (SPST) switch is a switch that only has a single input and can connect only to one output. This means it only has one input terminal and only one output terminal. 
+[[./img/SPST.jpg]]
+[[./img/SPST2.jpg]]
+- A Single Pole Single Throw switch serves in circuits as on-off switches. When the switch is closed, the circuit is on. When the switch is open, the circuit is off.
+- SPST switches are, thus, very simple in nature. 
+** Resistors
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element.
+- A resistor is used to either protect components from too much current or to divide up the voltage or current as needed in a circuit.
+[[./img/resistor_image.jpg]]
+- Symbol:
+[[./img/resistor_symbol.jpg]]
+** Push to Make Switch (PTM)
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A push to make switch allows electricity to flow between its two contacts when held in. When the button is released, the circuit is broken. This type of switch is also known as a Normally Open (NO) Switch.
+= [[./img/PTM_switch.jpg]]
+- Symbol:
+[[./img/PTM_symbol.jpg]]
+** Micro Switch
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A micro switch, is an electric switch that is actuated by very little physical force, through the use of a tipping-point mechanism, sometimes called an "over-center" mechanism.
+- Switching happens reliably at specific and repeatable positions of the actuator, which is not necessarily true of other mechanisms.
+- They are very common due to their low cost and durability, greater than 1 million cycles and up to 10 million cycles for heavy duty models.
+- This durability is a natural consequence of the design.
+[[./img/micro_switch.jpg]]
+- The symbol is the same as that of a normal switch.
+** Reed Switch
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- The reed switch is an electrical switch operated by an applied magnetic field.
+- It consists of a pair of contacts on ferromagnetic metal reeds in a hermetically sealed glass envelope.
+- The contacts may be normally open, closing when a magnetic field is present, or normally closed and opening when a magnetic field is applied. 
+[[./img/Reed_switch.jpg]]
+[[./img/reed_switch_0.jpg]]
+- Symbol
+[[./img/Reed_switch_symbol.png]]
+** Variable Resistors
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A potentiometer (variable resistor) is a three-terminal resistor with a sliding or rotating contact that forms an adjustable voltage divider. If only two terminals are used, one end and the wiper, it acts as a variable resistor or rheostat.
+- An LDR is also a variable resistor. The resistance changes with the light level.
+- A thermistor is also a variable resistor, the resistance changes with the temperature.
+[[./img/Potentiometer.jpg]]
+- Symbol:
+[[./img/Pot_symbol.png]]
+** Microprocessor
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A microprocessor is a computer processor that incorporates the functions of a central processing unit on a single integrated circuit (IC), or at most a few integrated circuits.A
+- Microprocessors are mainly made up of silicon based transistors.
+- These vary in size and complexity. 
+[[./img/microprocessor.jpg]]
+** Microcontrollers
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A microcontroller is commonly known as a PIC (Peripheral Interface Controller).
+- A microcontroller (MCU for microcontroller unit, or UC for μ-controller) is a small computer on a single integrated circuit.
+- A microcontroller contains one or more CPUs (processor cores) along with memory and programmable input/output peripherals. 
+- They contain flash memory, which means we can write programs to them and then if we choose to, we can delete the program and re-write it.
+- This provides the user with great flexibility as you can change to program as and when you need to.
+- The PIC comes in many shapes and sizes, the one we use regularly is the Genie 08 PIC.
+[[./img/Genie_08.jpg]]
+- The pinouts can be seen in the image, some pins can be changed as either inputs or outputs.
+[[./img/Genie_08_real.jpg]]
+** Relays
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A relay is an electrically operated switch. Many relays use an electromagnet to mechanically operate a switch, but other operating principles are also used, such as solid-state relays.
+- Relays are used where it is necessary to control a circuit by a separate low-power signal, or where several circuits must be controlled by one signal. 
+#+begin_html
+<iframe width="420" height="315" src="https://www.youtube.com/embed/tbMX9USTyAI" frameborder="0" allowfullscreen></iframe>
+#+end_html
+- Using a relay allows the user to keep the low voltage completely seperate from the high voltage side. This keeps the user safe from harm as they are not in direct contact with the high voltage side.
+- Below are some videos of a relay working.
+#+begin_html
+<iframe width="420" height="315" src="https://www.youtube.com/embed/jzsYSriCBqA" frameborder="0" allowfullscreen></iframe>
+#+end_html
+
+#+begin_html
+<iframe width="420" height="315" src="https://www.youtube.com/embed/Icr_AHyu4Y4" frameborder="0" allowfullscreen></iframe>
+#+end_html
+
+#+begin_html
+<iframe width="420" height="315" src="https://www.youtube.com/embed/xe4RU7FtOmU" frameborder="0" allowfullscreen></iframe>
+#+end_html
+
+** Transistors
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A transistor is a semiconductor device used to amplify or switch electronic signals and electrical power.
+- It is composed of semiconductor material usually with at least three terminals for connection to an external circuit.
+- A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals.
+- Because the controlled (output) power can be higher than the controlling (input) power, a transistor can amplify a signal. 
+[[./img/Transistor_(cropped).jpg]]
+- Symbol:
+[[./img/NPN_transistor.png]]
+- Here is a video of the LDR and transistor working to control an LED.
+- The LED turns off when the light level is reached.
+#+begin_html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/93--ob2FY-U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+end_html
+* Outputs
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Electronic outputs are devices which we can control by the system you have designed. 
+- Output comonents can be very simple, like and LED to far more complex devices such as LCD displays and stepper motor control.
+** Buzzers
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A buzzer or beeper is an audio signalling device, which may be mechanical, electromechanical, or piezoelectric (piezo for short).
+- Typical uses of buzzers and beepers include alarm devices, timers, and confirmation of user input such as a mouse click or keystroke.
+[[./img/buzzer_real.jpg]]
+- Symbol:
+[[./img/buzzer_symbol.png]]
+** Light-Emitting Diodes (LED)
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A light-emitting diode (LED) is a special kind of diode that glows when electricity passes through it.
+- Most LEDs are made from a semi-conducting material called gallium arsenide phosphide.
+- LEDs can be bought in a range of colours. They can also be bought in forms that will switch between two colours (bi-colour), three colours (tri-colour) or emit infra-red light.
+- In common with all diodes, the LED will only allow current to pass in one direction.
+- The cathode is normally indicated by a flat side on the casing and the anode is normally indicated by a slightly longer leg.
+- The current required to power an LED is usually around 20 mA.
+- The LED is a semi-conductor component. 
+- The colour of the LED made fade over time due to heat and age.
+[[./img/LED_inner.png]]
+[[./img/LED_long_leg.png]]
+- Symbol:
+[[./img/LED_symbol.png]]
+** Loudspeakers
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A loudspeaker (or loud-speaker or speaker) is an electroacoustic transducer; which converts an electrical audio signal into a corresponding sound.
+- The dynamic speaker operates on the same basic principle as a dynamic microphone, but in reverse, to produce sound from an electrical signal.
+- When an alternating current electrical audio signal is applied to its voice coil, a coil of wire suspended in a circular gap between the poles of a permanent magnet, the coil is forced to move rapidly back and forth due to Faraday's law of induction, which causes a diaphragm (usually conically shaped) attached to the coil to move back and forth, pushing on the air to create sound waves.
+[[./img/loudspeaker.gif]]
+- A loudspeaker will require an amplifier to drive the coil in the speaker and produce sound.
+[[./img/speaker.jpg]]
+- Symbol:
+[[./img/speaker_symbol.jpg]]
+** Motors
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A motor is a device which converts electrical energy into rotary motion.
+- Microcontrollers can be used to turn a motor on and off as well as change the direction of the motor.
+- The speed of the motor can also be controlled using PWM(Pulse Width Modulation).
+- Most motors do not have a lot of torque and therefore need to be geared up or down using a gearbox.
+- There are many different types of motors. Here are a few, but there are many more:
+ 1. DC motor
+ 2. AC motor
+ 3. Servo motor
+ 4. Stepper motor
+ 5. Brushless motor
+[[./img/type_of_motors.jpg]]
+* Sources of Raw Materials Used in Systems
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- A
+** Polymers made of Crude Oil
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A 
+** Silicon
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+** Gold
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+** Copper
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+
+** Lithium
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+
+** Aluminium
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+
+** Nickel
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+
+** Rare Earth Elements
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+
+* Physical Characteristics
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- A
+** Resistor Colour Codes
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+** Tolerance
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+** Material selection for case construction
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+* Working Properties
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- A
+** Conductors and insulators
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+** Polymers
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+* Social Footprint
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- A
+** Relying on Scarce Elements
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+** Effects of using Modern Systems
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+* Ecological Footprint
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- A
+** Effects of Material Extraction and Processing of elements
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+** Effects of Built-in Obsolescence
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+** Effects of use
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+** Disposal of Electronic Products
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A
+* Practice Questions and Key terms
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Key terms
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+ 1. *Conduct*: To allow electricity or heat to flow through it.
+ 2. *Piezoelectric*: Pressure put on a crystal causing a small eletrical pulse.
+ 3. *Normally off*: The switch is off in its normal state and turns on when activated. 
+ 4.  *Normally on*: The switch is on in its normal state and turns off when activated. 
+ 5. *Flash Memory*: A memory that can store  information, then be wiped clean and store differnet information repeatedly.
+ 6. *Program*: A set of instructions that the controller follows to make the system work.
+ 7. *Semi-conductor*: A material that allows electricity to flow under certain conditions. It can behave as an insulator or conductor.
+ 8. *Electromagnet*: A coil of wire wrapped around an iron core that becomes magnetic when electricity flows through the coil.
+ 9. *Amplifier*: An electronic circuit that makes a small electrical signal more powerful, used to power a loudspeaker.
+ 10. *Ore*: Rock that contains metal.
+ 11. *Tarnish*: A thin film that forms on the surface of a metal when it reacts with oxygen in the air. It often makes the metal look duller in colour.
+ 12. *Electroplate*: A metal object is dipped into a solution of the coating metal and electricity is passed through it. The metal object becomes coated with a thin film of the coating metal.
+ 13. *Corrosion*: The metal is eaten away as it reacts with oxygen and water in the air. Rust is formed through the corrosion of iron or steel.
+ 14. *Tolerance*: Sets an upper and lower acceptable limit for a measurement of something.
+ 15. *Conductor*: Lets energy flow through it easily. All metals are good electrical conductors.
+ 16. *Elasticity*: How easily the material can stretch and return to its original shape.
+ 17. *Product life cycle*: The life cycle of a product starts with obtaining raw materials, manufacturing the product, selling it, using it and finally disposing of it when it is finished with.
+
 ** Practice Questions
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- Discuss the impact of introducing robotic assembly at a drill manufacturing company on the staff who work there.
+ 1. A
 
-- Why do some companies move their manufacturing operations abroad? 
 
-- A company wants to make a new, environmentally friendly range of kitchen equipment. Suggest two materials they could use to manufacture their products from.
-
-- Name two environmentally friendly power sources. 
-
-- Name two non-renewable energy sources.
-
-** Past Paper Questions
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- *June 2013, Q4.* You are advised to spend about 20 minutes on this question. This question is about social, cultural, moral and environmental issues. 
-  - (a) A company is considering purchasing robots to manufacture their products. Explain an advantage and a disadvantage of using robots in manufacturing. /(4 marks)/
-  - (b) A UK company is considering moving the manufacturing of its products to China. Explain the benefits for the company of manufacturing their products in China. /(4 marks)/
-  - (c) A multinational company is using a production process that is legal to use in some countries but is considered too dangerous to be used legally in the UK. Discuss whether or not the company should use this production process in those countries where it is legal to do so. Give reasons for your answer. /(4 marks)/
-  - (d) Explain how manufacturers can design sustainability into a product. Give examples in your answer. You will be tested for quality of written communication in this part of the question. /(8 marks)/
-
-[[file:index.html][Return to homepage]]
