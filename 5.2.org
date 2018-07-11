@@ -315,22 +315,42 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- A
+- When designing a product, you will need to consider the materials you are going to use in the manufacture.
+- Most metals are mined from the earth in an ore form and are then processed and the metals are extracted.
+- This is not an environmentally friendly process, so you will need to use as little of these materials as possible, not to mention the cost saving.
 ** Polymers made of Crude Oil
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A 
+- Crude oil can be turned into many useful products. But first, it has to be broken down. Find out more about cracking and polymers in this activity.
+- Most plastics are a by-product of the oil industry. 
+- The most common plastics used in school are:
+ 1. Acrylic, polymethyl methacrylate.
+ 2. HIPS, High-impact polystyrene.
+ 3. ABS, acrylonitrile butadiene styrene (used in the 3D printer).
+ 4. PVC, polyvinyl chloride.
+- Crude oil is found underground in place around the world, incluing the U.K.
+- The biggest suppliers of oil are, Russia, USA and Saudi Arabia.
+- To read more about this, click on the [[Crude%20oil%20can%20be%20turned%20into%20many%20useful%20products.%20But%20first,%20it%20has%20to%20be%20broken%20down.%20Find%20out%20more%20about%20cracking%20and%20polymers%20in%20this%20activity.][BBC bitesize link here.]]
 ** Silicon
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- Silicon is a semi-conductor material. This means it can be turned into a conductor or insulator depending on the impurities that are added.
+- Silicon is the most common material used in electronic components. 
+- It is sliced into very thin wafers and formed into electronic components.
+- THe biggest produces of silicon are China, Russia and the USA.
 ** Gold
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- Gold is a chemical element with symbol Au (from Latin: aurum) and atomic number 79, making it one of the higher atomic number elements that occur naturally.
+- Gold is a very expensive metal which is an excellent conductor of electricity.
+- It is generally used where components need to touch up against each other and make an electrical connection without soldering. For example: headphone sockets.
+- The gold is generally plated onto a much cheaper metal.
+- Gold will tarnish over time, this will impede the electrical connection and will therefore need cleaning.
+- Gold is also a very soft metal, therefore if the connection requires a lot of mechanical strength, gold will not be suitable.
+- The biggest producers of gold are, China, Russia and Australia.
 ** Copper
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
