@@ -355,67 +355,125 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
-
+- Copper is a chemical element with symbol Cu (from Latin: cuprum) and atomic number 29. It is a soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a reddish-brown colour.
+- Copper is the most common metal used in electrical wiring and connectivity.
+- Copper is malleable, it is a soft metal which is able to bend and stretch, making it excellent for electrical cables.
+- Most countries in the world produce Copper, but the biggest producers at the moment are Chile, China and Peru.
+- The UK used to mine Copper in Wales and Cornwall, but there are no active Copper mines left in the UK.
 ** Lithium
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
-
+- Lithium is a chemical element with symbol Li and atomic number 3. It is a soft, silvery-white alkali metal. 
+- Under standard conditions, it is the lightest metal and the lightest solid element. 
+- Like all alkali metals, lithium is highly reactive and flammable, and is stored in mineral oil.
+- In electronics, we have used Lithium in large quantities in the production of batteries. Mainly Lithium-ion batteries found in mobile phones, laptops and more recently in electric cars.
+- The largest producers of Lithium are Australia, Chile and Argentina.
 ** Aluminium
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
-
+- Aluminium is a chemical element with symbol Al and atomic number 13.
+- It is a silvery-white, soft, nonmagnetic and ductile metal in the boron group.
+- By mass, aluminium makes up about 8% of the Earth's crust; it is the third most abundant element after oxygen and silicon and the most abundant metal in the crust, though it is less common in the mantle below.
+- The chief ore of aluminium is bauxite.
+- Due to the metal being very lightweight comparatively to steel and its corrosion resistance, it is used widely in the aircraft and car industries.
+- It is also used as cables in high voltage power lines between pylons as it is very light.
+- Aluminium is produced around the world, but the largest manufacturers are China, Russia and Canada.
 ** Nickel
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
-
+- Nickel is a chemical element with symbol Ni and atomic number 28.
+- It is a silvery-white lustrous metal with a slight golden tinge. Nickel belongs to the transition metals and is hard and ductile.
+- Nickel has many uses and is used to produce many alloys (mixture of metals) such as Stainless steel, magnets and coins.
+- Nickel is highly corrosion resistant, so it is often used to electroplate other metals to protect them.
+- In the past, nickel was used in batteries to produce Nickel-Cadmium rechargeable batteries (NiCad). These have since been replaced by the Lithium-ion batteries.
+- The largest producers of Nickel are, the Philippines, Indonesia, Russia, Canada and Australia.
 ** Rare Earth Elements
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
-
+- Rare earth metals (REEs) are metals that can be found at the bottom of the periodic table.
+- For example, Lanthanum, Praseodynmuim, Neodymium, Promethuim and Lutetuim. These all have unusual names.
+- These materials are being increasingly used in devices such as car batteries, lasers, wind turbines, medical scanners and additives in specialist alloys.
+- Most rare earth materials are mined in China, with smaller amounts coming from the USA and Australia.
 * Physical Characteristics
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- A
 ** Resistor Colour Codes
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+#+begin_html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kvQBhXo_tF0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+end_html
+[[./img/resistor_color_codes.jpg]]
 ** Tolerance
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- The fourth color band indicates the resistor's tolerance. 
+- Tolerance is the percentage of error in the resistor's resistance, or how much more or less you can expect a resistor's actual measured resistance to be from its stated resistance.
+- A gold tolerance band is 5% tolerance, silver is 10%, and no band at all would mean a 20% tolerance.
+- Tolerance = value of resistor x value of tolerance band = 220 Ω x 10% = 22 Ω
+- 220 Ω stated resistance +/- 22 Ω tolerance means that the resistor could range in actual value from as much as 242 Ω to as little as 198 Ω.
+- Try work out the following resistor colour codes:
+-  What colour bands would be needed to produce the following resistor values?
+ 1. 200Ω +/- 10%
+ 2. 18kΩ +/- 5%
+ 3. 10MΩ +/- 20%
+ 4. 2k2Ω +/- 5%
+- What is the value of the resistor for the following values?
+ 1. Brown Black Red Gold
+ 2. Orange Orange Brown Gold
+ 3. Green Blue Orange Silver
+ 4. Yellow Violet Red Silver
 ** Material selection for case construction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- When design a case for your product, there are many choices available to you.
+ 1. Metals.
+ 2. Plastics.
+ 3. Different types of woods.
+ 4. Man made boards (e.g. MDF and Plywood)
+ 5. Modern composite materials (e.g. carbon fibre).
+- Every material will have strengths and weaknesses. Some will be expensive, some will be very strong, some will not conduct electricity.
+- All of these factors will need to be considered when choosing the right material for your product.
+- Here are some points to think about:
+ 1. The purpose of the product.
+ 2. How and where the product will be used?
+ 3. How much will the product cost (to make and sell)?
+ 4. How many do you intend to produce?
+ 5. How will the product be disposed of after it use (is it environmentally friendly)?
+- All of these question s will help you develop a specification and decide what is the most suitable material for your product.
 * Working Properties
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- A
+- A designer needs to understand the working properties of materials. This will allow them to choose the right materials for the product.
 ** Conductors and insulators
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- A conductor is an object or type of material that allows the flow of an electrical current in one or more directions. Materials made of metal are common electrical conductors.
+- An insulator is a material or an object that does not easily allow heat, electricity, light, or sound to pass through it. Air, cloth and rubber are good electrical insulators; plastics, feathers and wool make good thermal insulators. 
 ** Polymers
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- Polymers are very large molecules made when many smaller molecules join together, end-to-end. The smaller molecules are called monomers. In general:
+- lots of monomer molecules    →    a polymer molecule
+- Read more about polymers by clicking on the [[http://www.bbc.co.uk/schools/gcsebitesize/science/edexcel/fuels/hydrocarbonsrev4.shtml][BBC bitesize link.]]
+- Plastics are used in electronics as they have the following properties:
+ 1. They are good insulator and will not interfere with the electronic circuit.
+ 2. They are cheap and easily moulded into complex shapes.
+ 3. The can be made into many different colours.
+- Plastics have the following properties: 
+ 1. They are durable and do no get damaged easily by water and sunlight.
+ 2. Plastics are very hard and therefore scratch easily. Other materials can be better at this.
 * Social Footprint
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
