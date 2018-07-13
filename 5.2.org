@@ -448,7 +448,7 @@ e* Introduction
  3. How much will the product cost (to make and sell)?
  4. How many do you intend to produce?
  5. How will the product be disposed of after it use (is it environmentally friendly)?
-- All of these question s will help you develop a specification and decide what is the most suitable material for your product.
+- All of these questions will help you develop a specification and decide what is the most suitable material for your product.
 * Working Properties
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -474,46 +474,79 @@ e* Introduction
 - Plastics have the following properties: 
  1. They are durable and do no get damaged easily by water and sunlight.
  2. Plastics are very hard and therefore scratch easily. Other materials can be better at this.
+ 3. Some plastics are harder than others and can withstand knocks better. 
+ 4. Some plastics are more rigid than others and therfore crack easily. The more elasticity a plastic has, the better it can stretch and absorb an impact. These are often soft and rubbery.
 * Social Footprint
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- A
+- Some materials are very rare and can only be found in small quantities in remote locations around the world.
+- These materials will be more expensive do to their scarcity.
 ** Relying on Scarce Elements
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- The following are scarce elecments:
+ 1. *Lithium*, this is used in batteries in products such as, mobile phones in large quantities as well as laptops and more recently in electric cars. As the mine starts to run out, this will have and impact on its cost as well as the livelyhoods of the people working in the mines.
+ 2. *Cobalt*, mainly used in alloy metals to improve its performance. Cobalt is used as it has a high resistance to heat and is therefore used largely in the production of turbine blades in aircraft engines. Cobalt mainly come from Africa where there is often pollitical conflict as well as the use of child labour. 
+ 3. *Tantalium*, this is largely used in the production of capacitors. Which are used in a wide range of electronic products, such as mobile phones and laptop. Allowing the products to be smaller. Most of this now comes from Australia, but it is still mined in Africa, especially the DRC. The money is often used to fun conflicts in the region.
 ** Effects of using Modern Systems
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- Electronic systems have improved our lives greatly, allowing us to store and access vast amounts of data very quickly.
+- This has also all been linked up using the internet which has allowed us to communicate world wide, access information and more recently purchase and sell products online.
+- There has also been rise in the misuse of this data.
+- This progress has come with downsides, for example:
+ 1. Online shopping has led to the closures of many small businesses and therefore people have lost their jobs and income.
+ 2. Many jobs are being replaced with computer systems which can run more efficiently and 24 hours a day compared to a human being. 
+ 3. There has been the invent of cyber crime, which has increased rapidly, often more quickly than can be policed. This has led to people loosing vast somes of money along with other more serious crimes.
+- This has led to the need to have cyber security from large companies right down to your own personal computers to try combat this.
 * Ecological Footprint
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- A
+- As you produce a product, yo uwould need to consider the entire lifecycle of the product.
+- From the mining of the raw materials, to its transports to and from the customer.
+- The manufacturing process, its use and how long it will be used for.
+- Its disposal at the end of the process.
+- This is called the product life cycle.
 ** Effects of Material Extraction and Processing of elements
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- The mining process used to extract most metals and other materials has a cost to the environment.
+- Large amounts of energy is used in the mining process as well as the processing of the raw materials, e.g. heating the metals to melt them into ingots.
+- Some processes release toxic chemicals into the earth, water or air, this could be very harmful to humans and animals alike.
+- this entire process will need to be carefully monitored by outside agencies to ensure the local envionment is not damaged. Including the burning of fossil fuels contributing to global warming.
 ** Effects of Built-in Obsolescence
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- Many product are developed by a manufacturer with a built in obsolescence. This means they determine the life cycle of the product.
+- Mobile phone manufacturers are a good example of this. When a new phone is released, they will in time stop supporting the older models until the older models are no longer able to work due to software upgrades.
+- The old mobile phone might be in excellent condition and still operate well, but the phone will no longer work as the software does not support it.
+- This has then been planned by the manufacturer with a built-in timescale for its obsolesence.
+- Once the product becomes obsolete, it is then thrown away. This timescale is often way less than is needed to make the product not have an environmental impact.
 ** Effects of use
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- Some products will have an impact on the environment purely as you use them.
+- Cars are a good example of this. As you use a vehicle, it will burn fossil fuels and pollute the atmosphere in order for it to work.
+- Electric cars are not free from this as the electricity needed to recharge them is often genertated from coal fired power stations.
 ** Disposal of Electronic Products
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A
+- Once you finished using an electronic product, it will need to be disposed of correctly.
+- Electronic products are often very difficult to recycle as they are made up of many different materials, often scarce ones to.
+- To recycle them correctly, they will need to be stripped down to their bare parts and then recycled. Often these product contain very valuable materials, such as gold.
+- To materials in the products can also be toxic or heavy metals such as Lead which need to be disposed of safely.
+- There is a directive used for the disposal of electrical watse known as the WEEE directive. You will learn more about this later in the course.
+- As this is a complex process, it is understandably very expensive, putting many countries off from recycling correctly. Therefore a lots of electronic waste still ends up in landfill, where they will slowly degrade and leach into the soil.
+- These materials can be very harmful to the environment and the food chain.
+- Some products also contain poisonous chemicals such as polymers which do not bio-degrade and if burned, release toxic chemicals into the ground.
 * Practice Questions and Key terms
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -544,6 +577,11 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
- 1. A
+ 1. Name three input devices a system could have.
+ 2. Write out the resistor colour code.
+ 3. Explain the term tolerance?
+ 4. What are the effects of using modern systems?
+ 5. Explain why using Cobalt could be a problem for manufacturers.
+
 
 
