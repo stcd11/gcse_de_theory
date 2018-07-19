@@ -1,0 +1,227 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Investigate and analysis the work of professionals and companies to inform design
+#+AUTHOR: Paul Dougall
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
+</div>
+<center>
+</center>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+e* Introduction
+[[file:img/pic.jpg]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: intro
+:END:
+** What are PIC chips?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
+In school, we tend to use Genie branded chips, like the C08 model you will use in this project. Others (e.g. PICAXE) are available.
+PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
+Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
+
+While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
+** When would I use a PIC chip?
+Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
+In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
+In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
+
+When developing new designs, you must must consider how previous designs were tackled. 
+This information can help inform the current design decisions.
+* Analysising a product to specification criteria
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+You should evaluate all aspects of a product's design to establish:
+- key parts
+- how they fulfil the design brief and specification
+
+This helps you to understand the design decisions made and why the final product looks, or works, as it does.
+A good product analysis will examine a product under certain criteria.
+
+
+
+#+CAPTION: For example lets look at a domestic kettle.
+
+[[./img/table2.png]]
+[[./img/table3.png]]
+
+*Sustainability* - meeting the needs of the present without compromising the ability of future generations to meet their needs.
+
+* The work of past and present designers and companies
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+Influential designs are adopted and adapted by other designers.
+
+Here are some examples:
+
+** Alessi
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Company estabilished in Italy 1921.
+- Designer and mass producer of functional but visually appealing homeware and kitchen products.
+- Uses famous designers, such as Philip Starck, to create iconic kitchen products, such as the spider-like Juicy Salif lemon squeezer and retro kettles, setting a standard for other homeware companies.
+
+** Apple
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Company established in the USA 1976.
+- Producer of consumer electronics and software using cutting-edge technologies, e.g. iPad, iWatch, iPod, iPhone, iTunes
+- Ground breaking design: products looked compltely different to anything before
+- Breaking with tradition and legacy, Apple's iPod made digital music mainstream
+- A loyal customer base.
+
+** Heatherwick Studio
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Design studio established in the UK 1994.
+- Around 200 designers, architects and makers hve worked on projects from perfum bottles to Routemaster buses and Singapore University buildings.
+- Stretches the boundaries of materials, craftsmanship and artistic thinking, showing that products and buildings can be unusual, experimental and interesting.
+
+** Joe Casely-Hayford
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Fashion designer, born 1956
+- Noted for his original but wearable designs that push barriers of conformity, made by master craftspeople using traditional English tailoring methods.
+- Sets standard for British tailoring that combines style with character and is popular with celebrities.
+
+** Pixar
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Animation studio, established in the USA 1979.
+- Among the first to develop computer-animated feature films.
+- Uses new techniques and technologies to make popular and successful films including Toy Story and Finding Nemo.
+
+** Raymond Loewy
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Industrial designer(1893-1986)
+- The father of modern design
+- Emphasised the importance of combining simplicity with functionality, working with more than 200 companies on designs ranging from refrigerators to planes, trains and spacecraft
+- Introduced the idea that if two products have the same price, function and quality, the products with better aesthetics will be more popular
+- His designs are recognisable today, including the Coca-Cola bottle, Le Creuset Coquelle dish and logos for Shell and BP.
+
+** Tesla
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Automotive and energy storage company established in the USA 2008.
+- Produces electric cars that don't have compromise on power or quality, have zero emissions, are affordable and can be charged at home.
+- Leads electric car design technology, including the Tesla Model X (2016)
+
+** Zaha Hadid
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Architect (1950-2016)
+- Integrated geometric forms with expensive, sweeping fluid forms
+- Promoted architecture as a visual art form, with buildings intended to give aesthetic pleasure.
+- Overcame racial and gender barriers to establish an architect practise that has designed more than 1000 iconic buildings worldwide.
+
+** Apply it
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+Research other products that have been influenced by Raymond Loewy's steamlined design. Explain how they fit into the 'streamlined' philosophy.
+
+* Summary
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Products can be evaluated under certain specification criteria
+- Many designers have made significant contributions to design and continue to influence today's designers.
+
+* Exam questions
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Explain why it important that companies design sustainable products.
+- Describe two designs philosophies at the core of Zaha Hadid Architect's design style.
+- Name the designer whose designs follow the traditions of English tailored clothing but push the barriers of conformity.
+- Describe how form could follow function in the design of modern products.
+- Investigate the development of an Apple product and identify technological advances that have improved the product over time. Explain why you think Apple is such as influential company.
+[[file:index.html][
+Return to homepage]]
