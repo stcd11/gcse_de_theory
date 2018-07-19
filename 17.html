@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Using communication techniques to present design ideas</title>
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Using communication techniques to present design ideas</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Freehand sketching</a></li>
+<li><a href="#sec-2">2. Digital photography / media</a></li>
+<li><a href="#sec-3">3. Cut and paste techniques</a></li>
+<li><a href="#sec-4">4. 3D models</a></li>
+<li><a href="#sec-5">5. 3D drawing</a>
+<ul>
+<li><a href="#sec-5-1">Oblique and isometric projections</a></li>
+<li><a href="#sec-5-2">One point perspective drawing</a></li>
+<li><a href="#sec-5-3">Two point perspective drawing</a></li>
+<li><a href="#sec-5-4">Orthographic and exploded views</a></li>
+<li><a href="#sec-5-5">Assembly drawings</a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6. Systems and schematic diagrams</a></li>
+<li><a href="#sec-7">7. Computer aided design and specialist drawing programs</a></li>
+<li><a href="#sec-8">8. Record and justify design ideas clearly - annotated sketches</a></li>
+<li><a href="#sec-9">9. Summary</a></li>
+<li><a href="#sec-10">10. Exam questions</a></li>
+</ul>
+</div>
+</div>
+<div class=ribbon>
+<a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
+</div>
+<center>
+</center>
+
+<div id="outline-container-sec-1" class="outline-2 activity">
+<h2 id="sec-1"><span class="section-number-2">1</span> Freehand sketching</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>Freehand sketches are drawings that are created using no technical equipment such as T squares, set squares and rulers. 
+</li>
+<li>Allows to show ideas in 3D and/or 2D.
+</li>
+</ul>
+
+
+<div class="figure">
+<p><img src="https://i.pinimg.com/736x/93/4a/7c/934a7c33ff448d901403a651c1e0f4de--retro-cars-car-photos.jpg" alt="934a7c33ff448d901403a651c1e0f4de--retro-cars-car-photos.jpg" />
+</p>
+</div>
+
+<p>
+To make it more effective:
+</p>
+<ul class="org-ul">
+<li><b>different media</b>, i.e. using pencils, ball point pens, fine liners, marker pens or coloured pencils.
+</li>
+<li><b>grid paper</b> can be helpful in showing scale or added a human figure.
+</li>
+<li><b>use of arrows</b> is a good way to show movement in certain directions.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2 activity">
+<h2 id="sec-2"><span class="section-number-2">2</span> Digital photography / media</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li>Ideas are created by editing photos and media. 
+</li>
+<li>Can be as simple as tracing over the top of an existing photograph.
+</li>
+<li>Often used in making billboard advertising for new films.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2 activity">
+<h2 id="sec-3"><span class="section-number-2">3</span> Cut and paste techniques</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>Used by fashion designers to use existing photos/images to help and inspire their own designs.
+</li>
+<li>Again can be achieved by using tracing paper over an existing photo.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2 activity">
+<h2 id="sec-4"><span class="section-number-2">4</span> 3D models</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li>To help the user visual the end product prototypes or 3D models are sometimes made.
+</li>
+<li>can be full size or smaller scale
+</li>
+<li>can be made from a variety of materials - paper, fabric, cardboard, stryofoam or HIPS.
+</li>
+<li>can be made from small plastic building bricks
+</li>
+<li>system modelling can use breadboards or stripboard
+</li>
+<li>computer modelling to make 3D printed models and simulations.
+</li>
+</ul>
+
+
+<div class="figure">
+<p><img src="https://img1.cgtrader.com/items/56161/3c48286a8a/large/generic-sports-car-3d-model-max-obj-3ds-fbx-c4d-lwo-lw-lws.jpg" alt="generic-sports-car-3d-model-max-obj-3ds-fbx-c4d-lwo-lw-lws.jpg" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/4f/zn/p04fzn41.jpg" alt="p04fzn41.jpg" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2 activity">
+<h2 id="sec-5"><span class="section-number-2">5</span> 3D drawing</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+Can be isometric, oblique, one point perspective or two-point perspective.
+</p>
+</div>
+<div id="outline-container-sec-5-1" class="outline-3 learn">
+<h3 id="sec-5-1">Oblique and isometric projections</h3>
+<div class="outline-text-3" id="text-5-1">
+
+<p>
+<b>Isometric projections</b>
+<img src="https://missrobinsonvce.weebly.com/uploads/2/3/7/9/23792404/141286_orig.png" alt="141286_orig.png" />
+</p>
+
+<p>
+<b>Oblique projections</b>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cavalier_perspective_45.svg/480px-Cavalier_perspective_45.svg.png" alt="480px-Cavalier_perspective_45.svg.png" />
+</p>
+
+
+<div class="figure">
+<p><img src="http://www.mstworkbooks.co.za/technology/gr8/Tech_English_LG_Grade8-term1-web-resources/image/Tech1_gr8_ch7_fig15_fmt.jpeg" alt="Tech1_gr8_ch7_fig15_fmt.jpeg" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-5-2" class="outline-3 learn">
+<h3 id="sec-5-2">One point perspective drawing</h3>
+<div class="outline-text-3" id="text-5-2">
+<ul class="org-ul">
+<li>Often used in interior design.
+</li>
+<li>Construction lines point in the distance to a single point called the vanishing point.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="https://www.drawingtutorials101.com/drawing-tutorials/Perspectives/One-Point-Perspective/one-point-perspective-car/how-to-draw-One-Point-Perspective-Car-step-6.png" alt="how-to-draw-One-Point-Perspective-Car-step-6.png" />
+</p>
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GVKSVMsWXrI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-5-3" class="outline-3 learn">
+<h3 id="sec-5-3">Two point perspective drawing</h3>
+<div class="outline-text-3" id="text-5-3">
+<ul class="org-ul">
+<li>Two-point perspective uses two vanishing points, connected by a horizontal line. 
+</li>
+<li>Two-point perspective is useful when developing ideas in 3D.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="http://getdrawings.com/image/car-perspective-drawing-58.jpg" alt="car-perspective-drawing-58.jpg" />
+</p>
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QWGYakptcVw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-5-4" class="outline-3 learn">
+<h3 id="sec-5-4">Orthographic and exploded views</h3>
+<div class="outline-text-3" id="text-5-4">
+<ul class="org-ul">
+<li>Orthographic projection uses a 2D drawing of each side of an object. 
+</li>
+<li>Orthographic drawings usually consist of a front view, a side view and a plan view. 
+</li>
+<li>A drawing board and parallel motion or T-square is used to project one view from another.
+</li>
+<li>Orthographic drawing may be done using first angle projection or third angle projection.
+</li>
+</ul>
+
+<p>
+<img src="https://i0.wp.com/drawingdatabase.com/wp-content/uploads/2014/04/%D0%A1hevrolet-Camaro.gif" alt="%D0%A1hevrolet-Camaro.gif" />
+<b>Exploded view</b>
+<img src="https://diagramchartwiki.com/wp-content/uploads/2018/03/car-engine-block-diagram-diagrams-car-engine-block-diagram-dolgular-basic-car-engine.jpg" alt="car-engine-block-diagram-diagrams-car-engine-block-diagram-dolgular-basic-car-engine.jpg" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5-5" class="outline-3 learn">
+<h3 id="sec-5-5">Assembly drawings</h3>
+<div class="outline-text-3" id="text-5-5">
+<ul class="org-ul">
+<li>An assembly drawing shows how parts of a product fit together. 
+</li>
+<li>They are often used to show how to assemble parts of model kits and flat-pack furniture.
+</li>
+<li>There are two types:
+</li>
+<li>A fitted assembly drawing shows the parts put together, and can be drawn in 2D or 3D.
+</li>
+<li>An exploded drawing shows the parts separated, but in the correct relationship for fitting together. Exploded views are usually drawn in 3D, as illustrated.
+</li>
+</ul>
+
+
+<div class="figure">
+<p><img src="https://image.slidesharecdn.com/01-140917123849-phpapp02/95/01-part-and-assembly-drawing-11-638.jpg" alt="01-part-and-assembly-drawing-11-638.jpg" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-6" class="outline-2 activity">
+<h2 id="sec-6"><span class="section-number-2">6</span> Systems and schematic diagrams</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>used mainly for electronic projects
+</li>
+<li>shows the inputs, processes and outputs
+</li>
+</ul>
+
+
+<div class="figure">
+<p><img src="http://www.technologystudent.com/designpro/sysdia3a.gif" alt="sysdia3a.gif" />
+</p>
+</div>
+
+<p>
+<b>Schematic</b>
+</p>
+
+<ul class="org-ul">
+<li>maybe hand drawn or made using a computer package such as Circuit Wizard.
+</li>
+<li>labelled to show component names and values.
+</li>
+</ul>
+
+
+<div class="figure">
+<p><img src="https://cdn.instructables.com/F7E/ZOZP/HSVG8Z29/F7EZOZPHSVG8Z29.LARGE.jpg" alt="F7EZOZPHSVG8Z29.LARGE.jpg" /> 
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-7" class="outline-2 activity">
+<h2 id="sec-7"><span class="section-number-2">7</span> Computer aided design and specialist drawing programs</h2>
+<div class="outline-text-2" id="text-7">
+
+<p>
+Computer aided design or CAD can be used in a number of different ways such as:
+</p>
+<ul class="org-ul">
+<li>CAD freehand sketching
+</li>
+<li>2D modelling
+</li>
+<li>3D modelling
+</li>
+<li>System design
+</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>Often used to design items to be made using computer aided manufacture (CAM) - like a lasercutter or 3D printer.
+</li>
+</ul>
+
+
+<div class="figure">
+<p><img src="http://scaleviews.com/wp-content/uploads/2016/09/Mako-Kit-CAD-Screenshot-1-720x433.jpg" alt="Mako-Kit-CAD-Screenshot-1-720x433.jpg" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-8" class="outline-2 activity">
+<h2 id="sec-8"><span class="section-number-2">8</span> Record and justify design ideas clearly - annotated sketches</h2>
+<div class="outline-text-2" id="text-8">
+<ul class="org-ul">
+<li>Annotation can be used with all of the above techniques.
+</li>
+<li>They help to explain the ideas without the need to speak to them directly.
+</li>
+<li>The can vary depending on what stage of the design process they are being used.
+</li>
+</ul>
+
+<p>
+<b>Design justifications:</b>
+</p>
+<ul class="org-ul">
+<li>user and design requirements
+</li>
+<li>pros and cons of each design
+</li>
+<li>ergonomics
+</li>
+<li>sustainability considerations
+</li>
+</ul>
+<p>
+<b>Manufacturing details:</b>
+</p>
+<ul class="org-ul">
+<li>materials and components
+</li>
+<li>dimensions
+</li>
+<li>manufacturing process and techniques
+</li>
+<li>sources of energy e.g. batteries, main, solar, wind etc.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-9" class="outline-2 activity">
+<h2 id="sec-9"><span class="section-number-2">9</span> Summary</h2>
+<div class="outline-text-2" id="text-9">
+<ul class="org-ul">
+<li>Decide on suitable design strategies for your design problem or scenario
+</li>
+<li>Choose a range of suitable communication techniques for your design problem or scenario.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-10" class="outline-2 activity">
+<h2 id="sec-10"><span class="section-number-2">10</span> Exam questions</h2>
+<div class="outline-text-2" id="text-10">
+<ul class="org-ul">
+<li>Explain one reason why annotations are important when a designer passes their concepts to a manufacturer.
+</li>
+<li>Explain one benefit and one drawback of freehand sketching versus CAD modelling.
+</li>
+<li>Name two different design strategies that designers sometimes use.
+</li>
+<li>List five things that a designer might annotate on their designs.
+</li>
+<li>Choose a suitable communication technique and sketch out a product that you might find in your design engineering workshop.
+</li>
+<li>Consider the advantages and disadvantages of collaborative designing.
+</li>
+<li>Discuss the potential differences in communication techniques for the following products: pop up children's book, interior of a wedding venue, clothing for a triathlon athlete and systems for an Amazon locker
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="validation"></p>
+</div>
+</body>
+</html>

@@ -6,15 +6,14 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Social and Environmental Issues
-#+AUTHOR: Stephen Brown
+#+TITLE: Using communication techniques to present design ideas
+#+AUTHOR: Paul Dougall
 
 #+BEGIN_HTML
 <div class=ribbon>
 <a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
 </div>
 <center>
-<img src='./img/recycle.svg' width=20%>
 </center>
 #+END_HTML
 
@@ -87,115 +86,199 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: intro
 :END:
-* Introduction
+** What are PIC chips?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
+In school, we tend to use Genie branded chips, like the C08 model you will use in this project. Others (e.g. PICAXE) are available.
+PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
+Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
+
+While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
+** When would I use a PIC chip?
+Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
+In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
+In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
+
+When developing new designs, you must must consider how previous designs were tackled. 
+This information can help inform the current design decisions.
+* Freehand sketching
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- An engineer needs to understand that resources are not infinite, and that the implications of manufacturing decisions (whether in terms of materials, or manufacturing processes) will have a lasting impact on both the planet and those inhabiting it. 
-- Additional information on Social, Moral, Environmental and Sustainability issues can be found [[https://www.bournetoinvent.com/mp3/step_2.html][here]].
-** Social - Impact of Manufacturing
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- In the early 21st century, the majority of mass-produced products were traditionally assembled by hand, on production lines. Low-skilled workers were employed to perform one process or assemble one part of a product on a conveyor system, before the part was sent to the next operative to perform the next step in the construction process. This provided mass employment, and jobs for life for a large portion of the population. Some advantages of a human workforce are:
+- Freehand sketches are drawings that are created using no technical equipment such as T squares, set squares and rulers. 
+- Allows to show ideas in 3D and/or 2D.
 
-  - *Adaptable:* Quickly re-trainable when product requirements change,
-  - *Initiative:* Able to spot errors and alert relevant people quickly,
-  - Can usually respond well to unexpected situations (e.g. equipment malfunction, fire, etc),
-  - *Cost:* Low-cost to employ and provide basic training,
-  - *Societal benefits:* Provides local people with paid employment,
+https://i.pinimg.com/736x/93/4a/7c/934a7c33ff448d901403a651c1e0f4de--retro-cars-car-photos.jpg
 
-- The disadvantages are: -
-  - *Fallability:* Humans can fall ill, will require breaks, can quit suddenly and can’t work 24 hours a day.
-  - *Accuracy:* Each product will be slightly different on every product the person assembles, as humans will work inconsistently. 
-  - *Speed:* Not as quick to work as an automated equivalent
-  - *Eye for detail:* Can make mistakes if distracted.
+To make it more effective:
+- *different media*, i.e. using pencils, ball point pens, fine liners, marker pens or coloured pencils.
+- *grid paper* can be helpful in showing scale or added a human figure.
+- *use of arrows* is a good way to show movement in certain directions.
 
-
-- In the latter half of the 20th century, robotic production lines became increasingly common (/as seen in car manufacturing/). Some of the advantages of a robotic workforce are: -
-
-  - *Quality:* They are more accurate and consistent than a human,
-  - *Productivity:* They don’t take breaks, go sick or have holiday, can work 24 hours a day,
-  - *Safety:* Humans are moved away from dangerous processes, resulting in less injuries,
-  - *Save money:* Robots do not take a wage, need a pension and create less waste.
-- Some disadvantages are:
-  - *Expense:* They have to be purchased initially and require maintenance form highly qualified (and expensive) staff,
-  - *Return on Investment:* This can be long and the market may change, rendering machines redundant.
-  - *Expertise:* The workforce needs to ‘skill up’ to operate and maintain them, resulting in fewer overall jobs,
-  - *Safety:* They can injure personnel if not operated correctly.
-
-** Moral Issues
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Moral issues need to considered by designers. Without proper safeguards in place, poorly designed products can potentially injure, or even kill.
-- For instance, a robotic arm in a car factory might be designed to move a car chassis from one area to the next. An arm such as this would need to be extremely powerful to carry that amount of weight, and if a human were to get in the way of it moving, this /could/ lead to serious injury.
-- The designers of the arm will need to demonstrate that they take every reasonable measure to make the arm as safe as possible. This could include:
-  - Training staff that they are not to go inside a marked area of the arm's operation.
-  - Ensuring the power is isolated when the arm is serviced.
-  - Fit sensors to detect any human coming into the operating area of the arm that will cut power if someone gets to close, and sound a siren.
-  - Fit microswitches to the sides of the arm, so that if it comes into contact with something unexpected, power is cut immediately.
-
-
-- In the event of an accident (e.g. someone getting hit by the arm), although it may look as though it is the user’s fault, it could be argued that the design of the arm was partly to blame. 
-- As well as being sued for damages there is the added issue of bad publicity for the robotics company even if they are found innocent of any wrong doing. It is usually better for any company to prevent the tragedy occurring than win the legal battle following it.
-- The manufacturer would receive bad publicity, resulting in a knock-on drop in sales for their business. 
-** Environmental and Sustainability Issues
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Plastics are made using oil, which is a non-sustainable material, and not all of these can be easily recycled. If sent to landfill, plastics take hundreds of years to break down, which is harmful to the environment. 
-
-- By creating products which use recyclable or bio-degradable materials such as PLA – a bio-degradable plastic made from corn-starch, wood or metal, the impact on the environment can be reduced. Reducing the amount of packaging can also assist.
-
-- Sustainability can be designed into products. Using a laptop as an example, by making it simple for the owner to replace parts (e.g. Hard Disk) that may wear out before the whole unit is scrap. Products can be created to have access panels and removable covers that can be safely opened / removed, to allow the user to replace parts safely (e.g. battery), and the manufacturer can provide clear instructions on how to replace these parts.
-
-- Spare parts could be designed to be easily identifiable, and made readily available to buy online, and they manufacturer could make certain parts fit many models (e.g. Memory) to make it simpler to stock and identify.
-
-- Finally, if the manufacturer reduced the regularity with which they change the design of their product (e.g. making a thinner design or new colour), the users would not feel the need to scrap their existing laptop before the end of its working life, just to trade up to a newer version.
-
-** Energy
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- In order to manufacture any product, energy is required, whether when sourcing materials, manufacturing, or distributing goods to consumers. This is typically electricity, which has to be generated before being sent to homes and factories. Electricity supplies are split into renewable and non-renewable sources.
-
-- *Burning Coal/Gas:* The traditional way of generating power, these are made from fossil fuels, and are in increasingly short supply. Burning these releases a large amount of CO2, which in turn adds to atmospheric pollution. At the same time, these are still relatively low-cost solutions.
-
-- *Nuclear power:* By using uranium, nuclear fission reactions can generate large amounts of power for many years from relatively little material. There are concerns about safety, following a number of International issues, which makes the public somewhat apprehensive about using them, and the waste material needs to be disposed of very carefully. This is also a non-renewable source. 
-
-- *Wind-power:* By using turbines, clean energy can be created for “free” (after the initial energy required to create the turbine is offset). Unfortunately, wind is variable, and therefore unreliable as a sole source of energy. 
-
-- *Solar power:* More effective in equatorial climates, photo-voltaic cells can be put on roofs in order to generate free electricity from the sun. Unfortunately, PV cells require considerable energy and resources to manufacture, and the sun does not shine all day long. 
-
-- *Geo-thermal:* By digging a deep hole in the ground and using a heat-exchange pump, the heat from the core of the planet can be used to heat homes and businesses.
-
-* Recap
+* Digital photography / media
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Practice Questions
+- Ideas are created by editing photos and media. 
+- Can be as simple as tracing over the top of an existing photograph.
+- Often used in making billboard advertising for new films.
+
+* Cut and paste techniques
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: try
+:HTML_CONTAINER_CLASS: activity
 :END:
-- Discuss the impact of introducing robotic assembly at a drill manufacturing company on the staff who work there.
+- Used by fashion designers to use existing photos/images to help and inspire their own designs.
+- Again can be achieved by using tracing paper over an existing photo.
 
-- Why do some companies move their manufacturing operations abroad? 
-
-- A company wants to make a new, environmentally friendly range of kitchen equipment. Suggest two materials they could use to manufacture their products from.
-
-- Name two environmentally friendly power sources. 
-
-- Name two non-renewable energy sources.
-
-** Past Paper Questions
+* 3D models
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: try
+:HTML_CONTAINER_CLASS: activity
 :END:
-- *June 2013, Q4.* You are advised to spend about 20 minutes on this question. This question is about social, cultural, moral and environmental issues. 
-  - (a) A company is considering purchasing robots to manufacture their products. Explain an advantage and a disadvantage of using robots in manufacturing. /(4 marks)/
-  - (b) A UK company is considering moving the manufacturing of its products to China. Explain the benefits for the company of manufacturing their products in China. /(4 marks)/
-  - (c) A multinational company is using a production process that is legal to use in some countries but is considered too dangerous to be used legally in the UK. Discuss whether or not the company should use this production process in those countries where it is legal to do so. Give reasons for your answer. /(4 marks)/
-  - (d) Explain how manufacturers can design sustainability into a product. Give examples in your answer. You will be tested for quality of written communication in this part of the question. /(8 marks)/
+- To help the user visual the end product prototypes or 3D models are sometimes made.
+- can be full size or smaller scale
+- can be made from a variety of materials - paper, fabric, cardboard, stryofoam or HIPS.
+- can be made from small plastic building bricks
+- system modelling can use breadboards or stripboard
+- computer modelling to make 3D printed models and simulations.
 
-[[file:index.html][Return to homepage]]
+https://img1.cgtrader.com/items/56161/3c48286a8a/large/generic-sports-car-3d-model-max-obj-3ds-fbx-c4d-lwo-lw-lws.jpg
+
+http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/4f/zn/p04fzn41.jpg
+
+* 3D drawing
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+Can be isometric, oblique, one point perspective or two-point perspective.
+** Oblique and isometric projections
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+*Isometric projections*
+https://missrobinsonvce.weebly.com/uploads/2/3/7/9/23792404/141286_orig.png
+
+*Oblique projections*
+https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cavalier_perspective_45.svg/480px-Cavalier_perspective_45.svg.png
+
+http://www.mstworkbooks.co.za/technology/gr8/Tech_English_LG_Grade8-term1-web-resources/image/Tech1_gr8_ch7_fig15_fmt.jpeg
+
+** One point perspective drawing
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Often used in interior design.
+- Construction lines point in the distance to a single point called the vanishing point.
+https://www.drawingtutorials101.com/drawing-tutorials/Perspectives/One-Point-Perspective/one-point-perspective-car/how-to-draw-One-Point-Perspective-Car-step-6.png
+
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GVKSVMsWXrI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+
+** Two point perspective drawing
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Two-point perspective uses two vanishing points, connected by a horizontal line. 
+- Two-point perspective is useful when developing ideas in 3D.
+http://getdrawings.com/image/car-perspective-drawing-58.jpg
+
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QWGYakptcVw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+
+** Orthographic and exploded views
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Orthographic projection uses a 2D drawing of each side of an object. 
+- Orthographic drawings usually consist of a front view, a side view and a plan view. 
+- A drawing board and parallel motion or T-square is used to project one view from another.
+- Orthographic drawing may be done using first angle projection or third angle projection.
+
+https://i0.wp.com/drawingdatabase.com/wp-content/uploads/2014/04/Сhevrolet-Camaro.gif
+*Exploded view*
+https://diagramchartwiki.com/wp-content/uploads/2018/03/car-engine-block-diagram-diagrams-car-engine-block-diagram-dolgular-basic-car-engine.jpg
+
+** Assembly drawings
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- An assembly drawing shows how parts of a product fit together. 
+- They are often used to show how to assemble parts of model kits and flat-pack furniture.
+- There are two types:
+- A fitted assembly drawing shows the parts put together, and can be drawn in 2D or 3D.
+- An exploded drawing shows the parts separated, but in the correct relationship for fitting together. Exploded views are usually drawn in 3D, as illustrated.
+
+https://image.slidesharecdn.com/01-140917123849-phpapp02/95/01-part-and-assembly-drawing-11-638.jpg
+
+* Systems and schematic diagrams
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- used mainly for electronic projects
+- shows the inputs, processes and outputs
+
+http://www.technologystudent.com/designpro/sysdia3a.gif
+
+*Schematic*
+
+- maybe hand drawn or made using a computer package such as Circuit Wizard.
+- labelled to show component names and values.
+
+https://cdn.instructables.com/F7E/ZOZP/HSVG8Z29/F7EZOZPHSVG8Z29.LARGE.jpg 
+
+* Computer aided design and specialist drawing programs
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+ 
+Computer aided design or CAD can be used in a number of different ways such as:
+- CAD freehand sketching
+- 2D modelling
+- 3D modelling
+- System design
+
+
+- Often used to design items to be made using computer aided manufacture (CAM) - like a lasercutter or 3D printer.
+
+http://scaleviews.com/wp-content/uploads/2016/09/Mako-Kit-CAD-Screenshot-1-720x433.jpg
+
+* Record and justify design ideas clearly - annotated sketches
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Annotation can be used with all of the above techniques.
+- They help to explain the ideas without the need to speak to them directly.
+- The can vary depending on what stage of the design process they are being used.
+
+*Design justifications:*
+- user and design requirements
+- pros and cons of each design
+- ergonomics
+- sustainability considerations
+*Manufacturing details:*
+- materials and components
+- dimensions
+- manufacturing process and techniques
+- sources of energy e.g. batteries, main, solar, wind etc.
+
+* Summary
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Decide on suitable design strategies for your design problem or scenario
+- Choose a range of suitable communication techniques for your design problem or scenario.
+* Exam questions
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Explain one reason why annotations are important when a designer passes their concepts to a manufacturer.
+- Explain one benefit and one drawback of freehand sketching versus CAD modelling.
+- Name two different design strategies that designers sometimes use.
+- List five things that a designer might annotate on their designs.
+- Choose a suitable communication technique and sketch out a product that you might find in your design engineering workshop.
+- Consider the advantages and disadvantages of collaborative designing.
+- Discuss the potential differences in communication techniques for the following products: pop up children's book, interior of a wedding venue, clothing for a triathlon athlete and systems for an Amazon locker
