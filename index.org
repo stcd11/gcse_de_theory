@@ -93,12 +93,12 @@
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-* [[file:2.html][1.16 - Prototyping]]
+* [[file:16.html][1.16 - Prototyping]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-* [[file:2.html][1.17 - Communcation of design]]
+* [[file:17.html][1.17 - Communcation of design]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
