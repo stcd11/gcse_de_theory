@@ -127,6 +127,29 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+** Summary
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- A flowchart is a good way to plan a computer program.
+- A flowchart uses instructions and yes/no questions to create a program.
+- Analogue inputs give a range of values to the controller.
+- Time delays and counts are useful in a program.
+- Feedback loops allow a program to monitor a sensor.
+
+** Exam style questions
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- What do rectangle and diamond shaped boxes in a flowchart mean?
+- Give two examples of analogue sensors.
+- What does a feedback loop do?
+
+*More tricky*
+
+- Write a flowchart for a light with a motion sensor that makes the light come on for 60 seconds when someone walks past. (Hint: start by thinking which yes/no questions to ask.)
+- Write a flowchart for a heating system that keeps a room at a steady temperature.
+
 ** Past Paper Questions
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
