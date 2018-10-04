@@ -102,7 +102,7 @@ e* Introduction
 - Metal plating is a surface covering in which a metal is deposited on a conductive surface. Plating has been done for hundreds of years; it is also critical for modern technology. 
 - Plating is used to decorate objects, for corrosion inhibition, to improve solderability, to harden, to improve wearability, to reduce friction, to improve paint adhesion, to alter conductivity, to improve IR reflectivity, for radiation shielding, and for other purposes. Jewelry typically uses plating to give a silver or gold finish.
 - Cheap metals can be coated with a more expensive one, such a gold to make it look more expensive.
-- Some metals corrode and can be coated to prevent or minimise this. For example, steel can be coated with chromium which provides excellent corrocion resistance.
+- Some metals corrode and can be coated to prevent or minimise this. For example, steel can be coated with chromium which provides excellent corrosion resistance.
 #+BEGIN_HTML
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ctL6Oc0STUU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 #+END_HTML

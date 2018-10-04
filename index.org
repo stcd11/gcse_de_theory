@@ -25,7 +25,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./2.html][1.2 - Evaluating New and Energing Technology]]
+* [[./2.html][1.2 - Evaluating New and Emerging Technology]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -135,6 +135,11 @@
 :END:
 
 * [[file:5.8.html][5.8 - Surface treatments and finishes]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+* [[file:5.9.html][5.9 - Calculations]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
