@@ -118,9 +118,13 @@ e* Introduction
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
+- Below is a video of how to calculate gear ratios and speed calculation.
 #+BEGIN_HTML
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pDv_MONInEA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7AFlCXoN1js" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 #+END_HTML
+- The formula above applies to all drive systems. For pulleys, you would use the diameter instead of number of teeth.
+- Chain and sprocket calculations will be the same as gear calculations.
+- One thing to note, in gear drive systems, the gears will spin in opposite directions as they move through the gears.
 * Graphs
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
