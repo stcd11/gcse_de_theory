@@ -105,6 +105,8 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+- Before starting the course, you will come across many new words and technical terms.
+- Here is a link to [[https://electricalschool.org/][www.electricalschool.org]] they have created, and are continuing to develop, a glossary of electrical terms. 
 ** Objectives
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
