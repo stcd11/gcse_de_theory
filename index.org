@@ -144,7 +144,7 @@
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-* [[http://www.aqa.org.uk/subjects/design-and-technology/gcse/design-and-technology-systems-and-control-technology-4565/past-papers-and-mark-schemes][AQA Past Exam papers]]
+* [[https://qualifications.pearson.com/en/qualifications/edexcel-gcses/design-and-technology-2017.html][Edexcel Specification]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
