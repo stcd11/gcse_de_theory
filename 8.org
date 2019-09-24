@@ -166,14 +166,14 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: learn
 :END:
 - *Properties* -  Corrosion resistant, hard, tough, sometimes magnetic, resists wear, difficult to cut. Specific properties can be altered by varying the alloy metals.
-- *Composition* - Carbon steel + 10.5 - 18% chromium + 8% nickel + 8% manganese.
+- *Composition* - Carbon steel(which contains Iron) + 10.5 - 18% chromium + 8% nickel + 8% manganese.
 - *Melting point* - 1400 degress celcius.
 - *Example uses* - Kitchenware, sinks, cutlery, medical equipment.
 ** Cast iron
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- *Properties* -  Hard skin, brittle, soft core, goos compressive strength, self lubricating, magnetic.
+- *Properties* -  Hard skin, brittle, soft core, good compressive strength, self lubricating, magnetic.
 - *Composition* - Iron + 2-6% carbon.
 - *Melting point* - 1200 degress celcius.
 - *Example uses* - Machine parts, vices, brake discs and manhole covers.
@@ -231,7 +231,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: activity
 :END:
 - Explain 2 reasons why stainless steel may be suitable for the roof of a building.
-- Name the elements that is added to iron to make stainless steel.
+- Name the elements that are added to iron to make stainless steel.
 - Explain what is meant by the term 'Ductility'.
 - Cast iron has 2-6% carbon. Describe what would happen when you decrease the carbon content.
 - Explain 2 reasons why stainless steel would be used for motorcycle nuts and bolts.
