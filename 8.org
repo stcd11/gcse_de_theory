@@ -139,7 +139,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: learn
 :END:
 - An alloy is a mixture of 2 or more metals or elements.
-- This mixture is used to improve the properties and characterisitics.
+- This mixture is used to improve the properties and characteristics.
 
 #+BEGIN_HTML
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SkpAy9_opDk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
