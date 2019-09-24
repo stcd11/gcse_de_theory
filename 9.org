@@ -111,7 +111,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :END:
 - A thin flat material made from natural fibres weighing less than 220 gsm.
 #+BEGIN_HTML
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gq7L9-0XdVw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EOJ9uxx-SM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #+END_HTML
 ** Board
 :PROPERTIES:
@@ -120,7 +120,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - Board is thicker than paper or layers of paper more than 220gsm.
 
 #+BEGIN_HTML
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8i3riKvCYkM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LNdwssdrUT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #+END_HTML
 * Paper
 :PROPERTIES:

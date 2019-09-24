@@ -230,10 +230,10 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- Explain 2 resons why stainless steel may be suitable for the roof of a building.
+- Explain 2 reasons why stainless steel may be suitable for the roof of a building.
 - Name the elements that is added to iron to make stainless steel.
 - Explain what is meant by the term 'Ductility'.
 - Cast iron has 2-6% carbon. Describe what would happen when you decrease the carbon content.
-- Explain 2 reasons why stainless stell would be used for motorcycle nuts and bolts.
+- Explain 2 reasons why stainless steel would be used for motorcycle nuts and bolts.
 - Summarise what makes metal an alloy. Identify 2 further alloys and explain why the 'new' metal is suitable to a particular application.
 
