@@ -168,6 +168,7 @@ Read more about levers [[http://www.bbc.co.uk/schools/gcsebitesize/design/system
 - It can be calculated by comparing the weight of the load with the effort required to move it.
 For example a wheel barrow(class 2 lever) needs a 50N effort to lift a 300N load.
 MA = load / effort = 300/50 = 6
+- You can find out more about level calculations by clicking on [[https://bournetoinvent.com/projects/9-SC-Mechanisms/pages/1_Lesson.html][this]] link. this is the lever calculations you did in the Year 8 Mechanisms project.
 
 ** Velocity Ratio
 - This is the ratio of the distance the effort has to move compared to the load, in a given time.
@@ -187,6 +188,7 @@ MA = load / effort = 300/50 = 6
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+- In Year 7 you looked at Cams when making you CAM box project. Click on [[https://bournetoinvent.com/projects/7-SC-Mechanisms/pages/1_Lesson.html][this]] link to go back and look over it again.
 - Cams allow us to change the type of motion, direction and speed from a rotary shaft.
 - They convert rotary motion into reciprocating and oscillating motion.
 - The follower is the device that follows the movement of the cam profile to provide the desired output.
@@ -205,6 +207,9 @@ Eccentric cam - gives a continuous smooth motion as it rises or falls. Used in f
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+- In Year 8 and Year 9 yo looked at pulleys and belts and completed all the equations.
+- Click on [[https://bournetoinvent.com/projects/7-SC-Mechanisms/pages/2_Lesson.html][this]] link to see the Year 8 work.
+- Click on [[https://bournetoinvent.com/projects/9-SC-Flyer/2.html][this]] link to see the Year 9 work.
 - Pulleys are used to change the speed, direction of rotation, or turning force or torque.
 - A pulley system consists of two pulley wheels each on a shaft, connected by a belt. This transmits rotary motion and force from the input, or driver shaft, to the output, or driven shaft.
 - A pulley system with one 40mm diameter pulley and a 120mm pulley, connected by a belt. The smaller pulley is rotating at 100rpm
@@ -246,6 +251,7 @@ http://www.technologystudent.com/cams/crank1a.gif
 :HTML_CONTAINER_CLASS: activity
 :END:
 ** Simple gear train
+- You looked at gears in the Year 8 Mechanisims project. Click on [[https://bournetoinvent.com/projects/9-SC-Mechanisms/pages/5_Lesson.html][this]] link to see the project.
 - The simple gear train is used where there is a large distance to be covered between the input shaft and the output shaft. 
 - Each gear in a simple gear train is mounted on its own shaft.
 - When examining simple gear trains, it is necessary to decide whether the output gear will turn faster, slower, or the same speed as the input gear. 
@@ -303,7 +309,7 @@ iii) Rotary to Reciprocating and
 
 iv) Oscillating to Rotary.
 
-/Tip:/ You may find [[http://www.bbc.co.uk/schools/gcsebitesize/design/systemscontrol/][this]] site helpful, as well as pages 61 and 65 of the textbook.
+/Tip:/ You may find [[https://www.bbc.co.uk/bitesize/guides/zbt26yc/revision/1][this]] site helpful, as well as pages 61 and 65 of the textbook.
 
 ** Past Paper Questions
 :PROPERTIES:
