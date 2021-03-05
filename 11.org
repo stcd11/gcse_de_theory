@@ -178,6 +178,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+[[./img/Non_woven_textiles.jpg]] 
 - Because it is a kind of form that does not require spinning weaving fabric, but the textile fiber or filament for directional or random support, the formation of the fibre network structure, and then the mechanical, thermal or chemical methods and strengthening into. 
 - Nonwovens break through the traditional textile principle, and have the characteristics of short process flow, fast production, high yield, low cost, wide use and many sources of raw materials.
 
