@@ -13,7 +13,8 @@
 <div class=ribbon>
 <a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
 </div>
-<center> <img src= "http://www.melbros.com/images/products/timber/hardwoods.png" </img>
+<center>
+<img src='./img/Timbers.png' width=25%>
 </center>
 #+END_HTML
 

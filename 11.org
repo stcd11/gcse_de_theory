@@ -201,7 +201,10 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-
+[[./img/Warp_weft.jpg]]
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U1bk4ZI0Qvc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_HTML
 ** Weft knitted
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: research
@@ -226,7 +229,7 @@ Disadvantages
 :HTML_CONTAINER_CLASS: research
 :END:
 
-- Warp knitting is the process of making a fabric with a mchine by forming the loops in a vertical or warp-wise direction; the yarn is prepared as warp on beams with one or more yarns for each needle. 
+- Warp knitting is the process of making a fabric with a machine by forming the loops in a vertical or warp-wise direction; the yarn is prepared as warp on beams with one or more yarns for each needle. 
 - The fabric has a flatter, closer, less elastic knit than weft knit and is very often run resistant.
 
 Uses:
